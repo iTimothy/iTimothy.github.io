@@ -168,6 +168,18 @@ a {
   color: #258fb8;
   outline: none;
 }
+.s15 {
+  display: inline-block;
+  width: 15px;
+}
+.s20 {
+  display: inline-block;
+  width: 15px;
+}
+.vm {
+  display: inline-block;
+  vertical-align: middle;
+}
 .alignleft {
   float: left;
 }
