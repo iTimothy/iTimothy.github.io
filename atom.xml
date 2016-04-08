@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-04-08T04:48:59.298Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>z</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>书籍</title>
+    <link href="http://yoursite.com/2016/04/08/books/"/>
+    <id>http://yoursite.com/2016/04/08/books/</id>
+    <published>2016-04-08T04:35:56.000Z</published>
+    <updated>2016-04-08T04:48:59.298Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;前端书籍&quot;&gt;&lt;a href=&quot;#前端书籍&quot; class=&quot;headerlink&quot; title=&quot;前端书籍&quot;&gt;&lt;/a&gt;前端书籍&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://share.weiyun.com/cc08dbdee0baabf0b42cb26703826486&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;javascript语言精粹&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://share.weiyun.com/17ebebc1a8cdf48407b969dad707c4e7&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ECMAScript6入门&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://share.weiyun.com/72ae0e31b5c5871f5e067f164409ec2c&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;正则表达式必知必会&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://share.weiyun.com/8338f59aca70b09fed3ab04af8924a7a&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SEO优化&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://pan.baidu.com/s/1qXNUchQ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;node开发指南&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://pan.baidu.com/s/1eSLgRdw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CANVAS游戏开发&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://pan.baidu.com/s/1dFue5jj&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;高性能JavaScript&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://pan.baidu.com/s/1jItUub0&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript高级程序设计&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前端书籍&quot;&gt;&lt;a href=&quot;#前端书籍&quot; class=&quot;headerlink&quot; title=&quot;前端书籍&quot;&gt;&lt;/a&gt;前端书籍&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://share.weiyun.com/cc08dbdee0baabf0b42cb26703826
+    
+    </summary>
+    
+    
+      <category term="book" scheme="http://yoursite.com/tags/book/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pc刮卡抽奖</title>
+    <link href="http://yoursite.com/2016/04/08/effects2/"/>
+    <id>http://yoursite.com/2016/04/08/effects2/</id>
+    <published>2016-04-08T02:48:09.000Z</published>
+    <updated>2016-04-08T03:39:56.898Z</updated>
+    
+    <content type="html">&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot;&amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt;
+&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot;content=&amp;quot;text/html; charset=UTF-8&amp;quot;/&amp;gt;
+        &amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+        *{ margin:0; padding:0;}
+
+        .cjbox{ margin:100px; height:80px; width:200px; background:#FFF; position:relative;}
+        #canvas{position:absolute; left:0px; top:0px;z-index:99;}
+        .sjmes{ position:absolute; left:0px; top:0px; height:80px; width:200px; text-align:center; font-size:40px; line-height:80px; z-index:9;}
+        &amp;lt;/style&amp;gt;
+        &amp;lt;title&amp;gt;demo1&amp;lt;/title&amp;gt;
+    &amp;lt;/head&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;body&amp;gt;
+    &amp;lt;div style=&amp;quot;position:relative; margin:20px 100px; background:#0CF; height:400px; width:500px; margin:0 auto;&amp;quot;&amp;gt;
+    &amp;lt;div&amp;gt;刮刮卡简单抽奖&amp;lt;/div&amp;gt;
+    &amp;lt;div class=&amp;quot;cjbox&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;sjmes&amp;quot;id=&amp;quot;sjmes&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+        &amp;lt;canvas width=200 height=80 id=&amp;quot;canvas&amp;quot;&amp;gt;&amp;lt;/canvas&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    //init
+    var cjcon=[&amp;quot;一等奖&amp;quot;,&amp;quot;二等奖&amp;quot;,&amp;quot;三等奖&amp;quot;,&amp;quot;谢谢参与&amp;quot;];//奖项设置
+    var cjper=[3,10,20,100];//奖项率，次数
+    /*                      
+    * @param {cjcon}      所有奖项    
+    */
+    var percjcon=[];
+    for(var i=0;i&amp;lt;cjper.length;i++){
+        peic(cjper[i],i);
+    };
+    function peic(len,ind){
+        for(var i=0;i&amp;lt;len;i++){
+            percjcon.push(cjcon[ind]);
+        };
+    };
+    var sjmes = document.getElementById(&amp;quot;sjmes&amp;quot;);
+    var numrandom=Math.floor(Math.random()*percjcon.length);
+    sjmes.innerHTML=percjcon[numrandom];
+
+    var opacityb=0.5;//透明百分比,参考值,什么程度出现提示
+    var backcolorb=&amp;quot;#ffaaaa&amp;quot;;
+    var numl=200*80;//总像素个数
+    var nump;//出现backcolorb的个数
+    var opacitya;//透明百分比实际值
+
+    var canvas = document.getElementById(&amp;quot;canvas&amp;quot;);  //获取canvas  
+    var context = canvas.getContext(&amp;apos;2d&amp;apos;);  //canvas追加2d画图
+    var flag = 0;  //标志，判断是按下后移动还是未按下移动 重要
+    var penwidth=20; //画笔宽度
+    context.fillStyle=&amp;quot;#faa&amp;quot;;  //填充的颜色
+    context.fillRect(0,0,200,80);  //填充颜色 x y坐标 宽 高
+
+    canvas.addEventListener(&amp;apos;mousemove&amp;apos;, onMouseMove, false); //鼠标移动事件
+    canvas.addEventListener(&amp;apos;mousedown&amp;apos;, onMouseDown, false);  //鼠标按下事件
+    canvas.addEventListener(&amp;apos;mouseup&amp;apos;, onMouseUp, false);  //鼠标抬起事件
+    var movex=-1;
+    var movey=-1;
+    var imgData;//imagedada容器
+    var rgbabox=[];//存放读取后的rgba数据；
+    function onMouseMove(evt) {
+    if(flag == 1) {
+        movex=evt.layerX;
+        movey=evt.layerY;      
+        context.fillStyle=&amp;quot;#FF0000&amp;quot;;
+        context.beginPath();
+        context.globalCompositeOperation=&amp;quot;destination-out&amp;quot;;
+        context.arc(movex,movey,penwidth,0,Math.PI*2,true); //Math.PI*2是JS计算方法，是圆      
+        context.closePath();
+        context.fill();
+    }
+    }
+    function onMouseDown(evt) {
+        flag = 1;  //标志按下
+    }
+    function onMouseUp(evt) {
+        flag = 0;
+    //读取像素数据
+        imgData=context.getImageData(0,0,200,80);//获取当前画布数据
+        //imgData.data.length 获取图片数据总长度，没4个为一组存放rgba
+        for(var i=0; i&amp;lt;imgData.data.length;i+=4){
+            var rval=imgData.data[i];
+            var gval=imgData.data[i+1];
+            var bval=imgData.data[i+2];
+            var aval=imgData.data[i+3];
+            var rgbaval=rval+&amp;quot;-&amp;quot;+gval+&amp;quot;-&amp;quot;+bval+&amp;quot;-&amp;quot;+aval;
+            rgbabox.push(rgbaval);
+        }
+        //end
+        for(var j=0;j&amp;lt;rgbabox.length;j++){
+            //alert(rgbabox[j].split(&amp;quot;-&amp;quot;)[0])
+            rgbabox[j]=&amp;apos;#&amp;apos;+rgbToHex(rgbabox[j].split(&amp;quot;-&amp;quot;)[0],rgbabox[j].split(&amp;quot;-&amp;quot;)[1],rgbabox[j].split(&amp;quot;-&amp;quot;)[2]);        
+        }
+        nump=countSubstr(rgbabox.join(&amp;quot;,&amp;quot;),backcolorb,true);
+        opacitya=(numl-nump)/numl;
+        if(opacitya &amp;gt; opacityb){
+            alert(&amp;quot;恭喜你获得&amp;quot;+percjcon[numrandom])
+        }else{}
+
+        }
+    function rgbToHex(r, g, b) { return((r &amp;lt;&amp;lt; 16) | (g &amp;lt;&amp;lt; 8) | b).toString(16); }//rgb转为16进制 #xxx形式
+    function countSubstr(str,substr,isIgnore){//计算字符串出现子字符串的个数
+    var count;
+    var reg=&amp;quot;&amp;quot;;
+    if(isIgnore==true){
+        reg=&amp;quot;/&amp;quot;+substr+&amp;quot;/gi&amp;quot;;
+    }else{
+        reg=&amp;quot;/&amp;quot;+substr+&amp;quot;/g&amp;quot;;
+    }
+    reg=eval(reg);
+    if(str.match(reg)==null){
+        count=0;
+    }else{
+        count=str.match(reg).length;
+    }
+        return count;
+    }
+    //end
+&amp;lt;/script&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot;&amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt;
+&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot;content=&amp;quot;text/html; charset=UTF-8&amp;quot;/&amp;gt;
+        &amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+        *{ margin:0; padding:0;}
+
+        .cjbox{ margin:100px; height:80px; width:200px; background:#FFF; position:relative;}
+        #canvas{position:absolute; left:0px; top:0px;z-index:99;}
+        .sjmes{ position:absolute; left:0px; top:0px; height:80px; width:200px; text-align:center; font-size:40px; line-height:80px; z-index:9;}
+        &amp;lt;/style&amp;gt;
+        &amp;lt;title&amp;gt;demo1&amp;lt;/title&amp;gt;
+    &amp;lt;/head&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>转盘抽奖</title>
+    <link href="http://yoursite.com/2016/04/08/effects/"/>
+    <id>http://yoursite.com/2016/04/08/effects/</id>
+    <published>2016-04-08T02:45:29.000Z</published>
+    <updated>2016-04-08T03:19:50.683Z</updated>
+    
+    <content type="html">&lt;pre&gt;&lt;code&gt;(function($) {
+    var supportedCSS,styles=document.getElementsByTagName(&amp;quot;head&amp;quot;)[0].style,toCheck=&amp;quot;transformProperty WebkitTransform OTransform msTransform MozTransform&amp;quot;.split(&amp;quot; &amp;quot;);
+    for(vara=0;a&amp;lt;toCheck.length;a++) if(styles[toCheck[a]] !== undefined) supportedCSS = toCheck[a];
+    // Bad eval to preven google closure to remove it from code o_O
+    // After compresion replace it back to var IE = &amp;apos;v&amp;apos; == &amp;apos;\v&amp;apos;
+    var IE = eval(&amp;apos;&amp;quot;v&amp;quot;==&amp;quot;\v&amp;quot;&amp;apos;);
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;pre&gt;&lt;code&gt;    jQuery.fn.extend({
+        rotate:function(parameters)
+        {
+            if(this.length===0||typeofparameters==&amp;quot;undefined&amp;quot;) return;
+                if(typeofparameters==&amp;quot;number&amp;quot;) parameters={angle:parameters};
+            varreturned=[];
+            for(vari=0,i0=this.length;i&amp;lt;i0;i++)
+                {
+                    varelement=this.get(i);   
+                    if(!element.Wilq32 || !element.Wilq32.PhotoEffect) {
+
+                        varparamClone = $.extend(true, {}, parameters);
+                        varnewRotObject = newWilq32.PhotoEffect(element,paramClone)._rootObj;
+
+                        returned.push($(newRotObject));
+                    }
+                    else{
+                        element.Wilq32.PhotoEffect._handleRotation(parameters);
+                    }
+                }
+                returnreturned;
+        },
+        getRotateAngle: function(){
+            varret = [];
+            for(vari=0,i0=this.length;i&amp;lt;i0;i++)
+                {
+                    varelement=this.get(i);   
+                    if(element.Wilq32 &amp;amp;&amp;amp; element.Wilq32.PhotoEffect) {
+                        ret[i] = element.Wilq32.PhotoEffect._angle;
+                    }
+                }
+                returnret;
+        },
+        stopRotate: function(){
+            for(vari=0,i0=this.length;i&amp;lt;i0;i++)
+                {
+                    varelement=this.get(i);   
+                    if(element.Wilq32 &amp;amp;&amp;amp; element.Wilq32.PhotoEffect) {
+                        clearTimeout(element.Wilq32.PhotoEffect._timer);
+                    }
+                }
+        }
+    });
+
+    // Library agnostic interface
+
+    Wilq32=window.Wilq32||{};
+    Wilq32.PhotoEffect=(function(){
+
+        if(supportedCSS) {
+            returnfunction(img,parameters){
+                img.Wilq32 = {
+                    PhotoEffect: this
+                };
+
+                this._img = this._rootObj = this._eventObj = img;
+                this._handleRotation(parameters);
+            }
+        } else{
+            returnfunction(img,parameters) {
+                // Make sure that class and id are also copied - just in case you would like to refeer to an newly created object
+                this._img = img;
+
+                this._rootObj=document.createElement(&amp;apos;span&amp;apos;);
+                this._rootObj.style.display=&amp;quot;inline-block&amp;quot;;
+                this._rootObj.Wilq32 =
+                    {
+                        PhotoEffect: this
+                    };
+                img.parentNode.insertBefore(this._rootObj,img);
+
+                if(img.complete) {
+                    this._Loader(parameters);
+                } else{
+                    varself=this;
+                    // TODO: Remove jQuery dependency
+                    jQuery(this._img).bind(&amp;quot;load&amp;quot;, function()
+                    {
+                        self._Loader(parameters);
+                    });
+                }
+            }
+        }
+    })();
+
+    Wilq32.PhotoEffect.prototype={
+        _setupParameters : function(parameters){
+            this._parameters = this._parameters || {};
+            if(typeofthis._angle !== &amp;quot;number&amp;quot;) this._angle = 0 ;
+            if(typeofparameters.angle===&amp;quot;number&amp;quot;) this._angle = parameters.angle;
+            this._parameters.animateTo = (typeofparameters.animateTo===&amp;quot;number&amp;quot;) ? (parameters.animateTo) : (this._angle);
+
+            this._parameters.step = parameters.step || this._parameters.step || null;
+            this._parameters.easing = parameters.easing || this._parameters.easing || function(x, t, b, c, d) { return-c * ((t=t/d-1)*t*t*t - 1) + b; }
+            this._parameters.duration = parameters.duration || this._parameters.duration || 1000;
+            this._parameters.callback = parameters.callback || this._parameters.callback || function(){};
+            if(parameters.bind &amp;amp;&amp;amp; parameters.bind != this._parameters.bind) this._BindEvents(parameters.bind);
+        },
+        _handleRotation : function(parameters){
+              this._setupParameters(parameters);
+              if(this._angle==this._parameters.animateTo) {
+                  this._rotate(this._angle);
+              }
+              else{
+                  this._animateStart();         
+              }
+        },
+
+        _BindEvents:function(events){
+            if(events &amp;amp;&amp;amp; this._eventObj)
+            {
+                // Unbinding previous Events
+                if(this._parameters.bind){
+                    varoldEvents = this._parameters.bind;
+                    for(vara inoldEvents) if(oldEvents.hasOwnProperty(a))
+                            // TODO: Remove jQuery dependency
+                            jQuery(this._eventObj).unbind(a,oldEvents[a]);
+                }
+
+                this._parameters.bind = events;
+                for(vara inevents) if(events.hasOwnProperty(a))
+                    // TODO: Remove jQuery dependency
+                        jQuery(this._eventObj).bind(a,events[a]);
+            }
+        },
+
+        _Loader:(function()
+        {
+            if(IE)
+            returnfunction(parameters)
+            {
+                varwidth=this._img.width;
+                varheight=this._img.height;
+                this._img.parentNode.removeChild(this._img);
+
+                this._vimage = this.createVMLNode(&amp;apos;image&amp;apos;);
+                this._vimage.src=this._img.src;
+                this._vimage.style.height=height+&amp;quot;px&amp;quot;;
+                this._vimage.style.width=width+&amp;quot;px&amp;quot;;
+                this._vimage.style.position=&amp;quot;absolute&amp;quot;; // FIXES IE PROBLEM - its only rendered if its on absolute position!
+                this._vimage.style.top = &amp;quot;0px&amp;quot;;
+                this._vimage.style.left = &amp;quot;0px&amp;quot;;
+
+                /* Group minifying a small 1px precision problem when rotating object */
+                this._container =  this.createVMLNode(&amp;apos;group&amp;apos;);
+                this._container.style.width=width;
+                this._container.style.height=height;
+                this._container.style.position=&amp;quot;absolute&amp;quot;;
+                this._container.setAttribute(&amp;apos;coordsize&amp;apos;,width-1+&amp;apos;,&amp;apos;+(height-1)); // This -1, -1 trying to fix ugly problem with small displacement on IE
+                this._container.appendChild(this._vimage);
+
+                this._rootObj.appendChild(this._container);
+                this._rootObj.style.position=&amp;quot;relative&amp;quot;; // FIXES IE PROBLEM
+                this._rootObj.style.width=width+&amp;quot;px&amp;quot;;
+                this._rootObj.style.height=height+&amp;quot;px&amp;quot;;
+                this._rootObj.setAttribute(&amp;apos;id&amp;apos;,this._img.getAttribute(&amp;apos;id&amp;apos;));
+                this._rootObj.className=this._img.className;            
+                this._eventObj = this._rootObj;
+                this._handleRotation(parameters);  
+            }
+            else
+            returnfunction(parameters)
+            {
+                this._rootObj.setAttribute(&amp;apos;id&amp;apos;,this._img.getAttribute(&amp;apos;id&amp;apos;));
+                this._rootObj.className=this._img.className;
+
+                this._width=this._img.width;
+                this._height=this._img.height;
+                this._widthHalf=this._width/2; // used for optimisation
+                this._heightHalf=this._height/2;// used for optimisation
+
+                var_widthMax=Math.sqrt((this._height)*(this._height) + (this._width) * (this._width));
+
+                this._widthAdd = _widthMax - this._width;
+                this._heightAdd = _widthMax - this._height; // widthMax because maxWidth=maxHeight
+                this._widthAddHalf=this._widthAdd/2; // used for optimisation
+                this._heightAddHalf=this._heightAdd/2;// used for optimisation
+
+                this._img.parentNode.removeChild(this._img);    
+
+                this._aspectW = ((parseInt(this._img.style.width,10)) || this._width)/this._img.width;
+                this._aspectH = ((parseInt(this._img.style.height,10)) || this._height)/this._img.height;
+
+                this._canvas=document.createElement(&amp;apos;canvas&amp;apos;);
+                this._canvas.setAttribute(&amp;apos;width&amp;apos;,this._width);
+                this._canvas.style.position=&amp;quot;relative&amp;quot;;
+                this._canvas.style.left = -this._widthAddHalf + &amp;quot;px&amp;quot;;
+                this._canvas.style.top = -this._heightAddHalf + &amp;quot;px&amp;quot;;
+                this._canvas.Wilq32 = this._rootObj.Wilq32;
+
+                this._rootObj.appendChild(this._canvas);
+                this._rootObj.style.width=this._width+&amp;quot;px&amp;quot;;
+                this._rootObj.style.height=this._height+&amp;quot;px&amp;quot;;
+                this._eventObj = this._canvas;
+
+                this._cnv=this._canvas.getContext(&amp;apos;2d&amp;apos;);
+                this._handleRotation(parameters);
+            }
+        })(),
+
+        _animateStart:function()
+        {  
+            if(this._timer) {
+                clearTimeout(this._timer);
+            }
+            this._animateStartTime = +newDate;
+            this._animateStartAngle = this._angle;
+            this._animate();
+        },
+        _animate:function()
+        {
+             varactualTime = +newDate;
+             varcheckEnd = actualTime - this._animateStartTime &amp;gt; this._parameters.duration;
+
+             // TODO: Bug for animatedGif for static rotation ? (to test)
+             if(checkEnd &amp;amp;&amp;amp; !this._parameters.animatedGif)
+             {
+                 clearTimeout(this._timer);
+             }
+             else
+             {
+                 if(this._canvas||this._vimage||this._img) {
+                     varangle = this._parameters.easing(0, actualTime - this._animateStartTime, this._animateStartAngle, this._parameters.animateTo - this._animateStartAngle, this._parameters.duration);
+                     this._rotate((~~(angle*10))/10);
+                 }
+                 if(this._parameters.step) {
+                    this._parameters.step(this._angle);
+                 }
+                 varself = this;
+                 this._timer = setTimeout(function()
+                         {
+                         self._animate.call(self);
+                         }, 10);
+             }
+
+             // To fix Bug that prevents using recursive function in callback I moved this function to back
+             if(this._parameters.callback &amp;amp;&amp;amp; checkEnd){
+                 this._angle = this._parameters.animateTo;
+                 this._rotate(this._angle);
+                 this._parameters.callback.call(this._rootObj);
+             }
+         },
+
+        _rotate : (function()
+        {
+            varrad = Math.PI/180;
+            if(IE)
+            returnfunction(angle)
+            {
+                this._angle = angle;
+                this._container.style.rotation=(angle%360)+&amp;quot;deg&amp;quot;;
+            }
+            elseif(supportedCSS)
+            returnfunction(angle){
+                this._angle = angle;
+                this._img.style[supportedCSS]=&amp;quot;rotate(&amp;quot;+(angle%360)+&amp;quot;deg)&amp;quot;;
+            }
+            else
+            returnfunction(angle)
+            {
+                this._angle = angle;
+                angle=(angle%360)* rad;
+                // clear canvas
+                this._canvas.width = this._width+this._widthAdd;
+                this._canvas.height = this._height+this._heightAdd;
+
+                // REMEMBER: all drawings are read from backwards.. so first function is translate, then rotate, then translate, translate..
+                this._cnv.translate(this._widthAddHalf,this._heightAddHalf);    // at least center image on screen
+                this._cnv.translate(this._widthHalf,this._heightHalf);          // we move image back to its orginal
+                this._cnv.rotate(angle);                                        // rotate image
+                this._cnv.translate(-this._widthHalf,-this._heightHalf);        // move image to its center, so we can rotate around its center
+                this._cnv.scale(this._aspectW,this._aspectH); // SCALE - if needed ;)
+                this._cnv.drawImage(this._img, 0, 0);                           // First - we draw image
+            }
+
+        })()
+    }
+
+    if(IE)
+    {
+    Wilq32.PhotoEffect.prototype.createVMLNode=(function(){
+    document.createStyleSheet().addRule(&amp;quot;.rvml&amp;quot;, &amp;quot;behavior:url(#default#VML)&amp;quot;);
+            try{
+                !document.namespaces.rvml &amp;amp;&amp;amp; document.namespaces.add(&amp;quot;rvml&amp;quot;, &amp;quot;urn:schemas-microsoft-com:vml&amp;quot;);
+                returnfunction(tagName) {
+                    returndocument.createElement(&amp;apos;&amp;lt;rvml:&amp;apos;+ tagName + &amp;apos; class=&amp;quot;rvml&amp;quot;&amp;gt;&amp;apos;);
+                };
+            } catch(e) {
+                returnfunction(tagName) {
+                    returndocument.createElement(&amp;apos;&amp;lt;&amp;apos;+ tagName + &amp;apos; xmlns=&amp;quot;urn:schemas-microsoft.com:vml&amp;quot; class=&amp;quot;rvml&amp;quot;&amp;gt;&amp;apos;);
+                };
+            }      
+    })();
+    }
+})(jQuery);
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code&gt;(function($) {
+    var supportedCSS,styles=document.getElementsByTagName(&amp;quot;head&amp;quot;)[0].style,toCheck=&amp;quot;transformProperty WebkitTransform OTransform msTransform MozTransform&amp;quot;.split(&amp;quot; &amp;quot;);
+    for(vara=0;a&amp;lt;toCheck.length;a++) if(styles[toCheck[a]] !== undefined) supportedCSS = toCheck[a];
+    // Bad eval to preven google closure to remove it from code o_O
+    // After compresion replace it back to var IE = &amp;apos;v&amp;apos; == &amp;apos;\v&amp;apos;
+    var IE = eval(&amp;apos;&amp;quot;v&amp;quot;==&amp;quot;\v&amp;quot;&amp;apos;);
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用js片段集合(4)</title>
+    <link href="http://yoursite.com/2016/04/08/snippet3/"/>
+    <id>http://yoursite.com/2016/04/08/snippet3/</id>
+    <published>2016-04-08T02:27:12.000Z</published>
+    <updated>2016-04-08T03:39:23.170Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;自定义滚动条&quot;&gt;&lt;a href=&quot;#自定义滚动条&quot; class=&quot;headerlink&quot; title=&quot;自定义滚动条&quot;&gt;&lt;/a&gt;自定义滚动条&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;/**
+*
+* 调用： f.rootTouchBind(t);
+*    t:  传入调用此方法的id字符串
+*/
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;pre&gt;&lt;code&gt;var f = {
+    rootTouchObj : {
+        startY: 0,
+        scrollY: 0
+    },
+    scrollRootHeight: function(t){
+        var that = $(&amp;apos;#&amp;apos;+t);
+        var h = that.height();
+        var c = that.parent().height();
+        var p = h - c;
+        return p ;
+    },
+    rootTouchBind: function(t) {
+        var c = this;
+        var d = $(&amp;apos;#&amp;apos;+t);
+        var l = d.height();
+        var p = d.parent().height();
+        if( l &amp;lt; p) {
+            return;
+        };
+        $(&amp;apos;#&amp;apos;+ t).on(&amp;apos;touchstart&amp;apos;, function(d) {
+            c.rootTouchObj.startY = d.touches[0].clientY;
+            c.rootTouchObj.scrollY = 0
+        });
+        $(&amp;apos;#&amp;apos;+ t).on(&amp;apos;touchmove&amp;apos;, function(g) {
+            g.preventDefault();
+            var h = g.touches;
+            var f = g.touches[0].clientY;
+            var i = f - c.rootTouchObj.startY;
+            var d = 0;
+            var e = c.getY(t);
+            d = e + i;
+            if(d &amp;gt; 150) {
+                d = 150
+            } else{
+                if(d &amp;lt; (c.scrollRootHeight(t) * - 1 - 150)) {
+                    d = (c.scrollRootHeight(t) * - 1 - 150)
+                }
+            }
+            $(&amp;apos;#&amp;apos;+ t).css(&amp;apos;transform&amp;apos;, &amp;apos;translateY(&amp;apos;+ d + &amp;apos;px)&amp;apos;);
+            $(&amp;apos;#&amp;apos;+ t).css(&amp;apos;-webkit-transform&amp;apos;, &amp;apos;translateY(&amp;apos;+ d + &amp;apos;px)&amp;apos;);
+            c.rootTouchObj.scrollY = f - c.rootTouchObj.startY;
+            c.rootTouchObj.startY = f
+        });
+        $(&amp;apos;#&amp;apos;+ t).on(&amp;apos;touchend&amp;apos;, function(d) {
+            c.touchScroll(c.rootTouchObj.scrollY, t, c.scrollRootHeight(t))
+        })
+    },
+    touchScroll: function(k, d, m, g) {
+        var c = this;
+        var e = Math.abs(k);
+        var h = 0;
+        var f = 200;
+        var l = d;
+        var j = 0;
+        if(e &amp;gt;= 40) {
+            h = 15
+        } else{
+            if(e &amp;lt; 40 &amp;amp;&amp;amp; e &amp;gt;= 25) {
+                h = 10
+            } else{
+                if(e &amp;lt; 25 &amp;amp;&amp;amp; e &amp;gt;= 10) {
+                    h = 5
+                } else{
+                    h = 0
+                }
+            }
+        }
+        if(h &amp;gt; 0) {
+            if(k &amp;lt; 0) {
+                h = h * - 1
+            }
+            setTimeout(function() {
+                c.touchScrollRun(h, d, 0, m, g)
+            }, 2)
+        } else{
+            var i = 0;
+            i = c.getY(d);
+            c.goToEnd(i, d, m)
+        }
+    },
+    touchScrollRun: function(h, k, g, e, f) {
+        var i = this;
+        var j = g + 1;
+        if(f) {
+            i.imgLazyLad.lazyLad()
+        }
+        if(g &amp;lt; 50) {
+            var d = 0;
+            d = i.getY(k) + h;
+            $(&amp;apos;#&amp;apos;+ k).css(&amp;apos;transform&amp;apos;, &amp;apos;translateY(&amp;apos;+ d + &amp;apos;px)&amp;apos;);
+            $(&amp;apos;#&amp;apos;+ k).css(&amp;apos;-webkit-transform&amp;apos;, &amp;apos;translateY(&amp;apos;+ d + &amp;apos;px)&amp;apos;);
+            if(d &amp;lt;= (e * - 1 - 30) || d &amp;gt;= 30) {
+                i.goToEnd(d, k, e)
+            } else{
+                setTimeout(function() {
+                    i.touchScrollRun(h, k, j, e, f)
+                }, 2)
+            }
+        } else{
+            i.goToEnd(d, k, e)
+        }
+    },
+    goToEnd: function(c, h, e) {
+        var g = this;
+        var f = null;
+        var d = null;
+        if(e &amp;gt; 0) {
+            if(c &amp;lt; (e * - 1)) {
+                f = {
+                    transform: &amp;apos;translateY(&amp;apos;+ (e * - 1) + &amp;apos;px)&amp;apos;,
+                    &amp;apos;-webkit-transform&amp;apos;: &amp;apos;translateY(&amp;apos;+ (e * - 1) + &amp;apos;px)&amp;apos;,
+                    &amp;apos;-webkit-transition&amp;apos;: &amp;apos;0.2s ease 0s&amp;apos;,
+                    transition: &amp;apos;0.2s ease 0s&amp;apos;
+                };
+                d = {
+                    transform: &amp;apos;translateY(&amp;apos;+ (e * - 1) + &amp;apos;px)&amp;apos;,
+                    &amp;apos;-webkit-transform&amp;apos;: &amp;apos;translateY(&amp;apos;+ (e * - 1) + &amp;apos;px)&amp;apos;,
+                    &amp;apos;-webkit-transition&amp;apos;: &amp;apos;&amp;apos;,
+                    transition: &amp;apos;&amp;apos;
+                }
+            } else{
+                if(c &amp;gt; 0) {
+                    f = {
+                        transform: &amp;apos;translateY(0px)&amp;apos;,
+                        &amp;apos;-webkit-transform&amp;apos;: &amp;apos;translateY(0px)&amp;apos;,
+                        &amp;apos;-webkit-transition&amp;apos;: &amp;apos;0.2s ease 0s&amp;apos;,
+                        transition: &amp;apos;0.2s ease 0s&amp;apos;
+                    };
+                    d = {
+                        transform: &amp;apos;translateY(0px)&amp;apos;,
+                        &amp;apos;-webkit-transform&amp;apos;: &amp;apos;translateY(0px)&amp;apos;,
+                        &amp;apos;-webkit-transition&amp;apos;: &amp;apos;&amp;apos;,
+                        transition: &amp;apos;&amp;apos;
+                    }
+                }
+            }
+        }
+        if(c != 0) {
+            $(&amp;apos;#&amp;apos;+ h).css(f);
+            setTimeout(function() {
+                $(&amp;apos;#&amp;apos;+ h).css(d)
+            }, 200);
+            returntrue
+        } else{
+            $(&amp;apos;#&amp;apos;+ h).css({
+                transform: &amp;apos;translateY(0px)&amp;apos;
+            });
+            $(&amp;apos;#&amp;apos;+ h).css({
+                &amp;apos;-webkit-transform&amp;apos;: &amp;apos;translateY(0px)&amp;apos;
+            });
+            returnfalse
+        }
+    },
+    getY: function(e) {
+        var d = this;
+        var c = $(&amp;apos;#&amp;apos;+ e).css(&amp;apos;transform&amp;apos;);
+        if(!c) {
+            c = $(&amp;apos;#&amp;apos;+ e).css(&amp;apos;-webkit-transform&amp;apos;)
+        }
+        if(c == &amp;apos;none&amp;apos;) {
+            c = 0
+        } else{
+            c = c.replace(&amp;apos;translateY(&amp;apos;, &amp;apos;&amp;apos;).replace(&amp;apos;)&amp;apos;, &amp;apos;&amp;apos;);
+            c = parseInt(c, 10)
+        }
+        if(!c) {
+            c = 0
+        }
+        return c;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;简单倒计时&quot;&gt;&lt;a href=&quot;#简单倒计时&quot; class=&quot;headerlink&quot; title=&quot;简单倒计时&quot;&gt;&lt;/a&gt;简单倒计时&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function timer(){  
+    var ts = (new Date(2018, 11, 11, 9, 0, 0)) - (new Date());//计算剩余的毫秒数
+    console.log(ts);  
+    var dd = parseInt(ts / 1000 / 60 / 60 / 24, 10);//计算剩余的天数
+    var hh = parseInt(ts / 1000 / 60 / 60 % 24, 10);//计算剩余的小时数
+    var mm = parseInt(ts / 1000 / 60 % 60, 10);//计算剩余的分钟数
+    var ss = parseInt(ts / 1000 % 60, 10);//计算剩余的秒数
+    document.body.innerHTML = dd + &amp;quot;天&amp;quot; + hh + &amp;quot;时&amp;quot; + mm + &amp;quot;分&amp;quot; + ss + &amp;quot;秒&amp;quot;;  
+}  
+setInterval(timer,1000);
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;简单手势封装&quot;&gt;&lt;a href=&quot;#简单手势封装&quot; class=&quot;headerlink&quot; title=&quot;简单手势封装&quot;&gt;&lt;/a&gt;简单手势封装&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;!(function(){
+    /**
+    * [addListener Class]
+    * @param {[type]} option object
+    * @example new addListener({elem:htmlElement});
+    */
+    var addListener = function(option){
+        this.option = option || {};
+        this.handler();
+    }
+    addListener.prototype.handler = function(){
+        var init = {sx:0,sy:0,ex:0,ey:0,cx:0,cy:0,ax:50,ay:50},
+        option = this.option,
+        path = option.path || 20,
+        _elem = option.elem;
+
+        _elem.addEventListener(&amp;apos;touchstart&amp;apos;,function(e){
+
+            e.preventDefault();
+            init.sx=e.targetTouches[0].pageX;
+            init.sy=e.targetTouches[0].pageY;
+
+         },false);
+
+        _elem.addEventListener(&amp;apos;touchmove&amp;apos;, function(e){
+
+            e.preventDefault();
+            init.ex = e.targetTouches[0].pageX;
+            init.ey = e.targetTouches[0].pageY;
+
+          }, false);
+
+        _elem.addEventListener(&amp;apos;touchend&amp;apos;, function(e){
+
+          e.preventDefault();
+          init.cx = init.ex - init.sx;
+          init.cy = init.ey - init.sy;
+          if(init.cx&amp;gt;path &amp;amp;&amp;amp; Math.abs(init.cy)&amp;lt;=init.ay){
+
+            option.swipeRight &amp;amp;&amp;amp; option.swipeRight();
+
+          }else if(init.cx&amp;lt;-path &amp;amp;&amp;amp; Math.abs(init.cy)&amp;lt;=init.ay){
+
+            option.swipeLeft &amp;amp;&amp;amp; option.swipeLeft();
+
+          }else if(init.cy&amp;lt;-path &amp;amp;&amp;amp; Math.abs(init.cx)&amp;lt;=init.ax){
+
+            option.swipeUp &amp;amp;&amp;amp; option.swipeUp();
+
+          }else if(init.cy&amp;gt;path &amp;amp;&amp;amp; Math.abs(init.cx)&amp;lt;=init.ax){
+
+            option.swipeDown &amp;amp;&amp;amp; option.swipeDown();
+
+          }
+        }, false);
+    }
+    window.addListener = addListener;
+}(window));
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;类似jq的选择器&quot;&gt;&lt;a href=&quot;#类似jq的选择器&quot; class=&quot;headerlink&quot; title=&quot;类似jq的选择器&quot;&gt;&lt;/a&gt;类似jq的选择器&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;!function(win, doc, undefined) {
+
+    var slice = Array.prototype.slice
+
+    var rId = /^#[\w\-]+/
+    var rTag = /^([\w\*]+)$/
+    var rCls = /^([\w\-]+)?\.([\w\-]+)/
+    var rAttr = /^([\w]+)?\[([\w]+-?[\w]+?)(=(\w+))?\]/
+
+    var makeArray = function(obj) {
+        return slice.call(obj, 0)
+    }
+    try{
+        slice.call(doc.documentElement.childNodes, 0)[0].nodeType
+    } catch(e) {
+        makeArray = function(obj) {
+            var result = []
+            for (var i = 0, len = obj.length; i &amp;lt; len; i++) {
+                result[i] = obj[i]
+            }
+            return result
+        }
+    }
+
+    function byId(id) {
+        return doc.getElementById(id)
+    }
+    function check(attr, val, node) {
+        var reg = RegExp(&amp;apos;(?:^|\\s+)&amp;apos; + val + &amp;apos;(?:\\s+|$)&amp;apos;)
+        var attribute = attr === &amp;apos;className&amp;apos;
+                ? node.className
+                : node.getAttribute(attr)
+        if (attribute) {
+            if (val) {
+                if (reg.test(attribute)) return true
+            } else {
+                return true
+            }
+        }
+        return false
+    }    
+    function filter(all, attr, val) {
+        var el, result = []
+        var i = 0, r = 0
+        while ( (el = all[i++]) ) {
+            if ( check(attr, val, el) ) {
+                result[r++] = el
+            }
+        }
+        return result
+    }
+
+    function query(selector, context) {
+        var s = selector, arr = []
+        var context = context === undefined ? doc : typeof context === &amp;apos;string&amp;apos; ? query(context)[0] : context;
+        if (!selector) return arr;
+        if ( rId.test(s) ) {
+            arr[0] = byId( s.substr(1, s.length) )
+            return arr
+        }
+        if ( rTag.test(s) ) {
+            return makeArray(context.getElementsByTagName(s))
+        }
+
+        if (context.querySelectorAll) {
+            if (context.nodeType === 1) {
+                var old = context.id, id = context.id = &amp;apos;__ZZ__&amp;apos;
+                try {
+                    return context.querySelectorAll(&amp;apos;#&amp;apos; + id + &amp;apos; &amp;apos; + s)
+                } catch(e) {
+                    throw new Error(&amp;apos;querySelectorAll: &amp;apos; + e)
+                } finally {
+                    old ? context.id = old : context.removeAttribute(&amp;apos;id&amp;apos;)
+                }
+            }
+            return makeArray(context.querySelectorAll(s))
+        }
+        if ( rCls.test(s) ) {
+            var ary = s.split(&amp;apos;.&amp;apos;)
+            var tag = ary[0]
+            var cls = ary[1]
+            if (context.getElementsByClassName) {
+                var elems = context.getElementsByClassName(cls)
+                if (tag) {
+                    for (var i = 0, len = elems.length; i &amp;lt; len; i++) {
+                        var el = elems[i]
+                        el.tagName.toLowerCase() === tag &amp;amp;&amp;amp; arr.push(el)
+                    }
+                    return arr
+                } else {
+                    return makeArray(elems)
+                }
+            } else {
+                var all = context.getElementsByTagName(tag || &amp;apos;*&amp;apos;)
+                return filter(all, &amp;apos;className&amp;apos;, cls)
+            }
+        }
+        if ( rAttr.test(s) ) {
+            var result = rAttr.exec(s)
+            var all = context.getElementsByTagName(result[1] || &amp;apos;*&amp;apos;)
+            return filter(all, result[2], result[4])
+        }
+    }
+    win.z = win.z = query
+}(window, document);
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;自定义滚动条&quot;&gt;&lt;a href=&quot;#自定义滚动条&quot; class=&quot;headerlink&quot; title=&quot;自定义滚动条&quot;&gt;&lt;/a&gt;自定义滚动条&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;/**
+*
+* 调用： f.rootTouchBind(t);
+*    t:  传入调用此方法的id字符串
+*/
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用js片段集合(3)</title>
+    <link href="http://yoursite.com/2016/04/08/snippet2/"/>
+    <id>http://yoursite.com/2016/04/08/snippet2/</id>
+    <published>2016-04-08T02:11:56.000Z</published>
+    <updated>2016-04-08T03:20:34.245Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;网站变灰&quot;&gt;&lt;a href=&quot;#网站变灰&quot; class=&quot;headerlink&quot; title=&quot;网站变灰&quot;&gt;&lt;/a&gt;网站变灰&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;手势事件&quot;&gt;&lt;a href=&quot;#手势事件&quot; class=&quot;headerlink&quot; title=&quot;手势事件&quot;&gt;&lt;/a&gt;手势事件&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;var touchFunc = function(obj,type,func) {
+    //滑动范围在5x5内则做点击处理，s是开始，e是结束
+    var init = {x:5,y:5,sx:0,sy:0,ex:0,ey:0};
+    var sTime = 0, eTime = 0;
+    type = type.toLowerCase();
+
+    obj.addEventListener(&amp;quot;touchstart&amp;quot;,function(e){
+        e.preventDefault();
+        sTime = new Date().getTime();
+        init.sx = event.targetTouches[0].pageX;
+        init.sy = event.targetTouches[0].pageY;
+        init.ex = init.sx;
+        init.ey = init.sy;
+        if(type.indexOf(&amp;quot;start&amp;quot;) != -1) func();
+    }, false);
+
+    obj.addEventListener(&amp;quot;touchmove&amp;quot;,function() {
+        event.preventDefault();//阻止触摸时浏览器的缩放、滚动条滚动
+        init.ex = event.targetTouches[0].pageX;
+        init.ey = event.targetTouches[0].pageY;
+        if(type.indexOf(&amp;quot;move&amp;quot;)!=-1) func();
+    }, false);
+
+    obj.addEventListener(&amp;quot;touchend&amp;quot;,function() {
+        var changeX = init.sx - init.ex;
+        var changeY = init.sy - init.ey;
+        if(Math.abs(changeX)&amp;gt;Math.abs(changeY)&amp;amp;&amp;amp;Math.abs(changeY)&amp;gt;init.y) {
+            //左右事件
+            if(changeX &amp;gt; 0) {
+                if(type.indexOf(&amp;quot;left&amp;quot;)!=-1) func();
+            }else{
+                if(type.indexOf(&amp;quot;right&amp;quot;)!=-1) func();
+            }
+        }
+        else if(Math.abs(changeY)&amp;gt;Math.abs(changeX)&amp;amp;&amp;amp;Math.abs(changeX)&amp;gt;init.x){
+            //上下事件
+            if(changeY &amp;gt; 0) {
+                if(type.indexOf(&amp;quot;top&amp;quot;)!=-1) func();
+            }else{
+                if(type.indexOf(&amp;quot;down&amp;quot;)!=-1) func();
+            }
+        }
+        else if(Math.abs(changeX)&amp;lt;init.x &amp;amp;&amp;amp; Math.abs(changeY)&amp;lt;init.y){
+            eTime = new Date().getTime();
+            //点击事件，此处根据时间差细分下
+            if((eTime - sTime) &amp;gt; 300) {
+                if(type.indexOf(&amp;quot;long&amp;quot;)!=-1) func(); //长按
+            }
+            else {
+                if(type.indexOf(&amp;quot;click&amp;quot;)!=-1) func(); //当点击处理
+            }
+        }
+        if(type.indexOf(&amp;quot;end&amp;quot;)!=-1) func();
+    }, false);
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;滚动事件&quot;&gt;&lt;a href=&quot;#滚动事件&quot; class=&quot;headerlink&quot; title=&quot;滚动事件&quot;&gt;&lt;/a&gt;滚动事件&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;;(function($){
+    $.extend($.fn, {
+      scrollTo: function(m){        
+          var n = 0, timer = null, that = this;
+          var smoothScroll = function(m){
+              var per = Math.round(m / 50);
+              n = n + per;
+              if(n &amp;gt; m){
+                  window.clearInterval(timer);
+                  return false;
+              }            
+              that.scrollTop(n);
+          };
+
+          timer = window.setInterval(function(){
+              smoothScroll(m);
+          }, 20);
+      }
+    })
+})(Zepto);
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Ngrok&quot;&gt;&lt;a href=&quot;#Ngrok&quot; class=&quot;headerlink&quot; title=&quot;Ngrok&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://qydev.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ngrok&lt;/a&gt;&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;ngrok -config=ngrok.cfg -subdomain xxx 80 //(xxx 是你自定义的域名前缀)
+e.g. xxx.tunnel.qydev.com
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;url解析&quot;&gt;&lt;a href=&quot;#url解析&quot; class=&quot;headerlink&quot; title=&quot;url解析&quot;&gt;&lt;/a&gt;url解析&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function parseURL(url) {
+    var a =  document.createElement(&amp;apos;a&amp;apos;);
+    a.href = url;
+    return {
+        source: url,
+        protocol: a.protocol.replace(&amp;apos;:&amp;apos;,&amp;apos;&amp;apos;),
+        host: a.hostname,
+        port: a.port,
+        query: a.search,
+        params: (function(){
+            var ret = {},
+                seg = a.search.replace(/^\?/,&amp;apos;&amp;apos;).split(&amp;apos;&amp;amp;&amp;apos;),
+                len = seg.length, i = 0, s;
+            for (;i&amp;lt;len;i++) {
+                if (!seg[i]) { continue; }
+                s = seg[i].split(&amp;apos;=&amp;apos;);
+                ret[s[0]] = s[1];
+            }
+            return ret;
+        })(),
+        file: (a.pathname.match(/([^/?#]+)$/i) || [,&amp;apos;&amp;apos;])[1],
+        hash: a.hash.replace(&amp;apos;#&amp;apos;,&amp;apos;&amp;apos;),
+        path: a.pathname.replace(/^([^/])/,&amp;apos;/$1&amp;apos;),
+        relative: (a.href.match(/tps?:\/[^/]+(.+)/) || [,&amp;apos;&amp;apos;])[1],
+        segments: a.pathname.replace(/^\//,&amp;apos;&amp;apos;).split(&amp;apos;/&amp;apos;)
+    };
+}
+e.g.
+var myURL = parseURL(&amp;apos;http://abc.com:8080/dir/index.html?id=255&amp;amp;m=hello#top&amp;apos;);
+myURL.file;     // = &amp;apos;index.html&amp;apos;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;ajax封装&quot;&gt;&lt;a href=&quot;#ajax封装&quot; class=&quot;headerlink&quot; title=&quot;ajax封装&quot;&gt;&lt;/a&gt;ajax封装&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;var ajax = function() {
+       var ajax = function() {
+               return (&amp;apos;XMLHttpRequest&amp;apos; in window) ? function() {
+                   return new XMLHttpRequest();
+               } : function() {
+                   return new ActiveXObject(&amp;quot;Microsoft.XMLHTTP&amp;quot;);
+               }
+           }(),
+           formatData = function(fd) {
+               var res = &amp;apos;&amp;apos;;
+               for (var f in fd) {
+                   res += f + &amp;apos;=&amp;apos; + fd[f] + &amp;apos;&amp;amp;&amp;apos;;
+               }
+               return res.slice(0, -1);
+           },
+           AJAX = function(ops) {
+               var
+                   root = this,
+                   req = ajax();
+               root.url = ops.url;
+               root.type = ops.type || &amp;apos;responseText&amp;apos;;
+               root.method = ops.method || &amp;apos;GET&amp;apos;;
+               root.async = ops.async || true;
+               root.data = ops.data || {};
+               root.complete = ops.complete || function() {};
+               root.success = ops.success || function() {};
+               root.error = ops.error || function(s) {
+                   alert(root.url + &amp;apos;-&amp;gt;status:&amp;apos; + s + &amp;apos;error!&amp;apos;)
+               };
+               root.abort = req.abort;
+               root.setData = function(data) {
+                   for (var d in data) {
+                       root.data[d] = data[d];
+                   }
+               }
+               root.send = function() {
+                   var datastring = formatData(root.data),
+                       sendstring, get = false,
+                       async = root.async,
+                       complete = root.complete,
+                       method = root.method,
+                       type = root.type;
+                   if (method === &amp;apos;GET&amp;apos;) {
+                       root.url += &amp;apos;?&amp;apos; + datastring;
+                       get = true;
+                   }
+                   req.open(method, root.url, async);
+                   if (!get) {
+                       req.setRequestHeader(&amp;quot;Content-type&amp;quot;, &amp;quot;application/x-www-form-urlencoded&amp;quot;);
+                       sendstring = datastring;
+                   }
+                   req.onreadystatechange = async ? function() {
+                       if (req.readyState == 4) {
+                           complete();
+                           if (req.status == 200) {
+                               root.success(req[type]);
+                           } else {
+                               root.error(req.status);
+                           }
+                       }
+                   } : null;
+                   req.send(sendstring);
+                   if (!async) {
+                       complete();
+                       root.success(req[type]);
+                   }
+               }
+               root.url &amp;amp;&amp;amp; root.send();
+           };
+       return function(ops) {
+           return new AJAX(ops);
+       }
+   }();
+
+  e.g.
+  var aj = ajax({
+     url: ,
+     method: ,
+     data:,
+     success: function(res) {},
+     error: function(err) {}
+ });
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;网站变灰&quot;&gt;&lt;a href=&quot;#网站变灰&quot; class=&quot;headerlink&quot; title=&quot;网站变灰&quot;&gt;&lt;/a&gt;网站变灰&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用js片段集合(2)</title>
+    <link href="http://yoursite.com/2016/04/08/snippet/"/>
+    <id>http://yoursite.com/2016/04/08/snippet/</id>
+    <published>2016-04-08T01:55:22.000Z</published>
+    <updated>2016-04-08T03:20:46.564Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;去除ie10输入框删除图标&quot;&gt;&lt;a href=&quot;#去除ie10输入框删除图标&quot; class=&quot;headerlink&quot; title=&quot;去除ie10输入框删除图标&quot;&gt;&lt;/a&gt;去除ie10输入框删除图标&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;input::-ms-clear,
+input::-ms-reveal {
+display: none;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;图片预加载&quot;&gt;&lt;a href=&quot;#图片预加载&quot; class=&quot;headerlink&quot; title=&quot;图片预加载&quot;&gt;&lt;/a&gt;图片预加载&lt;/h3&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;pre&gt;&lt;code&gt;(function () {
+function isArray(obj) {
+    return Object.prototype.toString.call(obj) === &amp;apos;[object Array]&amp;apos;;
+}
+/*
+ * @param imgList 要加载的图片地址列表，[&amp;apos;aa/asd.png&amp;apos;,&amp;apos;aa/xxx.png&amp;apos;]
+ * @param callback 每成功加载一个图片之后的回调，并传入“已加载的图片总数/要加载的图片总数”表示进度
+ * @param timeout 每个图片加载的超时时间，默认为5s
+ */
+var loader = function (imgList, callback, timeout) {
+    timeout = timeout || 5000;
+    imgList = isArray(imgList) &amp;amp; imgList || [];
+    callback = typeof(callback) === &amp;apos;function&amp;apos; &amp;amp; callback;
+
+    var total = imgList.length,
+        loaded = 0,
+        imgages = [],
+        _on = function () {
+            loaded  total));
+        };
+
+    if (!total) {
+        return callback &amp;amp; callback(1);
+    }
+
+    for (var i = 0; i ) {
+        imgages[i] = new Image();
+        imgages[i].onload = imgages[i].onerror = _on;
+        imgages[i].src = imgList[i];
+    }
+
+    /**
+     * 如果timeout * total时间范围内，仍有图片未加载出来（判断条件是loaded */
+    setTimeout(function () {
+        loaded  total));
+    }, timeout * total);
+
+};
+
+    &amp;quot;function&amp;quot; === typeof define &amp;amp; define.cmd ? define(function () {
+        return loader
+    }) : window.imgLoader = loader;
+})();
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;常用正则&quot;&gt;&lt;a href=&quot;#常用正则&quot; class=&quot;headerlink&quot; title=&quot;常用正则&quot;&gt;&lt;/a&gt;常用正则&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;//正整数
+/^[0-9]*[1-9][0-9]*$/;
+//负整数
+/^-[0-9]*[1-9][0-9]*$/;
+//正浮点数
+/^(([0-9]+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*))$/;
+//负浮点数
+/^(-(([0-9]+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*)))$/;
+//浮点数
+/^(-?\d+)(\.\d+)?$/;
+//email地址
+/^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/;
+//url地址
+/^[a-zA-z]+://(\w+(-\w+)*)(\.(\w+(-\w+)*))*(\?\S*)?$/;
+或：^http:\/\/[A-Za-z0-9]+\.[A-Za-z0-9]+[\/=\?%\-&amp;amp;_~`@[\]\&amp;apos;:+!]*([^&amp;lt;&amp;gt;\&amp;quot;\&amp;quot;])*$
+//年/月/日（年-月-日、年.月.日）
+/^(19|20)\d\d[-/.](0[1-9]|1[012])[-/.](0[1-9]|[12][0-9]|3[01])$/;
+//匹配中文字符
+/[\u4e00-\u9fa5]/;
+//匹配帐号是否合法(字母开头，允许5-10字节，允许字母数字下划线)
+/^[a-zA-Z][a-zA-Z0-9_]{4,9}$/;
+//匹配空白行的正则表达式
+/\n\s*\r/;
+//匹配中国邮政编码
+/[1-9]\d{5}(?!\d)/;
+//匹配身份证
+/\d{15}|\d{18}/;
+//匹配国内电话号码
+/(\d{3}-|\d{4}-)?(\d{8}|\d{7})?/;
+//匹配IP地址
+/((2[0-4]\d|25[0-5]|[01]?\d\d?)\.){3}(2[0-4]\d|25[0-5]|[01]?\d\d?)/;
+//匹配首尾空白字符的正则表达式
+/^\s*|\s*$/;
+//匹配HTML标记的正则表达式
+&amp;lt;(\S*?)[^&amp;gt;]*&amp;gt;.*?|&amp;lt;.*?/&amp;gt;;
+//sql 语句
+^(select|drop|delete|create|update|insert).*$
+//提取信息中的网络链接
+(h|H)(r|R)(e|E)(f|F)*=*(&amp;apos;|&amp;quot;)?(\w|\\|\/|\.)+(&amp;apos;|&amp;quot;|*|&amp;gt;)?
+//提取信息中的邮件地址
+\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*
+//提取信息中的图片链接
+(s|S)(r|R)(c|C)*=*(&amp;apos;|&amp;quot;)?(\w|\\|\/|\.)+(&amp;apos;|&amp;quot;|*|&amp;gt;)?
+//提取信息中的 IP 地址
+(\d+)\.(\d+)\.(\d+)\.(\d+)
+//取信息中的中国手机号码
+(86)*0*13\d{9}
+//提取信息中的中国邮政编码
+[1-9]{1}(\d+){5}
+//提取信息中的浮点数（即小数）
+(-?\d*)\.?\d+
+//提取信息中的任何数字
+(-?\d*)(\.\d+)?
+//电话区号
+^0\d{2,3}$
+//腾讯 QQ 号
+^[1-9]*[1-9][0-9]*$
+//帐号（字母开头，允许 5-16 字节，允许字母数字下划线）
+^[a-zA-Z][a-zA-Z0-9_]{4,15}$
+//中文、英文、数字及下划线
+^[\u4e00-\u9fa5_a-zA-Z0-9]+$
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;滚动条修改&quot;&gt;&lt;a href=&quot;#滚动条修改&quot; class=&quot;headerlink&quot; title=&quot;滚动条修改&quot;&gt;&lt;/a&gt;滚动条修改&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;::-webkit-scrollbar{width:14px;}
+::-webkit-scrollbar-track{background-color:#bee1eb;}
+::-webkit-scrollbar-thumb{background-color:#00aff0;}
+::-webkit-scrollbar-thumb:hover {background-color:#9c3}
+::-webkit-scrollbar-thumb:active {background-color:#00aff0}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;常用分享&quot;&gt;&lt;a href=&quot;#常用分享&quot; class=&quot;headerlink&quot; title=&quot;常用分享&quot;&gt;&lt;/a&gt;常用分享&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;tools.share = function(name){
+var list ={
+    //微信
+    &amp;apos;wechat&amp;apos;   : function(selector){
+                    $(selector).append(&amp;apos;&amp;lt;img src=&amp;quot;http://qr.liantu.com/api.php?text=&amp;apos;+encodeURIComponent(window.location.href)+&amp;apos;&amp;quot; /&amp;gt;&amp;apos;).show();//在线生成二维码
+                 },
+    //新浪微博
+    &amp;apos;sina&amp;apos;     : &amp;apos;http://service.weibo.com/share/share.php?title=__shareTitle__&amp;amp;url=__shareUrl__&amp;amp;language=zh_cn&amp;apos;,
+    //脸书
+    &amp;apos;facebook&amp;apos;: &amp;apos;http://www.facebook.com/sharer.php?u=__shareUrl__&amp;amp;t=__shareTitle__&amp;apos;,
+    //推特
+    &amp;apos;twitter&amp;apos;  : &amp;apos;http://twitter.com/?status=__shareUrl__%20-%20__shareTitle__&amp;apos;,
+    //pin
+    &amp;apos;pinterest&amp;apos;: &amp;apos;http://pinterest.com/pin/create/button/?url=__shareUrl__&amp;amp;media=__shareTitle__&amp;apos;
+
+    };
+    if(typeof(list[name]) == &amp;apos;undefined&amp;apos;)
+    {
+        alert(&amp;apos;暂未开放&amp;apos;);
+        return;
+    }
+    else if(typeof(list[name]) == &amp;apos;function&amp;apos;)
+    {
+        list[name](arguments[1]);
+    }
+    else if(typeof(list[name]) == &amp;apos;string&amp;apos;)
+    {
+        var url = list[name].replace(&amp;apos;__shareUrl__&amp;apos;,encodeURIComponent(window.location.href)).replace(&amp;apos;__shareTitle__&amp;apos;,encodeURIComponent(document.title));
+        window.open(url,&amp;quot;Both&amp;quot;,&amp;quot;width=850,height=520,menubar=0,scrollbars=1,resizable=1,status=1,titlebar=0,toolbar=0,location=1&amp;quot;);
+    }
+};
+e.g.：tools.share(&amp;apos;sina&amp;apos;);
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;去除ie10输入框删除图标&quot;&gt;&lt;a href=&quot;#去除ie10输入框删除图标&quot; class=&quot;headerlink&quot; title=&quot;去除ie10输入框删除图标&quot;&gt;&lt;/a&gt;去除ie10输入框删除图标&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;input::-ms-clear,
+input::-ms-reveal {
+display: none;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;图片预加载&quot;&gt;&lt;a href=&quot;#图片预加载&quot; class=&quot;headerlink&quot; title=&quot;图片预加载&quot;&gt;&lt;/a&gt;图片预加载&lt;/h3&gt;
+    
+    </summary>
+    
+    
+      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用js片段集合(1)</title>
+    <link href="http://yoursite.com/2016/04/07/test/"/>
+    <id>http://yoursite.com/2016/04/07/test/</id>
+    <published>2016-04-07T03:28:29.236Z</published>
+    <updated>2016-04-08T03:21:02.730Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;去首尾空格&quot;&gt;&lt;a href=&quot;#去首尾空格&quot; class=&quot;headerlink&quot; title=&quot;去首尾空格&quot;&gt;&lt;/a&gt;去首尾空格&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;String.prototype.trim = function(){
+    return this.replace(/^\s+|\s+$/g, &amp;apos;&amp;apos;);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;不响应事件&quot;&gt;&lt;a href=&quot;#不响应事件&quot; class=&quot;headerlink&quot; title=&quot;不响应事件&quot;&gt;&lt;/a&gt;不响应事件&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;{pointer-events:none}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;判断某个对象是否有指定的Class&quot;&gt;&lt;a href=&quot;#判断某个对象是否有指定的Class&quot; class=&quot;headerlink&quot; title=&quot;判断某个对象是否有指定的Class&quot;&gt;&lt;/a&gt;判断某个对象是否有指定的Class&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function hasClass(ele,cls) {
+    return ele.className.match(new RegExp(&amp;apos;(\\s|^)&amp;apos;+cls+&amp;apos;(\\s|$)&amp;apos;));
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;给指定对象添加Class&quot;&gt;&lt;a href=&quot;#给指定对象添加Class&quot; class=&quot;headerlink&quot; title=&quot;给指定对象添加Class&quot;&gt;&lt;/a&gt;给指定对象添加Class&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function addClass(ele,cls) {
+    if (!this.hasClass(ele,cls)) ele.className += &amp;quot; &amp;quot;+cls;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;删除Class&quot;&gt;&lt;a href=&quot;#删除Class&quot; class=&quot;headerlink&quot; title=&quot;删除Class&quot;&gt;&lt;/a&gt;删除Class&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function removeClass(ele,cls) {
+    if (hasClass(ele,cls)) {
+        var reg = new RegExp(&amp;apos;(\\s|^)&amp;apos;+cls+&amp;apos;(\\s|$)&amp;apos;);
+        ele.className=ele.className.replace(reg,&amp;apos; &amp;apos;);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;判断一个对象是否为空对象&quot;&gt;&lt;a href=&quot;#判断一个对象是否为空对象&quot; class=&quot;headerlink&quot; title=&quot;判断一个对象是否为空对象&quot;&gt;&lt;/a&gt;判断一个对象是否为空对象&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function isEmptyObj(obj){
+    for(var name in obj) {
+        return false;
+    }
+    return true;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;随机数&quot;&gt;&lt;a href=&quot;#随机数&quot; class=&quot;headerlink&quot; title=&quot;随机数&quot;&gt;&lt;/a&gt;随机数&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;max - 期望的最大值
+parseInt(Math.random()*(max+1),10);
+Math.floor(Math.random()*(max+1));
+生成任意值到任意值的随机数：
+// max - 期望的最大值
+// min - 期望的最小值
+parseInt(Math.random()*(max-min+1)+min,10);
+Math.floor(Math.random()*(max-min+1)+min);
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;cookie&quot;&gt;&lt;a href=&quot;#cookie&quot; class=&quot;headerlink&quot; title=&quot;cookie&quot;&gt;&lt;/a&gt;cookie&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;var Cookie = {
+// 读取
+ read : function(name){
+    var cookieStr = &amp;quot;; &amp;quot;+document.cookie+&amp;quot;; &amp;quot;;
+    var index = cookieStr.indexOf(&amp;quot;; &amp;quot;+name+&amp;quot;=&amp;quot;);
+    if (index!=-1){
+        var s = cookieStr.substring(index+name.length+3,cookieStr.length);
+        return unescape(s.substring(0, s.indexOf(&amp;quot;; &amp;quot;)));
+    }else{
+        return null;
+    }
+},
+// 设置
+ set : function(name,value,expires){
+    var expDays = expires*24*60*60*1000;
+    var expDate = new Date();
+    expDate.setTime(expDate.getTime()+expDays);
+    var expString = expires ? &amp;quot;expires=&amp;quot;+expDate.toGMTString() : &amp;quot;&amp;quot;;
+    var pathString = &amp;quot;;path=/&amp;quot;;
+    document.cookie = name + &amp;quot;=&amp;quot; + escape(value) + expString + pathString;
+},
+// 删除
+ del : function(name){
+    var exp = new Date(new Date().getTime()-1);
+    var s=this.read(name);
+    if(s!=null) {
+        document.cookie= name + &amp;quot;=&amp;quot;+s+&amp;quot;expires=&amp;quot;+exp.toGMTString()+&amp;quot;;path=/&amp;quot;
+    }
+}
+};
+// demo:
+Cookie.set(&amp;quot;xuanfengge&amp;quot;, &amp;quot;www.xuanfengge.com&amp;quot;, 7);
+Cookie.read(&amp;quot;xuanfengge&amp;quot;);
+Cookie.del(&amp;quot;xuanfengge&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;字数统计&quot;&gt;&lt;a href=&quot;#字数统计&quot; class=&quot;headerlink&quot; title=&quot;字数统计&quot;&gt;&lt;/a&gt;字数统计&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function fucCheckLength(strTemp){
+    var i,sum;
+    sum=0;
+    for(i=0;i&amp;lt;strTemp.length;i++){
+        if ((strTemp.charCodeAt(i)&amp;gt;=0) &amp;amp;&amp;amp; (strTemp.charCodeAt(i)&amp;lt;=255)){
+            sum=sum+1;
+        }else{
+            sum=sum+2;
+        }
+    }
+    return sum;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;日期格式转换&quot;&gt;&lt;a href=&quot;#日期格式转换&quot; class=&quot;headerlink&quot; title=&quot;日期格式转换&quot;&gt;&lt;/a&gt;日期格式转换&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;Date.prototype.Format = function(formatStr) {
+    var str = formatStr;
+    var Week = [&amp;apos;日&amp;apos;, &amp;apos;一&amp;apos;, &amp;apos;二&amp;apos;, &amp;apos;三&amp;apos;, &amp;apos;四&amp;apos;, &amp;apos;五&amp;apos;, &amp;apos;六&amp;apos;];
+    str = str.replace(/yyyy|YYYY/, this.getFullYear());
+    str = str.replace(/yy|YY/, (this.getYear() % 100) &amp;gt; 9 ? (this.getYear() % 100).toString() : &amp;apos;0&amp;apos; + (this.getYear() % 100));
+    str = str.replace(/MM/, (this.getMonth() + 1) &amp;gt; 9 ? (this.getMonth() + 1).toString() : &amp;apos;0&amp;apos; + (this.getMonth() + 1));
+    str = str.replace(/M/g, (this.getMonth() + 1));
+    str = str.replace(/w|W/g, Week[this.getDay()]);
+    str = str.replace(/dd|DD/, this.getDate() &amp;gt; 9 ? this.getDate().toString() : &amp;apos;0&amp;apos; + this.getDate());
+    str = str.replace(/d|D/g, this.getDate());
+    str = str.replace(/hh|HH/, this.getHours() &amp;gt; 9 ? this.getHours().toString() : &amp;apos;0&amp;apos; + this.getHours());
+    str = str.replace(/h|H/g, this.getHours());
+    str = str.replace(/mm/, this.getMinutes() &amp;gt; 9 ? this.getMinutes().toString() : &amp;apos;0&amp;apos; + this.getMinutes());
+    str = str.replace(/m/g, this.getMinutes());
+    str = str.replace(/ss|SS/, this.getSeconds() &amp;gt; 9 ? this.getSeconds().toString() : &amp;apos;0&amp;apos; + this.getSeconds());
+    str = str.replace(/s|S/g, this.getSeconds());
+    return str;
+}
+e.g.
+var date = new Date();
+date.Format(&amp;quot;YYYY-M-D&amp;quot;);    //2013-5-8
+date.Format(&amp;quot;YYYY-MM-DD&amp;quot;);  //2013-11-08
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;钱格式转换&quot;&gt;&lt;a href=&quot;#钱格式转换&quot; class=&quot;headerlink&quot; title=&quot;钱格式转换&quot;&gt;&lt;/a&gt;钱格式转换&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;e.g.
+把1,561,124转换成1561124
+var slove = &amp;quot;1,561,124&amp;quot;;
+var reg=slove.replace(/,/g,&amp;quot;&amp;quot;);
+
+数字转换成金钱格式的函数
+functionformatCash(cash){
+        varstr_cash=cash+&amp;quot;&amp;quot;;//转换成字符串
+        varret_cash=&amp;quot;&amp;quot;;
+        varcounter=0;
+        for(vari=str_cash.length-1;i&amp;gt;=0;i--){
+            ret_cash=str_cash.charAt(i)+ret_cash;
+            counter++;
+            if(counter==3){
+                counter=0;
+                if(i!=0){
+                ret_cash=&amp;quot;,&amp;quot;+ret_cash;
+                }
+            }}
+        returnret_cash;
+    }
+
+ e.g.
+ var num=1012145;
+ formatCash(num);
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;背景半透明-文字不透明&quot;&gt;&lt;a href=&quot;#背景半透明-文字不透明&quot; class=&quot;headerlink&quot; title=&quot;背景半透明 文字不透明&quot;&gt;&lt;/a&gt;背景半透明 文字不透明&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;&amp;lt;p&amp;gt;不透明&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;
+div{
+    background:rgba(0,0,0,0.2) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
+    background:#000; filter:Alpha(opacity=20);/*实现IE背景透明*/
+    width:500px; height:500px; color:#F30; font-size:32px; font-weight:bold;
+}
+div p{ position:relative;}/*实现IE文字不透明*/
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;去首尾空格&quot;&gt;&lt;a href=&quot;#去首尾空格&quot; class=&quot;headerlink&quot; title=&quot;去首尾空格&quot;&gt;&lt;/a&gt;去首尾空格&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;String.prototype.trim = function(){
+    return this.replace(/^\s+|\s+$/g, &amp;apos;&amp;apos;);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;不响应事件&quot;&gt;&lt;a href=&quot;#不响应事件&quot; class=&quot;headerlink&quot; title=&quot;不响应事件&quot;&gt;&lt;/a&gt;不响应事件&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;{pointer-events:none}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;判断某个对象是否有指定的Class&quot;&gt;&lt;a href=&quot;#判断某个对象是否有指定的Class&quot; class=&quot;headerlink&quot; title=&quot;判断某个对象是否有指定的Class&quot;&gt;&lt;/a&gt;判断某个对象是否有指定的Class&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function hasClass(ele,cls) {
+    return ele.className.match(new RegExp(&amp;apos;(\\s|^)&amp;apos;+cls+&amp;apos;(\\s|$)&amp;apos;));
+}
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端集合</title>
+    <link href="http://yoursite.com/2016/04/07/hello-world/"/>
+    <id>http://yoursite.com/2016/04/07/hello-world/</id>
+    <published>2016-04-07T03:28:29.000Z</published>
+    <updated>2016-04-08T03:21:20.285Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;前端构建工具&quot;&gt;&lt;a href=&quot;#前端构建工具&quot; class=&quot;headerlink&quot; title=&quot;前端构建工具&quot;&gt;&lt;/a&gt;前端构建工具&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gulpjs.com.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gulp&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://fis.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fis&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/webpack/webpack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;webpack&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;预编译&quot;&gt;&lt;a href=&quot;#预编译&quot; class=&quot;headerlink&quot; title=&quot;预编译&quot;&gt;&lt;/a&gt;预编译&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.w3cplus.com/sassguide/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;sass&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.1024i.com/demo/less/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Less&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://babeljs.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BabelJs&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;版本控制&quot;&gt;&lt;a href=&quot;#版本控制&quot; class=&quot;headerlink&quot; title=&quot;版本控制&quot;&gt;&lt;/a&gt;版本控制&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;廖雪峰的git教程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前端UED&quot;&gt;&lt;a href=&quot;#前端UED&quot; class=&quot;headerlink&quot; title=&quot;前端UED&quot;&gt;&lt;/a&gt;前端UED&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.aliued.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阿里中文UED&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://tgideas.qq.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;腾讯TGideas&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://ued.taobao.org/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;淘宝UED&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://ued.ctrip.com/blog/category/front-end-development&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;携程UEDNEW&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://cued.xunlei.com/category/webrebuild&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;迅雷CUED&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://mux.alimama.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一淘UED&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://ued.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度searchUX&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://fex.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度FEX&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.alloyteam.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;alloyteam&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://isux.tencent.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;腾讯ISUX&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://tguide.qq.com/?ADTAG=media.gameweb.console&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;TGI解决方案&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://x5.tencent.com/guide?id=2001&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;腾讯X5&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://efe.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度efe&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前端blog&quot;&gt;&lt;a href=&quot;#前端blog&quot; class=&quot;headerlink&quot; title=&quot;前端blog&quot;&gt;&lt;/a&gt;前端blog&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://meyerweb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;EricMeyer&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://blog.ivane.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;艾文王&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://jiongks.name/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;勾三股四&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.zhangxinxu.com/wordpress/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;张鑫旭&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/lifesinger/lifesinger.github.com/issues?labels=blog&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;玉伯&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.cnblogs.com/rubylouvre/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;司徒正美&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://js8.in/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;三水清&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.ruanyifeng.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阮一峰&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://hikejun.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;张克军&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://hax.iteye.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;贺师俊&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.kailing.pub/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KL博客&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://blog.csdn.net/xianzhangren&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;仙掌人&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/fouber&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端农民工&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/cssmagic&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSS魔法&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/p/1006062717844351&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTML5梦工场&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/fekb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端快爆&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/htmljs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端乱炖&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/baidujs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JS小组&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.iwan0.com/weibo.com/sharpmaster&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;民工精髓V&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/p/1005051397442732&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一丝&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/p/1005051196343093&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;寒冬winter&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/173248656&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;小胡子哥&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/arttechdesign&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;尤小右&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/w3cfuns&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;w3cfuns&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://feweekly.com/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端周刊&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.75team.com/weekly/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;奇舞周刊&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.kancloud.cn/jsfront/month/82796&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JS前端开发群月报&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://li-xinyang.gitbooks.io/frontend-notebook/content/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端开发笔记本&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前端构建工具&quot;&gt;&lt;a href=&quot;#前端构建工具&quot; class=&quot;headerlink&quot; title=&quot;前端构建工具&quot;&gt;&lt;/a&gt;前端构建工具&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gulpjs.com.cn/&quot;&gt;Gulp&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://fis.baidu.com/&quot;&gt;Fis&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/webpack/webpack&quot;&gt;webpack&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;预编译&quot;&gt;&lt;a href=&quot;#预编译&quot; class=&quot;headerlink&quot; title=&quot;预编译&quot;&gt;&lt;/a&gt;预编译&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.w3cplus.com/sassguide/&quot;&gt;sass&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.1024i.com/demo/less/&quot;&gt;Less&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://babeljs.io/&quot;&gt;BabelJs&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+</feed>
