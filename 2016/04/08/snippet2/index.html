@@ -6,25 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <title>常用js片段集合(3) | blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="网站变灰html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
-手势事件var touchFunc = function(obj,type,func) {
-    //滑动范围在5x5内则做点击处理，s是开始，e是结束
-    var">
+  <meta name="description" content="网站变灰html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}">
 <meta property="og:type" content="article">
 <meta property="og:title" content="常用js片段集合(3)">
 <meta property="og:url" content="http://yoursite.com/2016/04/08/snippet2/index.html">
 <meta property="og:site_name" content="blog">
-<meta property="og:description" content="网站变灰html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
-手势事件var touchFunc = function(obj,type,func) {
-    //滑动范围在5x5内则做点击处理，s是开始，e是结束
-    var">
-<meta property="og:updated_time" content="2016-04-08T02:25:05.431Z">
+<meta property="og:description" content="网站变灰html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}">
+<meta property="og:updated_time" content="2016-04-08T03:20:34.245Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="常用js片段集合(3)">
-<meta name="twitter:description" content="网站变灰html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
-手势事件var touchFunc = function(obj,type,func) {
-    //滑动范围在5x5内则做点击处理，s是开始，e是结束
-    var">
+<meta name="twitter:description" content="网站变灰html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}">
   
     <link rel="alternative" href="/atom.xml" title="blog" type="application/atom+xml">
   
@@ -65,11 +56,6 @@
 						</div>
 						
 						
-						<div class="icon-wrap icon-me hide" data-idx="3">
-							<div class="user"></div>
-							<div class="shoulder"></div>
-						</div>
-						
 					</div>
 					
 				</div>
@@ -79,8 +65,6 @@
 						<li>Menu</li>
 						<li>Tags</li>
 						
-						
-						<li>About</li>
 						
 					</ul>
 				</div>
@@ -96,6 +80,8 @@
 							<li><a href="/">主页</a></li>
 				        
 							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/tags/book">前端书籍</a></li>
 				        
 						</ul>
 					</nav>
@@ -117,19 +103,13 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/前端资料/" style="font-size: 10px;">前端资料</a>
+						<a href="/tags/book/" style="font-size: 10px;">book</a> <a href="/tags/前端资料/" style="font-size: 20px;">前端资料</a>
 					</div>
 				</section>
 				
 				
 				
 
-				
-				
-				<section class="switch-part switch-part3">
-				
-					<div id="js-aboutme">………</div>
-				</section>
 				
 			</div>
 		</div>
@@ -160,6 +140,8 @@
 					<li><a href="/">主页</a></li>
 		        
 					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/tags/book">前端书籍</a></li>
 		        
 		        <div class="clearfix"></div>
 				</ul>
@@ -219,7 +201,8 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h3 id="网站变灰"><a href="#网站变灰" class="headerlink" title="网站变灰"></a>网站变灰</h3><pre><code>html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
-</code></pre><h3 id="手势事件"><a href="#手势事件" class="headerlink" title="手势事件"></a>手势事件</h3><pre><code>var touchFunc = function(obj,type,func) {
+</code></pre><a id="more"></a>
+<h3 id="手势事件"><a href="#手势事件" class="headerlink" title="手势事件"></a>手势事件</h3><pre><code>var touchFunc = function(obj,type,func) {
     //滑动范围在5x5内则做点击处理，s是开始，e是结束
     var init = {x:5,y:5,sx:0,sy:0,ex:0,ey:0};
     var sTime = 0, eTime = 0;

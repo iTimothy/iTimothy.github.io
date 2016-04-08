@@ -55,11 +55,6 @@
 						</div>
 						
 						
-						<div class="icon-wrap icon-me hide" data-idx="3">
-							<div class="user"></div>
-							<div class="shoulder"></div>
-						</div>
-						
 					</div>
 					
 				</div>
@@ -69,8 +64,6 @@
 						<li>Menu</li>
 						<li>Tags</li>
 						
-						
-						<li>About</li>
 						
 					</ul>
 				</div>
@@ -86,6 +79,8 @@
 							<li><a href="/">主页</a></li>
 				        
 							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/tags/book">前端书籍</a></li>
 				        
 						</ul>
 					</nav>
@@ -107,19 +102,13 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/前端资料/" style="font-size: 10px;">前端资料</a>
+						<a href="/tags/book/" style="font-size: 10px;">book</a> <a href="/tags/前端资料/" style="font-size: 20px;">前端资料</a>
 					</div>
 				</section>
 				
 				
 				
 
-				
-				
-				<section class="switch-part switch-part3">
-				
-					<div id="js-aboutme">………</div>
-				</section>
 				
 			</div>
 		</div>
@@ -151,6 +140,8 @@
 		        
 					<li><a href="/archives">所有文章</a></li>
 		        
+					<li><a href="/tags/book">前端书籍</a></li>
+		        
 		        <div class="clearfix"></div>
 				</ul>
 			</nav>
@@ -172,6 +163,63 @@
 </nav>
 
       <div class="body-wrap">
+  
+    <article id="post-books" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/08/books/" class="article-date">
+  	<time datetime="2016-04-08T04:35:56.000Z" itemprop="datePublished">2016-04-08</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/08/books/">书籍</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="前端书籍"><a href="#前端书籍" class="headerlink" title="前端书籍"></a>前端书籍</h2><p><a href="http://share.weiyun.com/cc08dbdee0baabf0b42cb26703826486" target="_blank" rel="external">javascript语言精粹</a> <i class="s15"></i> <a href="http://share.weiyun.com/17ebebc1a8cdf48407b969dad707c4e7" target="_blank" rel="external">ECMAScript6入门</a> <i class="s15"></i> <a href="http://share.weiyun.com/72ae0e31b5c5871f5e067f164409ec2c" target="_blank" rel="external">正则表达式必知必会</a> <i class="s15"></i> <a href="http://share.weiyun.com/8338f59aca70b09fed3ab04af8924a7a" target="_blank" rel="external">SEO优化</a> <i class="s15"></i> <a href="http://pan.baidu.com/s/1qXNUchQ" target="_blank" rel="external">node开发指南</a> <i class="s15"></i> <a href="http://pan.baidu.com/s/1eSLgRdw" target="_blank" rel="external">CANVAS游戏开发</a> <i class="s15"></i> <a href="http://pan.baidu.com/s/1dFue5jj" target="_blank" rel="external">高性能JavaScript</a> <i class="s15"></i> <a href="http://pan.baidu.com/s/1jItUub0" target="_blank" rel="external">JavaScript高级程序设计</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/book/">book</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
   
     <article id="post-effects2" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -212,117 +260,6 @@
         &lt;/style&gt;
         &lt;title&gt;demo1&lt;/title&gt;
     &lt;/head&gt;
-&lt;body&gt;
-
-    &lt;div style=&quot;position:relative; margin:20px 100px; background:#0CF; height:400px; width:500px; margin:0 auto;&quot;&gt;
-    &lt;div&gt;刮刮卡简单抽奖&lt;/div&gt;
-    &lt;div class=&quot;cjbox&quot;&gt;
-        &lt;div class=&quot;sjmes&quot;id=&quot;sjmes&quot;&gt;&lt;/div&gt;
-        &lt;canvas width=200 height=80 id=&quot;canvas&quot;&gt;&lt;/canvas&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-
-&lt;/body&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-    //init
-    var cjcon=[&quot;一等奖&quot;,&quot;二等奖&quot;,&quot;三等奖&quot;,&quot;谢谢参与&quot;];//奖项设置
-    var cjper=[3,10,20,100];//奖项率，次数
-    /*                      
-    * @param {cjcon}      所有奖项    
-    */
-    var percjcon=[];
-    for(var i=0;i&lt;cjper.length;i++){
-        peic(cjper[i],i);
-    };
-    function peic(len,ind){
-        for(var i=0;i&lt;len;i++){
-            percjcon.push(cjcon[ind]);
-        };
-    };
-    var sjmes = document.getElementById(&quot;sjmes&quot;);
-    var numrandom=Math.floor(Math.random()*percjcon.length);
-    sjmes.innerHTML=percjcon[numrandom];
-
-    var opacityb=0.5;//透明百分比,参考值,什么程度出现提示
-    var backcolorb=&quot;#ffaaaa&quot;;
-    var numl=200*80;//总像素个数
-    var nump;//出现backcolorb的个数
-    var opacitya;//透明百分比实际值
-
-    var canvas = document.getElementById(&quot;canvas&quot;);  //获取canvas  
-    var context = canvas.getContext(&apos;2d&apos;);  //canvas追加2d画图
-    var flag = 0;  //标志，判断是按下后移动还是未按下移动 重要
-    var penwidth=20; //画笔宽度
-    context.fillStyle=&quot;#faa&quot;;  //填充的颜色
-    context.fillRect(0,0,200,80);  //填充颜色 x y坐标 宽 高
-
-    canvas.addEventListener(&apos;mousemove&apos;, onMouseMove, false); //鼠标移动事件
-    canvas.addEventListener(&apos;mousedown&apos;, onMouseDown, false);  //鼠标按下事件
-    canvas.addEventListener(&apos;mouseup&apos;, onMouseUp, false);  //鼠标抬起事件
-    var movex=-1;
-    var movey=-1;
-    var imgData;//imagedada容器
-    var rgbabox=[];//存放读取后的rgba数据；
-    function onMouseMove(evt) {
-    if(flag == 1) {
-        movex=evt.layerX;
-        movey=evt.layerY;      
-        context.fillStyle=&quot;#FF0000&quot;;
-        context.beginPath();
-        context.globalCompositeOperation=&quot;destination-out&quot;;
-        context.arc(movex,movey,penwidth,0,Math.PI*2,true); //Math.PI*2是JS计算方法，是圆      
-        context.closePath();
-        context.fill();
-    }
-    }
-    function onMouseDown(evt) {
-        flag = 1;  //标志按下
-    }
-    function onMouseUp(evt) {
-        flag = 0;
-    //读取像素数据
-        imgData=context.getImageData(0,0,200,80);//获取当前画布数据
-        //imgData.data.length 获取图片数据总长度，没4个为一组存放rgba
-        for(var i=0; i&lt;imgData.data.length;i+=4){
-            var rval=imgData.data[i];
-            var gval=imgData.data[i+1];
-            var bval=imgData.data[i+2];
-            var aval=imgData.data[i+3];
-            var rgbaval=rval+&quot;-&quot;+gval+&quot;-&quot;+bval+&quot;-&quot;+aval;
-            rgbabox.push(rgbaval);
-        }
-        //end
-        for(var j=0;j&lt;rgbabox.length;j++){
-            //alert(rgbabox[j].split(&quot;-&quot;)[0])
-            rgbabox[j]=&apos;#&apos;+rgbToHex(rgbabox[j].split(&quot;-&quot;)[0],rgbabox[j].split(&quot;-&quot;)[1],rgbabox[j].split(&quot;-&quot;)[2]);        
-        }
-        nump=countSubstr(rgbabox.join(&quot;,&quot;),backcolorb,true);
-        opacitya=(numl-nump)/numl;
-        if(opacitya &gt; opacityb){
-            alert(&quot;恭喜你获得&quot;+percjcon[numrandom])
-        }else{}
-
-        }
-    function rgbToHex(r, g, b) { return((r &lt;&lt; 16) | (g &lt;&lt; 8) | b).toString(16); }//rgb转为16进制 #xxx形式
-    function countSubstr(str,substr,isIgnore){//计算字符串出现子字符串的个数
-    var count;
-    var reg=&quot;&quot;;
-    if(isIgnore==true){
-        reg=&quot;/&quot;+substr+&quot;/gi&quot;;
-    }else{
-        reg=&quot;/&quot;+substr+&quot;/g&quot;;
-    }
-    reg=eval(reg);
-    if(str.match(reg)==null){
-        count=0;
-    }else{
-        count=str.match(reg).length;
-    }
-        return count;
-    }
-    //end
-&lt;/script&gt;
-&lt;/html&gt;
 </code></pre>
       
     </div>
@@ -336,6 +273,10 @@
 
       
 
+      
+        <p class="article-more-link">
+          <a  href="/2016/04/08/effects2/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -385,302 +326,6 @@
     // Bad eval to preven google closure to remove it from code o_O
     // After compresion replace it back to var IE = &apos;v&apos; == &apos;\v&apos;
     var IE = eval(&apos;&quot;v&quot;==&quot;\v&quot;&apos;);
-
-    jQuery.fn.extend({
-        rotate:function(parameters)
-        {
-            if(this.length===0||typeofparameters==&quot;undefined&quot;) return;
-                if(typeofparameters==&quot;number&quot;) parameters={angle:parameters};
-            varreturned=[];
-            for(vari=0,i0=this.length;i&lt;i0;i++)
-                {
-                    varelement=this.get(i);   
-                    if(!element.Wilq32 || !element.Wilq32.PhotoEffect) {
-
-                        varparamClone = $.extend(true, {}, parameters);
-                        varnewRotObject = newWilq32.PhotoEffect(element,paramClone)._rootObj;
-
-                        returned.push($(newRotObject));
-                    }
-                    else{
-                        element.Wilq32.PhotoEffect._handleRotation(parameters);
-                    }
-                }
-                returnreturned;
-        },
-        getRotateAngle: function(){
-            varret = [];
-            for(vari=0,i0=this.length;i&lt;i0;i++)
-                {
-                    varelement=this.get(i);   
-                    if(element.Wilq32 &amp;&amp; element.Wilq32.PhotoEffect) {
-                        ret[i] = element.Wilq32.PhotoEffect._angle;
-                    }
-                }
-                returnret;
-        },
-        stopRotate: function(){
-            for(vari=0,i0=this.length;i&lt;i0;i++)
-                {
-                    varelement=this.get(i);   
-                    if(element.Wilq32 &amp;&amp; element.Wilq32.PhotoEffect) {
-                        clearTimeout(element.Wilq32.PhotoEffect._timer);
-                    }
-                }
-        }
-    });
-
-    // Library agnostic interface
-
-    Wilq32=window.Wilq32||{};
-    Wilq32.PhotoEffect=(function(){
-
-        if(supportedCSS) {
-            returnfunction(img,parameters){
-                img.Wilq32 = {
-                    PhotoEffect: this
-                };
-
-                this._img = this._rootObj = this._eventObj = img;
-                this._handleRotation(parameters);
-            }
-        } else{
-            returnfunction(img,parameters) {
-                // Make sure that class and id are also copied - just in case you would like to refeer to an newly created object
-                this._img = img;
-
-                this._rootObj=document.createElement(&apos;span&apos;);
-                this._rootObj.style.display=&quot;inline-block&quot;;
-                this._rootObj.Wilq32 =
-                    {
-                        PhotoEffect: this
-                    };
-                img.parentNode.insertBefore(this._rootObj,img);
-
-                if(img.complete) {
-                    this._Loader(parameters);
-                } else{
-                    varself=this;
-                    // TODO: Remove jQuery dependency
-                    jQuery(this._img).bind(&quot;load&quot;, function()
-                    {
-                        self._Loader(parameters);
-                    });
-                }
-            }
-        }
-    })();
-
-    Wilq32.PhotoEffect.prototype={
-        _setupParameters : function(parameters){
-            this._parameters = this._parameters || {};
-            if(typeofthis._angle !== &quot;number&quot;) this._angle = 0 ;
-            if(typeofparameters.angle===&quot;number&quot;) this._angle = parameters.angle;
-            this._parameters.animateTo = (typeofparameters.animateTo===&quot;number&quot;) ? (parameters.animateTo) : (this._angle);
-
-            this._parameters.step = parameters.step || this._parameters.step || null;
-            this._parameters.easing = parameters.easing || this._parameters.easing || function(x, t, b, c, d) { return-c * ((t=t/d-1)*t*t*t - 1) + b; }
-            this._parameters.duration = parameters.duration || this._parameters.duration || 1000;
-            this._parameters.callback = parameters.callback || this._parameters.callback || function(){};
-            if(parameters.bind &amp;&amp; parameters.bind != this._parameters.bind) this._BindEvents(parameters.bind);
-        },
-        _handleRotation : function(parameters){
-              this._setupParameters(parameters);
-              if(this._angle==this._parameters.animateTo) {
-                  this._rotate(this._angle);
-              }
-              else{
-                  this._animateStart();         
-              }
-        },
-
-        _BindEvents:function(events){
-            if(events &amp;&amp; this._eventObj)
-            {
-                // Unbinding previous Events
-                if(this._parameters.bind){
-                    varoldEvents = this._parameters.bind;
-                    for(vara inoldEvents) if(oldEvents.hasOwnProperty(a))
-                            // TODO: Remove jQuery dependency
-                            jQuery(this._eventObj).unbind(a,oldEvents[a]);
-                }
-
-                this._parameters.bind = events;
-                for(vara inevents) if(events.hasOwnProperty(a))
-                    // TODO: Remove jQuery dependency
-                        jQuery(this._eventObj).bind(a,events[a]);
-            }
-        },
-
-        _Loader:(function()
-        {
-            if(IE)
-            returnfunction(parameters)
-            {
-                varwidth=this._img.width;
-                varheight=this._img.height;
-                this._img.parentNode.removeChild(this._img);
-
-                this._vimage = this.createVMLNode(&apos;image&apos;);
-                this._vimage.src=this._img.src;
-                this._vimage.style.height=height+&quot;px&quot;;
-                this._vimage.style.width=width+&quot;px&quot;;
-                this._vimage.style.position=&quot;absolute&quot;; // FIXES IE PROBLEM - its only rendered if its on absolute position!
-                this._vimage.style.top = &quot;0px&quot;;
-                this._vimage.style.left = &quot;0px&quot;;
-
-                /* Group minifying a small 1px precision problem when rotating object */
-                this._container =  this.createVMLNode(&apos;group&apos;);
-                this._container.style.width=width;
-                this._container.style.height=height;
-                this._container.style.position=&quot;absolute&quot;;
-                this._container.setAttribute(&apos;coordsize&apos;,width-1+&apos;,&apos;+(height-1)); // This -1, -1 trying to fix ugly problem with small displacement on IE
-                this._container.appendChild(this._vimage);
-
-                this._rootObj.appendChild(this._container);
-                this._rootObj.style.position=&quot;relative&quot;; // FIXES IE PROBLEM
-                this._rootObj.style.width=width+&quot;px&quot;;
-                this._rootObj.style.height=height+&quot;px&quot;;
-                this._rootObj.setAttribute(&apos;id&apos;,this._img.getAttribute(&apos;id&apos;));
-                this._rootObj.className=this._img.className;            
-                this._eventObj = this._rootObj;
-                this._handleRotation(parameters);  
-            }
-            else
-            returnfunction(parameters)
-            {
-                this._rootObj.setAttribute(&apos;id&apos;,this._img.getAttribute(&apos;id&apos;));
-                this._rootObj.className=this._img.className;
-
-                this._width=this._img.width;
-                this._height=this._img.height;
-                this._widthHalf=this._width/2; // used for optimisation
-                this._heightHalf=this._height/2;// used for optimisation
-
-                var_widthMax=Math.sqrt((this._height)*(this._height) + (this._width) * (this._width));
-
-                this._widthAdd = _widthMax - this._width;
-                this._heightAdd = _widthMax - this._height; // widthMax because maxWidth=maxHeight
-                this._widthAddHalf=this._widthAdd/2; // used for optimisation
-                this._heightAddHalf=this._heightAdd/2;// used for optimisation
-
-                this._img.parentNode.removeChild(this._img);    
-
-                this._aspectW = ((parseInt(this._img.style.width,10)) || this._width)/this._img.width;
-                this._aspectH = ((parseInt(this._img.style.height,10)) || this._height)/this._img.height;
-
-                this._canvas=document.createElement(&apos;canvas&apos;);
-                this._canvas.setAttribute(&apos;width&apos;,this._width);
-                this._canvas.style.position=&quot;relative&quot;;
-                this._canvas.style.left = -this._widthAddHalf + &quot;px&quot;;
-                this._canvas.style.top = -this._heightAddHalf + &quot;px&quot;;
-                this._canvas.Wilq32 = this._rootObj.Wilq32;
-
-                this._rootObj.appendChild(this._canvas);
-                this._rootObj.style.width=this._width+&quot;px&quot;;
-                this._rootObj.style.height=this._height+&quot;px&quot;;
-                this._eventObj = this._canvas;
-
-                this._cnv=this._canvas.getContext(&apos;2d&apos;);
-                this._handleRotation(parameters);
-            }
-        })(),
-
-        _animateStart:function()
-        {  
-            if(this._timer) {
-                clearTimeout(this._timer);
-            }
-            this._animateStartTime = +newDate;
-            this._animateStartAngle = this._angle;
-            this._animate();
-        },
-        _animate:function()
-        {
-             varactualTime = +newDate;
-             varcheckEnd = actualTime - this._animateStartTime &gt; this._parameters.duration;
-
-             // TODO: Bug for animatedGif for static rotation ? (to test)
-             if(checkEnd &amp;&amp; !this._parameters.animatedGif)
-             {
-                 clearTimeout(this._timer);
-             }
-             else
-             {
-                 if(this._canvas||this._vimage||this._img) {
-                     varangle = this._parameters.easing(0, actualTime - this._animateStartTime, this._animateStartAngle, this._parameters.animateTo - this._animateStartAngle, this._parameters.duration);
-                     this._rotate((~~(angle*10))/10);
-                 }
-                 if(this._parameters.step) {
-                    this._parameters.step(this._angle);
-                 }
-                 varself = this;
-                 this._timer = setTimeout(function()
-                         {
-                         self._animate.call(self);
-                         }, 10);
-             }
-
-             // To fix Bug that prevents using recursive function in callback I moved this function to back
-             if(this._parameters.callback &amp;&amp; checkEnd){
-                 this._angle = this._parameters.animateTo;
-                 this._rotate(this._angle);
-                 this._parameters.callback.call(this._rootObj);
-             }
-         },
-
-        _rotate : (function()
-        {
-            varrad = Math.PI/180;
-            if(IE)
-            returnfunction(angle)
-            {
-                this._angle = angle;
-                this._container.style.rotation=(angle%360)+&quot;deg&quot;;
-            }
-            elseif(supportedCSS)
-            returnfunction(angle){
-                this._angle = angle;
-                this._img.style[supportedCSS]=&quot;rotate(&quot;+(angle%360)+&quot;deg)&quot;;
-            }
-            else
-            returnfunction(angle)
-            {
-                this._angle = angle;
-                angle=(angle%360)* rad;
-                // clear canvas
-                this._canvas.width = this._width+this._widthAdd;
-                this._canvas.height = this._height+this._heightAdd;
-
-                // REMEMBER: all drawings are read from backwards.. so first function is translate, then rotate, then translate, translate..
-                this._cnv.translate(this._widthAddHalf,this._heightAddHalf);    // at least center image on screen
-                this._cnv.translate(this._widthHalf,this._heightHalf);          // we move image back to its orginal
-                this._cnv.rotate(angle);                                        // rotate image
-                this._cnv.translate(-this._widthHalf,-this._heightHalf);        // move image to its center, so we can rotate around its center
-                this._cnv.scale(this._aspectW,this._aspectH); // SCALE - if needed ;)
-                this._cnv.drawImage(this._img, 0, 0);                           // First - we draw image
-            }
-
-        })()
-    }
-
-    if(IE)
-    {
-    Wilq32.PhotoEffect.prototype.createVMLNode=(function(){
-    document.createStyleSheet().addRule(&quot;.rvml&quot;, &quot;behavior:url(#default#VML)&quot;);
-            try{
-                !document.namespaces.rvml &amp;&amp; document.namespaces.add(&quot;rvml&quot;, &quot;urn:schemas-microsoft-com:vml&quot;);
-                returnfunction(tagName) {
-                    returndocument.createElement(&apos;&lt;rvml:&apos;+ tagName + &apos; class=&quot;rvml&quot;&gt;&apos;);
-                };
-            } catch(e) {
-                returnfunction(tagName) {
-                    returndocument.createElement(&apos;&lt;&apos;+ tagName + &apos; xmlns=&quot;urn:schemas-microsoft.com:vml&quot; class=&quot;rvml&quot;&gt;&apos;);
-                };
-            }      
-    })();
-    }
-})(jQuery);
 </code></pre>
       
     </div>
@@ -694,6 +339,10 @@
 
       
 
+      
+        <p class="article-more-link">
+          <a  href="/2016/04/08/effects/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -742,352 +391,6 @@
 * 调用： f.rootTouchBind(t);
 *    t:  传入调用此方法的id字符串
 */
-
-var f = {
-    rootTouchObj : {
-        startY: 0,
-        scrollY: 0
-    },
-    scrollRootHeight: function(t){
-        var that = $(&apos;#&apos;+t);
-        var h = that.height();
-        var c = that.parent().height();
-        var p = h - c;
-        return p ;
-    },
-    rootTouchBind: function(t) {
-        var c = this;
-        var d = $(&apos;#&apos;+t);
-        var l = d.height();
-        var p = d.parent().height();
-        if( l &lt; p) {
-            return;
-        };
-        $(&apos;#&apos;+ t).on(&apos;touchstart&apos;, function(d) {
-            c.rootTouchObj.startY = d.touches[0].clientY;
-            c.rootTouchObj.scrollY = 0
-        });
-        $(&apos;#&apos;+ t).on(&apos;touchmove&apos;, function(g) {
-            g.preventDefault();
-            var h = g.touches;
-            var f = g.touches[0].clientY;
-            var i = f - c.rootTouchObj.startY;
-            var d = 0;
-            var e = c.getY(t);
-            d = e + i;
-            if(d &gt; 150) {
-                d = 150
-            } else{
-                if(d &lt; (c.scrollRootHeight(t) * - 1 - 150)) {
-                    d = (c.scrollRootHeight(t) * - 1 - 150)
-                }
-            }
-            $(&apos;#&apos;+ t).css(&apos;transform&apos;, &apos;translateY(&apos;+ d + &apos;px)&apos;);
-            $(&apos;#&apos;+ t).css(&apos;-webkit-transform&apos;, &apos;translateY(&apos;+ d + &apos;px)&apos;);
-            c.rootTouchObj.scrollY = f - c.rootTouchObj.startY;
-            c.rootTouchObj.startY = f
-        });
-        $(&apos;#&apos;+ t).on(&apos;touchend&apos;, function(d) {
-            c.touchScroll(c.rootTouchObj.scrollY, t, c.scrollRootHeight(t))
-        })
-    },
-    touchScroll: function(k, d, m, g) {
-        var c = this;
-        var e = Math.abs(k);
-        var h = 0;
-        var f = 200;
-        var l = d;
-        var j = 0;
-        if(e &gt;= 40) {
-            h = 15
-        } else{
-            if(e &lt; 40 &amp;&amp; e &gt;= 25) {
-                h = 10
-            } else{
-                if(e &lt; 25 &amp;&amp; e &gt;= 10) {
-                    h = 5
-                } else{
-                    h = 0
-                }
-            }
-        }
-        if(h &gt; 0) {
-            if(k &lt; 0) {
-                h = h * - 1
-            }
-            setTimeout(function() {
-                c.touchScrollRun(h, d, 0, m, g)
-            }, 2)
-        } else{
-            var i = 0;
-            i = c.getY(d);
-            c.goToEnd(i, d, m)
-        }
-    },
-    touchScrollRun: function(h, k, g, e, f) {
-        var i = this;
-        var j = g + 1;
-        if(f) {
-            i.imgLazyLad.lazyLad()
-        }
-        if(g &lt; 50) {
-            var d = 0;
-            d = i.getY(k) + h;
-            $(&apos;#&apos;+ k).css(&apos;transform&apos;, &apos;translateY(&apos;+ d + &apos;px)&apos;);
-            $(&apos;#&apos;+ k).css(&apos;-webkit-transform&apos;, &apos;translateY(&apos;+ d + &apos;px)&apos;);
-            if(d &lt;= (e * - 1 - 30) || d &gt;= 30) {
-                i.goToEnd(d, k, e)
-            } else{
-                setTimeout(function() {
-                    i.touchScrollRun(h, k, j, e, f)
-                }, 2)
-            }
-        } else{
-            i.goToEnd(d, k, e)
-        }
-    },
-    goToEnd: function(c, h, e) {
-        var g = this;
-        var f = null;
-        var d = null;
-        if(e &gt; 0) {
-            if(c &lt; (e * - 1)) {
-                f = {
-                    transform: &apos;translateY(&apos;+ (e * - 1) + &apos;px)&apos;,
-                    &apos;-webkit-transform&apos;: &apos;translateY(&apos;+ (e * - 1) + &apos;px)&apos;,
-                    &apos;-webkit-transition&apos;: &apos;0.2s ease 0s&apos;,
-                    transition: &apos;0.2s ease 0s&apos;
-                };
-                d = {
-                    transform: &apos;translateY(&apos;+ (e * - 1) + &apos;px)&apos;,
-                    &apos;-webkit-transform&apos;: &apos;translateY(&apos;+ (e * - 1) + &apos;px)&apos;,
-                    &apos;-webkit-transition&apos;: &apos;&apos;,
-                    transition: &apos;&apos;
-                }
-            } else{
-                if(c &gt; 0) {
-                    f = {
-                        transform: &apos;translateY(0px)&apos;,
-                        &apos;-webkit-transform&apos;: &apos;translateY(0px)&apos;,
-                        &apos;-webkit-transition&apos;: &apos;0.2s ease 0s&apos;,
-                        transition: &apos;0.2s ease 0s&apos;
-                    };
-                    d = {
-                        transform: &apos;translateY(0px)&apos;,
-                        &apos;-webkit-transform&apos;: &apos;translateY(0px)&apos;,
-                        &apos;-webkit-transition&apos;: &apos;&apos;,
-                        transition: &apos;&apos;
-                    }
-                }
-            }
-        }
-        if(c != 0) {
-            $(&apos;#&apos;+ h).css(f);
-            setTimeout(function() {
-                $(&apos;#&apos;+ h).css(d)
-            }, 200);
-            returntrue
-        } else{
-            $(&apos;#&apos;+ h).css({
-                transform: &apos;translateY(0px)&apos;
-            });
-            $(&apos;#&apos;+ h).css({
-                &apos;-webkit-transform&apos;: &apos;translateY(0px)&apos;
-            });
-            returnfalse
-        }
-    },
-    getY: function(e) {
-        var d = this;
-        var c = $(&apos;#&apos;+ e).css(&apos;transform&apos;);
-        if(!c) {
-            c = $(&apos;#&apos;+ e).css(&apos;-webkit-transform&apos;)
-        }
-        if(c == &apos;none&apos;) {
-            c = 0
-        } else{
-            c = c.replace(&apos;translateY(&apos;, &apos;&apos;).replace(&apos;)&apos;, &apos;&apos;);
-            c = parseInt(c, 10)
-        }
-        if(!c) {
-            c = 0
-        }
-        return c;
-    }
-}
-</code></pre><h3 id="简单倒计时"><a href="#简单倒计时" class="headerlink" title="简单倒计时"></a>简单倒计时</h3><pre><code>function timer(){  
-    var ts = (new Date(2018, 11, 11, 9, 0, 0)) - (new Date());//计算剩余的毫秒数
-    console.log(ts);  
-    var dd = parseInt(ts / 1000 / 60 / 60 / 24, 10);//计算剩余的天数
-    var hh = parseInt(ts / 1000 / 60 / 60 % 24, 10);//计算剩余的小时数
-    var mm = parseInt(ts / 1000 / 60 % 60, 10);//计算剩余的分钟数
-    var ss = parseInt(ts / 1000 % 60, 10);//计算剩余的秒数
-    document.body.innerHTML = dd + &quot;天&quot; + hh + &quot;时&quot; + mm + &quot;分&quot; + ss + &quot;秒&quot;;  
-}  
-setInterval(timer,1000);
-</code></pre><h3 id="简单手势封装"><a href="#简单手势封装" class="headerlink" title="简单手势封装"></a>简单手势封装</h3><pre><code>!(function(){
-    /**
-    * [addListener Class]
-    * @param {[type]} option object
-    * @example new addListener({elem:htmlElement});
-    */
-    var addListener = function(option){
-        this.option = option || {};
-        this.handler();
-    }
-    addListener.prototype.handler = function(){
-        var init = {sx:0,sy:0,ex:0,ey:0,cx:0,cy:0,ax:50,ay:50},
-        option = this.option,
-        path = option.path || 20,
-        _elem = option.elem;
-
-        _elem.addEventListener(&apos;touchstart&apos;,function(e){
-
-            e.preventDefault();
-            init.sx=e.targetTouches[0].pageX;
-            init.sy=e.targetTouches[0].pageY;
-
-         },false);
-
-        _elem.addEventListener(&apos;touchmove&apos;, function(e){
-
-            e.preventDefault();
-            init.ex = e.targetTouches[0].pageX;
-            init.ey = e.targetTouches[0].pageY;
-
-          }, false);
-
-        _elem.addEventListener(&apos;touchend&apos;, function(e){
-
-          e.preventDefault();
-          init.cx = init.ex - init.sx;
-          init.cy = init.ey - init.sy;
-          if(init.cx&gt;path &amp;&amp; Math.abs(init.cy)&lt;=init.ay){
-
-            option.swipeRight &amp;&amp; option.swipeRight();
-
-          }else if(init.cx&lt;-path &amp;&amp; Math.abs(init.cy)&lt;=init.ay){
-
-            option.swipeLeft &amp;&amp; option.swipeLeft();
-
-          }else if(init.cy&lt;-path &amp;&amp; Math.abs(init.cx)&lt;=init.ax){
-
-            option.swipeUp &amp;&amp; option.swipeUp();
-
-          }else if(init.cy&gt;path &amp;&amp; Math.abs(init.cx)&lt;=init.ax){
-
-            option.swipeDown &amp;&amp; option.swipeDown();
-
-          }
-        }, false);
-    }
-    window.addListener = addListener;
-}(window));
-</code></pre><h3 id="类似jq的选择器"><a href="#类似jq的选择器" class="headerlink" title="类似jq的选择器"></a>类似jq的选择器</h3><pre><code>!function(win, doc, undefined) {
-
-    var slice = Array.prototype.slice
-
-    var rId = /^#[\w\-]+/
-    var rTag = /^([\w\*]+)$/
-    var rCls = /^([\w\-]+)?\.([\w\-]+)/
-    var rAttr = /^([\w]+)?\[([\w]+-?[\w]+?)(=(\w+))?\]/
-
-    var makeArray = function(obj) {
-        return slice.call(obj, 0)
-    }
-    try{
-        slice.call(doc.documentElement.childNodes, 0)[0].nodeType
-    } catch(e) {
-        makeArray = function(obj) {
-            var result = []
-            for (var i = 0, len = obj.length; i &lt; len; i++) {
-                result[i] = obj[i]
-            }
-            return result
-        }
-    }
-
-    function byId(id) {
-        return doc.getElementById(id)
-    }
-    function check(attr, val, node) {
-        var reg = RegExp(&apos;(?:^|\\s+)&apos; + val + &apos;(?:\\s+|$)&apos;)
-        var attribute = attr === &apos;className&apos;
-                ? node.className
-                : node.getAttribute(attr)
-        if (attribute) {
-            if (val) {
-                if (reg.test(attribute)) return true
-            } else {
-                return true
-            }
-        }
-        return false
-    }    
-    function filter(all, attr, val) {
-        var el, result = []
-        var i = 0, r = 0
-        while ( (el = all[i++]) ) {
-            if ( check(attr, val, el) ) {
-                result[r++] = el
-            }
-        }
-        return result
-    }
-
-    function query(selector, context) {
-        var s = selector, arr = []
-        var context = context === undefined ? doc : typeof context === &apos;string&apos; ? query(context)[0] : context;
-        if (!selector) return arr;
-        if ( rId.test(s) ) {
-            arr[0] = byId( s.substr(1, s.length) )
-            return arr
-        }
-        if ( rTag.test(s) ) {
-            return makeArray(context.getElementsByTagName(s))
-        }
-
-        if (context.querySelectorAll) {
-            if (context.nodeType === 1) {
-                var old = context.id, id = context.id = &apos;__ZZ__&apos;
-                try {
-                    return context.querySelectorAll(&apos;#&apos; + id + &apos; &apos; + s)
-                } catch(e) {
-                    throw new Error(&apos;querySelectorAll: &apos; + e)
-                } finally {
-                    old ? context.id = old : context.removeAttribute(&apos;id&apos;)
-                }
-            }
-            return makeArray(context.querySelectorAll(s))
-        }
-        if ( rCls.test(s) ) {
-            var ary = s.split(&apos;.&apos;)
-            var tag = ary[0]
-            var cls = ary[1]
-            if (context.getElementsByClassName) {
-                var elems = context.getElementsByClassName(cls)
-                if (tag) {
-                    for (var i = 0, len = elems.length; i &lt; len; i++) {
-                        var el = elems[i]
-                        el.tagName.toLowerCase() === tag &amp;&amp; arr.push(el)
-                    }
-                    return arr
-                } else {
-                    return makeArray(elems)
-                }
-            } else {
-                var all = context.getElementsByTagName(tag || &apos;*&apos;)
-                return filter(all, &apos;className&apos;, cls)
-            }
-        }
-        if ( rAttr.test(s) ) {
-            var result = rAttr.exec(s)
-            var all = context.getElementsByTagName(result[1] || &apos;*&apos;)
-            return filter(all, result[2], result[4])
-        }
-    }
-    win.z = win.z = query
-}(window, document);
 </code></pre>
       
     </div>
@@ -1101,6 +404,10 @@ setInterval(timer,1000);
 
       
 
+      
+        <p class="article-more-link">
+          <a  href="/2016/04/08/snippet3/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -1145,195 +452,6 @@ setInterval(timer,1000);
     <div class="article-entry" itemprop="articleBody">
       
         <h3 id="网站变灰"><a href="#网站变灰" class="headerlink" title="网站变灰"></a>网站变灰</h3><pre><code>html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
-</code></pre><h3 id="手势事件"><a href="#手势事件" class="headerlink" title="手势事件"></a>手势事件</h3><pre><code>var touchFunc = function(obj,type,func) {
-    //滑动范围在5x5内则做点击处理，s是开始，e是结束
-    var init = {x:5,y:5,sx:0,sy:0,ex:0,ey:0};
-    var sTime = 0, eTime = 0;
-    type = type.toLowerCase();
-
-    obj.addEventListener(&quot;touchstart&quot;,function(e){
-        e.preventDefault();
-        sTime = new Date().getTime();
-        init.sx = event.targetTouches[0].pageX;
-        init.sy = event.targetTouches[0].pageY;
-        init.ex = init.sx;
-        init.ey = init.sy;
-        if(type.indexOf(&quot;start&quot;) != -1) func();
-    }, false);
-
-    obj.addEventListener(&quot;touchmove&quot;,function() {
-        event.preventDefault();//阻止触摸时浏览器的缩放、滚动条滚动
-        init.ex = event.targetTouches[0].pageX;
-        init.ey = event.targetTouches[0].pageY;
-        if(type.indexOf(&quot;move&quot;)!=-1) func();
-    }, false);
-
-    obj.addEventListener(&quot;touchend&quot;,function() {
-        var changeX = init.sx - init.ex;
-        var changeY = init.sy - init.ey;
-        if(Math.abs(changeX)&gt;Math.abs(changeY)&amp;&amp;Math.abs(changeY)&gt;init.y) {
-            //左右事件
-            if(changeX &gt; 0) {
-                if(type.indexOf(&quot;left&quot;)!=-1) func();
-            }else{
-                if(type.indexOf(&quot;right&quot;)!=-1) func();
-            }
-        }
-        else if(Math.abs(changeY)&gt;Math.abs(changeX)&amp;&amp;Math.abs(changeX)&gt;init.x){
-            //上下事件
-            if(changeY &gt; 0) {
-                if(type.indexOf(&quot;top&quot;)!=-1) func();
-            }else{
-                if(type.indexOf(&quot;down&quot;)!=-1) func();
-            }
-        }
-        else if(Math.abs(changeX)&lt;init.x &amp;&amp; Math.abs(changeY)&lt;init.y){
-            eTime = new Date().getTime();
-            //点击事件，此处根据时间差细分下
-            if((eTime - sTime) &gt; 300) {
-                if(type.indexOf(&quot;long&quot;)!=-1) func(); //长按
-            }
-            else {
-                if(type.indexOf(&quot;click&quot;)!=-1) func(); //当点击处理
-            }
-        }
-        if(type.indexOf(&quot;end&quot;)!=-1) func();
-    }, false);
-};
-</code></pre><h3 id="滚动事件"><a href="#滚动事件" class="headerlink" title="滚动事件"></a>滚动事件</h3><pre><code>;(function($){
-    $.extend($.fn, {
-      scrollTo: function(m){        
-          var n = 0, timer = null, that = this;
-          var smoothScroll = function(m){
-              var per = Math.round(m / 50);
-              n = n + per;
-              if(n &gt; m){
-                  window.clearInterval(timer);
-                  return false;
-              }            
-              that.scrollTop(n);
-          };
-
-          timer = window.setInterval(function(){
-              smoothScroll(m);
-          }, 20);
-      }
-    })
-})(Zepto);
-</code></pre><h3 id="Ngrok"><a href="#Ngrok" class="headerlink" title="Ngrok"></a><a href="http://qydev.com/" target="_blank" rel="external">Ngrok</a></h3><pre><code>ngrok -config=ngrok.cfg -subdomain xxx 80 //(xxx 是你自定义的域名前缀)
-e.g. xxx.tunnel.qydev.com
-</code></pre><h3 id="url解析"><a href="#url解析" class="headerlink" title="url解析"></a>url解析</h3><pre><code>function parseURL(url) {
-    var a =  document.createElement(&apos;a&apos;);
-    a.href = url;
-    return {
-        source: url,
-        protocol: a.protocol.replace(&apos;:&apos;,&apos;&apos;),
-        host: a.hostname,
-        port: a.port,
-        query: a.search,
-        params: (function(){
-            var ret = {},
-                seg = a.search.replace(/^\?/,&apos;&apos;).split(&apos;&amp;&apos;),
-                len = seg.length, i = 0, s;
-            for (;i&lt;len;i++) {
-                if (!seg[i]) { continue; }
-                s = seg[i].split(&apos;=&apos;);
-                ret[s[0]] = s[1];
-            }
-            return ret;
-        })(),
-        file: (a.pathname.match(/([^/?#]+)$/i) || [,&apos;&apos;])[1],
-        hash: a.hash.replace(&apos;#&apos;,&apos;&apos;),
-        path: a.pathname.replace(/^([^/])/,&apos;/$1&apos;),
-        relative: (a.href.match(/tps?:\/[^/]+(.+)/) || [,&apos;&apos;])[1],
-        segments: a.pathname.replace(/^\//,&apos;&apos;).split(&apos;/&apos;)
-    };
-}
-e.g.
-var myURL = parseURL(&apos;http://abc.com:8080/dir/index.html?id=255&amp;m=hello#top&apos;);
-myURL.file;     // = &apos;index.html&apos;
-</code></pre><h3 id="ajax封装"><a href="#ajax封装" class="headerlink" title="ajax封装"></a>ajax封装</h3><pre><code>var ajax = function() {
-       var ajax = function() {
-               return (&apos;XMLHttpRequest&apos; in window) ? function() {
-                   return new XMLHttpRequest();
-               } : function() {
-                   return new ActiveXObject(&quot;Microsoft.XMLHTTP&quot;);
-               }
-           }(),
-           formatData = function(fd) {
-               var res = &apos;&apos;;
-               for (var f in fd) {
-                   res += f + &apos;=&apos; + fd[f] + &apos;&amp;&apos;;
-               }
-               return res.slice(0, -1);
-           },
-           AJAX = function(ops) {
-               var
-                   root = this,
-                   req = ajax();
-               root.url = ops.url;
-               root.type = ops.type || &apos;responseText&apos;;
-               root.method = ops.method || &apos;GET&apos;;
-               root.async = ops.async || true;
-               root.data = ops.data || {};
-               root.complete = ops.complete || function() {};
-               root.success = ops.success || function() {};
-               root.error = ops.error || function(s) {
-                   alert(root.url + &apos;-&gt;status:&apos; + s + &apos;error!&apos;)
-               };
-               root.abort = req.abort;
-               root.setData = function(data) {
-                   for (var d in data) {
-                       root.data[d] = data[d];
-                   }
-               }
-               root.send = function() {
-                   var datastring = formatData(root.data),
-                       sendstring, get = false,
-                       async = root.async,
-                       complete = root.complete,
-                       method = root.method,
-                       type = root.type;
-                   if (method === &apos;GET&apos;) {
-                       root.url += &apos;?&apos; + datastring;
-                       get = true;
-                   }
-                   req.open(method, root.url, async);
-                   if (!get) {
-                       req.setRequestHeader(&quot;Content-type&quot;, &quot;application/x-www-form-urlencoded&quot;);
-                       sendstring = datastring;
-                   }
-                   req.onreadystatechange = async ? function() {
-                       if (req.readyState == 4) {
-                           complete();
-                           if (req.status == 200) {
-                               root.success(req[type]);
-                           } else {
-                               root.error(req.status);
-                           }
-                       }
-                   } : null;
-                   req.send(sendstring);
-                   if (!async) {
-                       complete();
-                       root.success(req[type]);
-                   }
-               }
-               root.url &amp;&amp; root.send();
-           };
-       return function(ops) {
-           return new AJAX(ops);
-       }
-   }();
-
-  e.g.
-  var aj = ajax({
-     url: ,
-     method: ,
-     data:,
-     success: function(res) {},
-     error: function(err) {}
- });
 </code></pre>
       
     </div>
@@ -1347,6 +465,10 @@ myURL.file;     // = &apos;index.html&apos;
 
       
 
+      
+        <p class="article-more-link">
+          <a  href="/2016/04/08/snippet2/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -1394,148 +516,7 @@ myURL.file;     // = &apos;index.html&apos;
 input::-ms-reveal {
 display: none;
 }
-</code></pre><h3 id="图片预加载"><a href="#图片预加载" class="headerlink" title="图片预加载"></a>图片预加载</h3><pre><code>(function () {
-function isArray(obj) {
-    return Object.prototype.toString.call(obj) === &apos;[object Array]&apos;;
-}
-/*
- * @param imgList 要加载的图片地址列表，[&apos;aa/asd.png&apos;,&apos;aa/xxx.png&apos;]
- * @param callback 每成功加载一个图片之后的回调，并传入“已加载的图片总数/要加载的图片总数”表示进度
- * @param timeout 每个图片加载的超时时间，默认为5s
- */
-var loader = function (imgList, callback, timeout) {
-    timeout = timeout || 5000;
-    imgList = isArray(imgList) &amp; imgList || [];
-    callback = typeof(callback) === &apos;function&apos; &amp; callback;
-
-    var total = imgList.length,
-        loaded = 0,
-        imgages = [],
-        _on = function () {
-            loaded  total));
-        };
-
-    if (!total) {
-        return callback &amp; callback(1);
-    }
-
-    for (var i = 0; i ) {
-        imgages[i] = new Image();
-        imgages[i].onload = imgages[i].onerror = _on;
-        imgages[i].src = imgList[i];
-    }
-
-    /**
-     * 如果timeout * total时间范围内，仍有图片未加载出来（判断条件是loaded */
-    setTimeout(function () {
-        loaded  total));
-    }, timeout * total);
-
-};
-
-    &quot;function&quot; === typeof define &amp; define.cmd ? define(function () {
-        return loader
-    }) : window.imgLoader = loader;
-})();
-</code></pre><h3 id="常用正则"><a href="#常用正则" class="headerlink" title="常用正则"></a>常用正则</h3><pre><code>//正整数
-/^[0-9]*[1-9][0-9]*$/;
-//负整数
-/^-[0-9]*[1-9][0-9]*$/;
-//正浮点数
-/^(([0-9]+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*))$/;
-//负浮点数
-/^(-(([0-9]+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*)))$/;
-//浮点数
-/^(-?\d+)(\.\d+)?$/;
-//email地址
-/^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/;
-//url地址
-/^[a-zA-z]+://(\w+(-\w+)*)(\.(\w+(-\w+)*))*(\?\S*)?$/;
-或：^http:\/\/[A-Za-z0-9]+\.[A-Za-z0-9]+[\/=\?%\-&amp;_~`@[\]\&apos;:+!]*([^&lt;&gt;\&quot;\&quot;])*$
-//年/月/日（年-月-日、年.月.日）
-/^(19|20)\d\d[-/.](0[1-9]|1[012])[-/.](0[1-9]|[12][0-9]|3[01])$/;
-//匹配中文字符
-/[\u4e00-\u9fa5]/;
-//匹配帐号是否合法(字母开头，允许5-10字节，允许字母数字下划线)
-/^[a-zA-Z][a-zA-Z0-9_]{4,9}$/;
-//匹配空白行的正则表达式
-/\n\s*\r/;
-//匹配中国邮政编码
-/[1-9]\d{5}(?!\d)/;
-//匹配身份证
-/\d{15}|\d{18}/;
-//匹配国内电话号码
-/(\d{3}-|\d{4}-)?(\d{8}|\d{7})?/;
-//匹配IP地址
-/((2[0-4]\d|25[0-5]|[01]?\d\d?)\.){3}(2[0-4]\d|25[0-5]|[01]?\d\d?)/;
-//匹配首尾空白字符的正则表达式
-/^\s*|\s*$/;
-//匹配HTML标记的正则表达式
-&lt;(\S*?)[^&gt;]*&gt;.*?|&lt;.*?/&gt;;
-//sql 语句
-^(select|drop|delete|create|update|insert).*$
-//提取信息中的网络链接
-(h|H)(r|R)(e|E)(f|F)*=*(&apos;|&quot;)?(\w|\\|\/|\.)+(&apos;|&quot;|*|&gt;)?
-//提取信息中的邮件地址
-\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*
-//提取信息中的图片链接
-(s|S)(r|R)(c|C)*=*(&apos;|&quot;)?(\w|\\|\/|\.)+(&apos;|&quot;|*|&gt;)?
-//提取信息中的 IP 地址
-(\d+)\.(\d+)\.(\d+)\.(\d+)
-//取信息中的中国手机号码
-(86)*0*13\d{9}
-//提取信息中的中国邮政编码
-[1-9]{1}(\d+){5}
-//提取信息中的浮点数（即小数）
-(-?\d*)\.?\d+
-//提取信息中的任何数字
-(-?\d*)(\.\d+)?
-//电话区号
-^0\d{2,3}$
-//腾讯 QQ 号
-^[1-9]*[1-9][0-9]*$
-//帐号（字母开头，允许 5-16 字节，允许字母数字下划线）
-^[a-zA-Z][a-zA-Z0-9_]{4,15}$
-//中文、英文、数字及下划线
-^[\u4e00-\u9fa5_a-zA-Z0-9]+$
-</code></pre><h3 id="滚动条修改"><a href="#滚动条修改" class="headerlink" title="滚动条修改"></a>滚动条修改</h3><pre><code>::-webkit-scrollbar{width:14px;}
-::-webkit-scrollbar-track{background-color:#bee1eb;}
-::-webkit-scrollbar-thumb{background-color:#00aff0;}
-::-webkit-scrollbar-thumb:hover {background-color:#9c3}
-::-webkit-scrollbar-thumb:active {background-color:#00aff0}
-</code></pre><h3 id="常用分享"><a href="#常用分享" class="headerlink" title="常用分享"></a>常用分享</h3><pre><code>tools.share = function(name){
-var list ={
-    //微信
-    &apos;wechat&apos;   : function(selector){
-                    $(selector).append(&apos;&lt;img src=&quot;http://qr.liantu.com/api.php?text=&apos;+encodeURIComponent(window.location.href)+&apos;&quot; /&gt;&apos;).show();//在线生成二维码
-                 },
-    //新浪微博
-    &apos;sina&apos;     : &apos;http://service.weibo.com/share/share.php?title=__shareTitle__&amp;url=__shareUrl__&amp;language=zh_cn&apos;,
-    //脸书
-    &apos;facebook&apos;: &apos;http://www.facebook.com/sharer.php?u=__shareUrl__&amp;t=__shareTitle__&apos;,
-    //推特
-    &apos;twitter&apos;  : &apos;http://twitter.com/?status=__shareUrl__%20-%20__shareTitle__&apos;,
-    //pin
-    &apos;pinterest&apos;: &apos;http://pinterest.com/pin/create/button/?url=__shareUrl__&amp;media=__shareTitle__&apos;
-
-    };
-    if(typeof(list[name]) == &apos;undefined&apos;)
-    {
-        alert(&apos;暂未开放&apos;);
-        return;
-    }
-    else if(typeof(list[name]) == &apos;function&apos;)
-    {
-        list[name](arguments[1]);
-    }
-    else if(typeof(list[name]) == &apos;string&apos;)
-    {
-        var url = list[name].replace(&apos;__shareUrl__&apos;,encodeURIComponent(window.location.href)).replace(&apos;__shareTitle__&apos;,encodeURIComponent(document.title));
-        window.open(url,&quot;Both&quot;,&quot;width=850,height=520,menubar=0,scrollbars=1,resizable=1,status=1,titlebar=0,toolbar=0,location=1&quot;);
-    }
-};
-e.g.：tools.share(&apos;sina&apos;);
-</code></pre>
+</code></pre><h3 id="图片预加载"><a href="#图片预加载" class="headerlink" title="图片预加载"></a>图片预加载</h3>
       
     </div>
     
@@ -1548,6 +529,10 @@ e.g.：tools.share(&apos;sina&apos;);
 
       
 
+      
+        <p class="article-more-link">
+          <a  href="/2016/04/08/snippet/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -1598,129 +583,6 @@ e.g.：tools.share(&apos;sina&apos;);
 </code></pre><h3 id="判断某个对象是否有指定的Class"><a href="#判断某个对象是否有指定的Class" class="headerlink" title="判断某个对象是否有指定的Class"></a>判断某个对象是否有指定的Class</h3><pre><code>function hasClass(ele,cls) {
     return ele.className.match(new RegExp(&apos;(\\s|^)&apos;+cls+&apos;(\\s|$)&apos;));
 }
-</code></pre><h3 id="给指定对象添加Class"><a href="#给指定对象添加Class" class="headerlink" title="给指定对象添加Class"></a>给指定对象添加Class</h3><pre><code>function addClass(ele,cls) {
-    if (!this.hasClass(ele,cls)) ele.className += &quot; &quot;+cls;
-}
-</code></pre><h3 id="删除Class"><a href="#删除Class" class="headerlink" title="删除Class"></a>删除Class</h3><pre><code>function removeClass(ele,cls) {
-    if (hasClass(ele,cls)) {
-        var reg = new RegExp(&apos;(\\s|^)&apos;+cls+&apos;(\\s|$)&apos;);
-        ele.className=ele.className.replace(reg,&apos; &apos;);
-    }
-}
-</code></pre><h3 id="判断一个对象是否为空对象"><a href="#判断一个对象是否为空对象" class="headerlink" title="判断一个对象是否为空对象"></a>判断一个对象是否为空对象</h3><pre><code>function isEmptyObj(obj){
-    for(var name in obj) {
-        return false;
-    }
-    return true;
-}
-</code></pre><h3 id="随机数"><a href="#随机数" class="headerlink" title="随机数"></a>随机数</h3><pre><code>max - 期望的最大值
-parseInt(Math.random()*(max+1),10);
-Math.floor(Math.random()*(max+1));
-生成任意值到任意值的随机数：
-// max - 期望的最大值
-// min - 期望的最小值
-parseInt(Math.random()*(max-min+1)+min,10);
-Math.floor(Math.random()*(max-min+1)+min);
-</code></pre><h3 id="cookie"><a href="#cookie" class="headerlink" title="cookie"></a>cookie</h3><pre><code>var Cookie = {
-// 读取
- read : function(name){
-    var cookieStr = &quot;; &quot;+document.cookie+&quot;; &quot;;
-    var index = cookieStr.indexOf(&quot;; &quot;+name+&quot;=&quot;);
-    if (index!=-1){
-        var s = cookieStr.substring(index+name.length+3,cookieStr.length);
-        return unescape(s.substring(0, s.indexOf(&quot;; &quot;)));
-    }else{
-        return null;
-    }
-},
-// 设置
- set : function(name,value,expires){
-    var expDays = expires*24*60*60*1000;
-    var expDate = new Date();
-    expDate.setTime(expDate.getTime()+expDays);
-    var expString = expires ? &quot;expires=&quot;+expDate.toGMTString() : &quot;&quot;;
-    var pathString = &quot;;path=/&quot;;
-    document.cookie = name + &quot;=&quot; + escape(value) + expString + pathString;
-},
-// 删除
- del : function(name){
-    var exp = new Date(new Date().getTime()-1);
-    var s=this.read(name);
-    if(s!=null) {
-        document.cookie= name + &quot;=&quot;+s+&quot;expires=&quot;+exp.toGMTString()+&quot;;path=/&quot;
-    }
-}
-};
-// demo:
-Cookie.set(&quot;xuanfengge&quot;, &quot;www.xuanfengge.com&quot;, 7);
-Cookie.read(&quot;xuanfengge&quot;);
-Cookie.del(&quot;xuanfengge&quot;);
-</code></pre><h3 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h3><pre><code>function fucCheckLength(strTemp){
-    var i,sum;
-    sum=0;
-    for(i=0;i&lt;strTemp.length;i++){
-        if ((strTemp.charCodeAt(i)&gt;=0) &amp;&amp; (strTemp.charCodeAt(i)&lt;=255)){
-            sum=sum+1;
-        }else{
-            sum=sum+2;
-        }
-    }
-    return sum;
-}
-</code></pre><h3 id="日期格式转换"><a href="#日期格式转换" class="headerlink" title="日期格式转换"></a>日期格式转换</h3><pre><code>Date.prototype.Format = function(formatStr) {
-    var str = formatStr;
-    var Week = [&apos;日&apos;, &apos;一&apos;, &apos;二&apos;, &apos;三&apos;, &apos;四&apos;, &apos;五&apos;, &apos;六&apos;];
-    str = str.replace(/yyyy|YYYY/, this.getFullYear());
-    str = str.replace(/yy|YY/, (this.getYear() % 100) &gt; 9 ? (this.getYear() % 100).toString() : &apos;0&apos; + (this.getYear() % 100));
-    str = str.replace(/MM/, (this.getMonth() + 1) &gt; 9 ? (this.getMonth() + 1).toString() : &apos;0&apos; + (this.getMonth() + 1));
-    str = str.replace(/M/g, (this.getMonth() + 1));
-    str = str.replace(/w|W/g, Week[this.getDay()]);
-    str = str.replace(/dd|DD/, this.getDate() &gt; 9 ? this.getDate().toString() : &apos;0&apos; + this.getDate());
-    str = str.replace(/d|D/g, this.getDate());
-    str = str.replace(/hh|HH/, this.getHours() &gt; 9 ? this.getHours().toString() : &apos;0&apos; + this.getHours());
-    str = str.replace(/h|H/g, this.getHours());
-    str = str.replace(/mm/, this.getMinutes() &gt; 9 ? this.getMinutes().toString() : &apos;0&apos; + this.getMinutes());
-    str = str.replace(/m/g, this.getMinutes());
-    str = str.replace(/ss|SS/, this.getSeconds() &gt; 9 ? this.getSeconds().toString() : &apos;0&apos; + this.getSeconds());
-    str = str.replace(/s|S/g, this.getSeconds());
-    return str;
-}
-e.g.
-var date = new Date();
-date.Format(&quot;YYYY-M-D&quot;);    //2013-5-8
-date.Format(&quot;YYYY-MM-DD&quot;);  //2013-11-08
-</code></pre><h3 id="钱格式转换"><a href="#钱格式转换" class="headerlink" title="钱格式转换"></a>钱格式转换</h3><pre><code>e.g.
-把1,561,124转换成1561124
-var slove = &quot;1,561,124&quot;;
-var reg=slove.replace(/,/g,&quot;&quot;);
-
-数字转换成金钱格式的函数
-functionformatCash(cash){
-        varstr_cash=cash+&quot;&quot;;//转换成字符串
-        varret_cash=&quot;&quot;;
-        varcounter=0;
-        for(vari=str_cash.length-1;i&gt;=0;i--){
-            ret_cash=str_cash.charAt(i)+ret_cash;
-            counter++;
-            if(counter==3){
-                counter=0;
-                if(i!=0){
-                ret_cash=&quot;,&quot;+ret_cash;
-                }
-            }}
-        returnret_cash;
-    }
-
- e.g.
- var num=1012145;
- formatCash(num);
-</code></pre><h3 id="背景半透明-文字不透明"><a href="#背景半透明-文字不透明" class="headerlink" title="背景半透明 文字不透明"></a>背景半透明 文字不透明</h3><pre><code>&lt;div&gt;&lt;p&gt;不透明&lt;/p&gt;&lt;/div&gt;
-div{
-    background:rgba(0,0,0,0.2) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
-    background:#000; filter:Alpha(opacity=20);/*实现IE背景透明*/
-    width:500px; height:500px; color:#F30; font-size:32px; font-weight:bold;
-}
-div p{ position:relative;}/*实现IE文字不透明*/
 </code></pre>
       
     </div>
@@ -1734,6 +596,10 @@ div p{ position:relative;}/*实现IE文字不透明*/
 
       
 
+      
+        <p class="article-more-link">
+          <a  href="/2016/04/07/test/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -1777,12 +643,8 @@ div p{ position:relative;}/*实现IE文字不透明*/
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="前端构建工具"><a href="#前端构建工具" class="headerlink" title="前端构建工具"></a>前端构建工具</h2><p><a href="http://www.gulpjs.com.cn/" target="_blank" rel="external">Gulp</a> <i class="s15"></i> <a href="http://fis.baidu.com/" target="_blank" rel="external">Fis</a> <i class="s15"></i> <a href="https://github.com/webpack/webpack" target="_blank" rel="external">webpack</a></p>
-<h2 id="预编译"><a href="#预编译" class="headerlink" title="预编译"></a>预编译</h2><p><a href="http://www.w3cplus.com/sassguide/" target="_blank" rel="external">sass</a> <i class="s15"></i> <a href="http://www.1024i.com/demo/less/" target="_blank" rel="external">Less</a> <i class="s15"></i> <a href="https://babeljs.io/" target="_blank" rel="external">BabelJs</a></p>
-<h2 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h2><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">廖雪峰的git教程</a></p>
-<h2 id="前端UED"><a href="#前端UED" class="headerlink" title="前端UED"></a>前端UED</h2><p><a href="http://www.aliued.cn/" target="_blank" rel="external">阿里中文UED</a> <i class="s15"></i> <a href="http://tgideas.qq.com/" target="_blank" rel="external">腾讯TGideas</a> <i class="s15"></i> <a href="http://ued.taobao.org/blog/" target="_blank" rel="external">淘宝UED</a> <i class="s15"></i> <a href="http://ued.ctrip.com/blog/category/front-end-development" target="_blank" rel="external">携程UEDNEW</a> <i class="s15"></i> <a href="http://cued.xunlei.com/category/webrebuild" target="_blank" rel="external">迅雷CUED</a> <i class="s15"></i> <a href="http://mux.alimama.com/" target="_blank" rel="external">一淘UED</a> <i class="s15"></i> <a href="http://ued.baidu.com/" target="_blank" rel="external">百度searchUX</a> <i class="s15"></i> <a href="http://fex.baidu.com/" target="_blank" rel="external">百度FEX</a> <i class="s15"></i> <a href="http://www.alloyteam.com/" target="_blank" rel="external">alloyteam</a> <i class="s15"></i> <a href="http://isux.tencent.com/" target="_blank" rel="external">腾讯ISUX</a> <i class="s15"></i> <a href="http://tguide.qq.com/?ADTAG=media.gameweb.console" target="_blank" rel="external">TGI解决方案</a> <i class="s15"></i> <a href="http://x5.tencent.com/guide?id=2001" target="_blank" rel="external">腾讯X5</a> <i class="s15"></i> <a href="http://efe.baidu.com/" target="_blank" rel="external">百度efe</a></p>
-<h2 id="前端blog"><a href="#前端blog" class="headerlink" title="前端blog"></a>前端blog</h2><p><a href="http://meyerweb.com/" target="_blank" rel="external">EricMeyer</a> <i class="s15"></i> <a href="http://blog.ivane.me/" target="_blank" rel="external">艾文王</a> <i class="s15"></i> <a href="http://jiongks.name/" target="_blank" rel="external">勾三股四</a> <i class="s15"></i> <a href="http://www.zhangxinxu.com/wordpress/" target="_blank" rel="external">张鑫旭</a> <i class="s15"></i> <a href="https://github.com/lifesinger/lifesinger.github.com/issues?labels=blog" target="_blank" rel="external">玉伯</a> <i class="s15"></i> <a href="http://www.cnblogs.com/rubylouvre/" target="_blank" rel="external">司徒正美</a> <i class="s15"></i> <a href="http://js8.in/" target="_blank" rel="external">三水清</a> <i class="s15"></i> <a href="http://www.ruanyifeng.com/blog/" target="_blank" rel="external">阮一峰</a> <i class="s15"></i> <a href="http://hikejun.com/blog/" target="_blank" rel="external">张克军</a> <i class="s15"></i> <a href="http://hax.iteye.com/" target="_blank" rel="external">贺师俊</a> <i class="s15"></i> <a href="http://www.kailing.pub/" target="_blank" rel="external">KL博客</a> <i class="s15"></i> <a href="http://blog.csdn.net/xianzhangren" target="_blank" rel="external">仙掌人</a> <i class="s15"></i> <a href="http://weibo.com/fouber" target="_blank" rel="external">前端农民工</a> <i class="s15"></i> <a href="http://weibo.com/cssmagic" target="_blank" rel="external">CSS魔法</a> <i class="s15"></i> <a href="http://weibo.com/p/1006062717844351" target="_blank" rel="external">HTML5梦工场</a> <i class="s15"></i> <a href="http://weibo.com/fekb" target="_blank" rel="external">前端快爆</a> <i class="s15"></i> <a href="http://weibo.com/htmljs" target="_blank" rel="external">前端乱炖</a> <i class="s15"></i> <a href="http://weibo.com/baidujs" target="_blank" rel="external">JS小组</a> <i class="s15"></i> <a href="http://www.iwan0.com/weibo.com/sharpmaster" target="_blank" rel="external">民工精髓V</a> <i class="s15"></i> <a href="http://weibo.com/p/1005051397442732" target="_blank" rel="external">一丝</a> <i class="s15"></i> <a href="http://weibo.com/p/1005051196343093" target="_blank" rel="external">寒冬winter</a> <i class="s15"></i> <a href="http://weibo.com/173248656" target="_blank" rel="external">小胡子哥</a> <i class="s15"></i> <a href="http://weibo.com/arttechdesign" target="_blank" rel="external">尤小右</a> <i class="s15"></i> <a href="http://weibo.com/w3cfuns" target="_blank" rel="external">w3cfuns</a> <i class="s15"></i> <a href="http://feweekly.com/issues" target="_blank" rel="external">前端周刊</a> <i class="s15"></i> <a href="http://www.75team.com/weekly/" target="_blank" rel="external">奇舞周刊</a> <i class="s15"></i> <a href="http://www.kancloud.cn/jsfront/month/82796" target="_blank" rel="external">JS前端开发群月报</a> <i class="s15"></i> <a href="https://li-xinyang.gitbooks.io/frontend-notebook/content/index.html" target="_blank" rel="external">前端开发笔记本</a></p>
-
+        <h2 id="前端构建工具"><a href="#前端构建工具" class="headerlink" title="前端构建工具"></a>前端构建工具</h2><p><a href="http://www.gulpjs.com.cn/">Gulp</a> <i class="s15"></i> <a href="http://fis.baidu.com/">Fis</a> <i class="s15"></i> <a href="https://github.com/webpack/webpack">webpack</a></p>
+<h2 id="预编译"><a href="#预编译" class="headerlink" title="预编译"></a>预编译</h2><p><a href="http://www.w3cplus.com/sassguide/">sass</a> <i class="s15"></i> <a href="http://www.1024i.com/demo/less/">Less</a> <i class="s15"></i> <a href="https://babeljs.io/">BabelJs</a><br>
       
     </div>
     
@@ -1795,6 +657,10 @@ div p{ position:relative;}/*实现IE文字不透明*/
 
       
 
+      
+        <p class="article-more-link">
+          <a  href="/2016/04/07/hello-world/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
