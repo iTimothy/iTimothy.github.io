@@ -1,0 +1,4 @@
+#robot.txt for http://www.popfly.club
+User-agent:*
+Allow:/
+Sitemap:http://www.popfly.club/baidusitemap.xml
