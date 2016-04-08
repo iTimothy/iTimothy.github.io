@@ -17,8 +17,8 @@
   
   <entry>
     <title>书籍</title>
-    <link href="http://yoursite.com/posts/uncategorized/2016-04-08-books.html"/>
-    <id>http://yoursite.com/posts/uncategorized/2016-04-08-books.html</id>
+    <link href="http://yoursite.com/posts/2016-04-08-books.html"/>
+    <id>http://yoursite.com/posts/2016-04-08-books.html</id>
     <published>2016-04-08T04:35:56.000Z</published>
     <updated>2016-04-08T04:48:59.298Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>pc刮卡抽奖</title>
-    <link href="http://yoursite.com/posts/uncategorized/2016-04-08-effects2.html"/>
-    <id>http://yoursite.com/posts/uncategorized/2016-04-08-effects2.html</id>
+    <link href="http://yoursite.com/posts/2016-04-08-effects2.html"/>
+    <id>http://yoursite.com/posts/2016-04-08-effects2.html</id>
     <published>2016-04-08T02:48:09.000Z</published>
     <updated>2016-04-08T03:39:56.898Z</updated>
     
@@ -194,8 +194,8 @@
   
   <entry>
     <title>转盘抽奖</title>
-    <link href="http://yoursite.com/posts/uncategorized/2016-04-08-effects.html"/>
-    <id>http://yoursite.com/posts/uncategorized/2016-04-08-effects.html</id>
+    <link href="http://yoursite.com/posts/2016-04-08-effects.html"/>
+    <id>http://yoursite.com/posts/2016-04-08-effects.html</id>
     <published>2016-04-08T02:45:29.000Z</published>
     <updated>2016-04-08T03:19:50.683Z</updated>
     
@@ -522,8 +522,8 @@
   
   <entry>
     <title>常用js片段集合(4)</title>
-    <link href="http://yoursite.com/posts/uncategorized/2016-04-08-snippet3.html"/>
-    <id>http://yoursite.com/posts/uncategorized/2016-04-08-snippet3.html</id>
+    <link href="http://yoursite.com/posts/2016-04-08-snippet3.html"/>
+    <id>http://yoursite.com/posts/2016-04-08-snippet3.html</id>
     <published>2016-04-08T02:27:12.000Z</published>
     <updated>2016-04-08T03:39:23.170Z</updated>
     
@@ -898,8 +898,8 @@ setInterval(timer,1000);
   
   <entry>
     <title>常用js片段集合(3)</title>
-    <link href="http://yoursite.com/posts/uncategorized/2016-04-08-snippet2.html"/>
-    <id>http://yoursite.com/posts/uncategorized/2016-04-08-snippet2.html</id>
+    <link href="http://yoursite.com/posts/2016-04-08-snippet2.html"/>
+    <id>http://yoursite.com/posts/2016-04-08-snippet2.html</id>
     <published>2016-04-08T02:11:56.000Z</published>
     <updated>2016-04-08T03:20:34.245Z</updated>
     
@@ -1110,8 +1110,8 @@ myURL.file;     // = &amp;apos;index.html&amp;apos;
   
   <entry>
     <title>常用js片段集合(2)</title>
-    <link href="http://yoursite.com/posts/uncategorized/2016-04-08-snippet.html"/>
-    <id>http://yoursite.com/posts/uncategorized/2016-04-08-snippet.html</id>
+    <link href="http://yoursite.com/posts/2016-04-08-snippet.html"/>
+    <id>http://yoursite.com/posts/2016-04-08-snippet.html</id>
     <published>2016-04-08T01:55:22.000Z</published>
     <updated>2016-04-08T03:20:46.564Z</updated>
     
@@ -1280,8 +1280,8 @@ display: none;
   
   <entry>
     <title>常用js片段集合(1)</title>
-    <link href="http://yoursite.com/posts/uncategorized/2016-04-07-test.html"/>
-    <id>http://yoursite.com/posts/uncategorized/2016-04-07-test.html</id>
+    <link href="http://yoursite.com/posts/2016-04-07-test.html"/>
+    <id>http://yoursite.com/posts/2016-04-07-test.html</id>
     <published>2016-04-07T03:28:29.236Z</published>
     <updated>2016-04-08T03:21:02.730Z</updated>
     
@@ -1438,8 +1438,8 @@ div p{ position:relative;}/*实现IE文字不透明*/
   
   <entry>
     <title>前端集合</title>
-    <link href="http://yoursite.com/posts/uncategorized/2016-04-07-hello-world.html"/>
-    <id>http://yoursite.com/posts/uncategorized/2016-04-07-hello-world.html</id>
+    <link href="http://yoursite.com/posts/2016-04-07-hello-world.html"/>
+    <id>http://yoursite.com/posts/2016-04-07-hello-world.html</id>
     <published>2016-04-07T03:28:29.000Z</published>
     <updated>2016-04-08T03:21:20.285Z</updated>
     
