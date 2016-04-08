@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/08/books/</loc>
+    <lastmod>2016-04-08T04:48:59.298Z</lastmod>
+    <data>
+        <display>
+        <title>书籍</title>
+        <pubTime>2016-04-08T04:35:56.000Z</pubTime>
+        
+        <tag>book </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/08/effects2/</loc>
+    <lastmod>2016-04-08T03:39:56.898Z</lastmod>
+    <data>
+        <display>
+        <title>pc刮卡抽奖</title>
+        <pubTime>2016-04-08T02:48:09.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/08/snippet3/</loc>
+    <lastmod>2016-04-08T03:39:23.170Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(4)</title>
+        <pubTime>2016-04-08T02:27:12.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/07/hello-world/</loc>
+    <lastmod>2016-04-08T03:21:20.285Z</lastmod>
+    <data>
+        <display>
+        <title>前端集合</title>
+        <pubTime>2016-04-07T03:28:29.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/07/test/</loc>
+    <lastmod>2016-04-08T03:21:02.730Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(1)</title>
+        <pubTime>2016-04-07T03:28:29.236Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/08/snippet/</loc>
+    <lastmod>2016-04-08T03:20:46.564Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(2)</title>
+        <pubTime>2016-04-08T01:55:22.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/08/snippet2/</loc>
+    <lastmod>2016-04-08T03:20:34.245Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(3)</title>
+        <pubTime>2016-04-08T02:11:56.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2016/04/08/effects/</loc>
+    <lastmod>2016-04-08T03:19:50.683Z</lastmod>
+    <data>
+        <display>
+        <title>转盘抽奖</title>
+        <pubTime>2016-04-08T02:45:29.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
