@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-08T04:48:59.298Z</updated>
+  <updated>2016-04-11T08:41:39.197Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>分享代码</title>
+    <link href="http://yoursite.com/posts/20160411/shareJs.html"/>
+    <id>http://yoursite.com/posts/20160411/shareJs.html</id>
+    <published>2016-04-11T08:38:38.000Z</published>
+    <updated>2016-04-11T08:41:39.197Z</updated>
+    
+    <content type="html">&lt;pre&gt;&lt;code&gt;qzone:http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{URL}}&amp;amp;title={{TITLE}}&amp;amp;desc={{DESCRIPTION}}&amp;amp;summary={{SUMMARY}}&amp;amp;site={{SOURCE}}&amp;apos;,
+
+qq    :&amp;apos;http://connect.qq.com/widget/shareqq/index.html?url={{URL}}&amp;amp;title={{TITLE}}&amp;amp;source={{SOURCE}}&amp;amp;desc={{DESCRIPTION}}&amp;apos;,
+
+tencent     : &amp;apos;http://share.v.t.qq.com/index.php?c=share&amp;amp;a=index&amp;amp;title={{TITLE}}&amp;amp;url={{URL}}&amp;amp;pic={{IMAGE}}&amp;apos;,
+
+weibo       : &amp;apos;http://service.weibo.com/share/share.php?url={{URL}}&amp;amp;title={{TITLE}}&amp;amp;pic={{IMAGE}}&amp;apos;,
+
+douban      : &amp;apos;http://shuo.douban.com/!service/share?href={{URL}}&amp;amp;name={{TITLE}}&amp;amp;text={{DESCRIPTION}}&amp;amp;image={{IMAGE}}&amp;amp;starid=0&amp;amp;aid=0&amp;amp;style=11&amp;apos;,
+
+diandian    : &amp;apos;http://www.diandian.com/share?lo={{URL}}&amp;amp;ti={{TITLE}}&amp;amp;type=link&amp;apos;,
+
+linkedin    : &amp;apos;http://www.linkedin.com/shareArticle?mini=true&amp;amp;ro=true&amp;amp;title={{TITLE}}&amp;amp;url={{URL}}&amp;amp;summary={{SUMMARY}}&amp;amp;source={{SOURCE}}&amp;amp;armin=armin&amp;apos;,
+
+facebook    : &amp;apos;https://www.facebook.com/sharer/sharer.php?u={{URL}}&amp;apos;,
+
+twitter     : &amp;apos;https://twitter.com/intent/tweet?text={{TITLE}}&amp;amp;url={{URL}}&amp;amp;via={{SITE_URL}}&amp;apos;,
+
+google      : &amp;apos;https://plus.google.com/share?url={{URL}}&amp;apos;
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code&gt;qzone:http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{URL}}&amp;amp;title={{TITLE}}&amp;amp;desc={{DESCRIPTION}}&amp;amp;sum
+    
+    </summary>
+    
+    
+      <category term="js代码" scheme="http://yoursite.com/tags/js%E4%BB%A3%E7%A0%81/"/>
+    
+  </entry>
   
   <entry>
     <title>书籍</title>
