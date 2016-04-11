@@ -3,8 +3,25 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20160408/effects2.html</loc>
+    <lastmod>2016-04-11T09:47:07.206Z</lastmod>
+    <data>
+        <display>
+        <title>pc刮卡抽奖</title>
+        <pubTime>2016-04-08T02:48:09.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20160411/shareJs.html</loc>
-    <lastmod>2016-04-11T08:41:39.197Z</lastmod>
+    <lastmod>2016-04-11T09:45:48.364Z</lastmod>
     <data>
         <display>
         <title>分享代码</title>
@@ -45,23 +62,6 @@
         <pubTime>2016-04-08T04:35:56.000Z</pubTime>
         
         <tag>book </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160408/effects2.html</loc>
-    <lastmod>2016-04-08T03:39:56.898Z</lastmod>
-    <data>
-        <display>
-        <title>pc刮卡抽奖</title>
-        <pubTime>2016-04-08T02:48:09.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
          
          
            
