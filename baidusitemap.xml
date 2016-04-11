@@ -3,6 +3,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20160407/hello-world.html</loc>
+    <lastmod>2016-04-11T03:45:01.022Z</lastmod>
+    <data>
+        <display>
+        <title>前端集合</title>
+        <pubTime>2016-04-07T03:28:29.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20160408/books.html</loc>
     <lastmod>2016-04-08T04:48:59.298Z</lastmod>
     <data>
@@ -43,23 +60,6 @@
         <display>
         <title>常用js片段集合(4)</title>
         <pubTime>2016-04-08T02:27:12.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160407/hello-world.html</loc>
-    <lastmod>2016-04-08T03:21:20.285Z</lastmod>
-    <data>
-        <display>
-        <title>前端集合</title>
-        <pubTime>2016-04-07T03:28:29.000Z</pubTime>
         
         <tag>前端资料 </tag>
          
