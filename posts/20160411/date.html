@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="baidu-site-verification" content="lZTaCRkdD0" >
+  <title>日期相关方法 | z&#39;blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="判断闰年12345678910/* * 判断闰年 * @param  &amp;#123;Number&amp;#125; 年 * @return &amp;#123;Blooean&amp;#125; */function isLeapYear(year) &amp;#123;    return (year % 4 == 0 &amp;amp;&amp;amp; year % 100 != 0) || (year % 400 == 0)&amp;#125;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="日期相关方法">
+<meta property="og:url" content="http://yoursite.com/posts/20160411/date.html">
+<meta property="og:site_name" content="z'blog">
+<meta property="og:description" content="判断闰年12345678910/* * 判断闰年 * @param  &amp;#123;Number&amp;#125; 年 * @return &amp;#123;Blooean&amp;#125; */function isLeapYear(year) &amp;#123;    return (year % 4 == 0 &amp;amp;&amp;amp; year % 100 != 0) || (year % 400 == 0)&amp;#125;">
+<meta property="og:updated_time" content="2016-04-11T10:10:07.443Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="日期相关方法">
+<meta name="twitter:description" content="判断闰年12345678910/* * 判断闰年 * @param  &amp;#123;Number&amp;#125; 年 * @return &amp;#123;Blooean&amp;#125; */function isLeapYear(year) &amp;#123;    return (year % 4 == 0 &amp;amp;&amp;amp; year % 100 != 0) || (year % 400 == 0)&amp;#125;">
+  
+    <link rel="alternative" href="/atom.xml" title="z&#39;blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="/img/head.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">z</a></h1>
+		</hgroup>
+
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>Menu</li>
+						<li>Tags</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/tags/book">前端书籍</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="#" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+					        
+								<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/book/" style="font-size: 10px;">book</a> <a href="/tags/js代码/" style="font-size: 15px;">js代码</a> <a href="/tags/前端资料/" style="font-size: 20px;">前端资料</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">z</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="/img/head.jpg" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">z</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/tags/book">前端书籍</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="#" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+			        
+						<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-date" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/posts/20160411/date.html" class="article-date">
+  	<time datetime="2016-04-11T10:03:36.000Z" itemprop="datePublished">2016-04-11</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      日期相关方法
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js代码/">js代码</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="判断闰年"><a href="#判断闰年" class="headerlink" title="判断闰年"></a>判断闰年</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line"> * 判断闰年</span><br><span class="line"> * @param  &#123;Number&#125; 年</span><br><span class="line"> * @return &#123;Blooean&#125;</span><br><span class="line"> */</span><br><span class="line">function isLeapYear(year) &#123;</span><br><span class="line">    return (year % 4 == 0 &amp;&amp; year % 100 != 0) || (year % 400 == 0)</span><br><span class="line">&#125;</span><br><span class="line">isLeapYear(2015) // false</span><br><span class="line">isLeapYear(2016) // true</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h2 id="补齐月，日数字位数"><a href="#补齐月，日数字位数" class="headerlink" title="补齐月，日数字位数"></a>补齐月，日数字位数</h2><p>通过Date对下的getMonth，getDate返回的数字如果是10以下的需要在前面补齐一个0。这里需要注意的是getMonth返回的月份是从0开始的，即0代表1月份，1代表2月份，依次类推。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line"> * 补齐月，日数字位数</span><br><span class="line"> * @param &#123;number|string&#125; n 需要补齐的数字</span><br><span class="line"> * @return &#123;string&#125; 补齐两位后的字符</span><br><span class="line"> */</span><br><span class="line">function getTwoBit(n) &#123;</span><br><span class="line">    return (n &gt; 9 ? &apos;&apos; : &apos;0&apos;) + n</span><br><span class="line">&#125;</span><br><span class="line">getTwoBit(3)  // &apos;03&apos;</span><br><span class="line">getTwoBit(9)  // &apos;09&apos;</span><br><span class="line">getTwoBit(10) // &apos;10&apos;</span><br><span class="line">getTwoBit(11) // &apos;11&apos;</span><br></pre></td></tr></table></figure>
+<h2 id="Date对象转成日期格式字符串"><a href="#Date对象转成日期格式字符串" class="headerlink" title="Date对象转成日期格式字符串"></a>Date对象转成日期格式字符串</h2><p>有两种格式”2015-01-22” 和 “2015/01/23”<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line"> * 日期对象转成字符串</span><br><span class="line"> * @param  &#123;Date&#125; new Date()</span><br><span class="line"> * @split  &#123;String&#125; &quot;-&quot; 或 &quot;/&quot;</span><br><span class="line"> * @return &#123;String&#125; &quot;2014-12-31&quot;</span><br><span class="line"> */</span><br><span class="line">function date2Str(date, split) &#123;</span><br><span class="line">    split = split || &apos;-&apos;</span><br><span class="line">    var y = date.getFullYear()</span><br><span class="line">    var m = getTwoBit(date.getMonth() + 1)</span><br><span class="line">    var d = getTwoBit(date.getDate())</span><br><span class="line">    return [y, m, d].join(split)   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="日期格式字符串转成Date对象"><a href="#日期格式字符串转成Date对象" class="headerlink" title="日期格式字符串转成Date对象"></a>日期格式字符串转成Date对象</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line"> * 日期字符串转成Date对象</span><br><span class="line"> * @param &#123;String&#125; str</span><br><span class="line"> *   &quot;2014-12-31&quot;</span><br><span class="line"> *   &quot;2014/12/31&quot;</span><br><span class="line"> * @return &#123;Date&#125;</span><br><span class="line"> */</span><br><span class="line">function str2Date(str) &#123;</span><br><span class="line">    var reDate = /^\d&#123;4&#125;\-\d&#123;1,2&#125;\-\d&#123;1,2&#125;/</span><br><span class="line">    if (reDate.test(str)) &#123;</span><br><span class="line">        str = str.replace(/-/g, &apos;/&apos;)</span><br><span class="line">    &#125;</span><br><span class="line">    return new Date(str)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="根据数字返回特定的天"><a href="#根据数字返回特定的天" class="headerlink" title="根据数字返回特定的天"></a>根据数字返回特定的天</h2><p>这个函数根据数字返回特定的日期字符串</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line"> * 返回日期格式字符串</span><br><span class="line"> * @param &#123;Number&#125; 0返回今天的日期、1返回明天的日期，2返回后天得日期，依次类推</span><br><span class="line"> * @return &#123;string&#125; &apos;2014-12-31&apos;</span><br><span class="line"> */</span><br><span class="line">function getSpecDay(i) &#123;</span><br><span class="line">    i = i || 0</span><br><span class="line">    var date = new Date</span><br><span class="line">    var diff = i * (1000 * 60 * 60 * 24)</span><br><span class="line">    date = new Date(date.getTime() + diff)</span><br><span class="line">    return date2Str(date)</span><br><span class="line">&#125;</span><br><span class="line">getSpecDay(0) // 2014-12-31</span><br><span class="line">getSpecDay(1) // 2015-01-01</span><br></pre></td></tr></table></figure>
+<h2 id="根据Date对象获取星期"><a href="#根据Date对象获取星期" class="headerlink" title="根据Date对象获取星期"></a>根据Date对象获取星期</h2><p>有的需求要显示的是 “周三”，有的则是 “星期三”</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line"> * 根据Date对象获取周几</span><br><span class="line"> * @param date &#123;Date|String&#125; 如 &apos;2014-12-22&apos;</span><br><span class="line"> * @param isFormal &#123;Boolean&#125;</span><br><span class="line"> * @return &apos;周一&apos; 或 &apos;星期一&apos;</span><br><span class="line"> */</span><br><span class="line">function getWeekByDate(date, isFormal) &#123;</span><br><span class="line">    var obj = null</span><br><span class="line">    var weekArr1 = [&apos;周日&apos;,&apos;周一&apos;,&apos;周二&apos;,&apos;周三&apos;,&apos;周四&apos;,&apos;周五&apos;,&apos;周六&apos;]</span><br><span class="line">    var weekArr2 = [&apos;星期日&apos;, &apos;星期一&apos;,&apos;星期二&apos;,&apos;星期三&apos;,&apos;星期四&apos;,&apos;星期五&apos;,&apos;星期六&apos;]</span><br><span class="line">    if (typeof date == &apos;string&apos;) &#123;</span><br><span class="line">        obj = str2Date(date)</span><br><span class="line">    &#125; else if (date instanceof Date) &#123;</span><br><span class="line">        obj = date</span><br><span class="line">    &#125;</span><br><span class="line">    var num = obj.getDay()</span><br><span class="line">    return isFormal ? weekArr2[num] : weekArr1[num]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="根据年获取生肖"><a href="#根据年获取生肖" class="headerlink" title="根据年获取生肖"></a>根据年获取生肖</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line"> * 根据年获取生肖</span><br><span class="line"> *</span><br><span class="line"> * **参数**</span><br><span class="line"> *  year &#123;number&#125; 年</span><br><span class="line"> *</span><br><span class="line"> * **示例**</span><br><span class="line"> *  getAnimal(1980) // &quot;猴&quot;</span><br><span class="line"> *  getAnimal(1981) // &quot;鸡&quot;</span><br><span class="line"> *  getAnimal(2013) // &quot;蛇&quot;</span><br><span class="line"> */</span><br><span class="line">function getAnimal(year) &#123;</span><br><span class="line">    var animals = [&apos;鼠&apos;, &apos;牛&apos;, &apos;虎&apos;, &apos;兔&apos;, &apos;龙&apos;, &apos;蛇&apos;, &apos;马&apos;, &apos;羊&apos;, &apos;猴&apos;, &apos;鸡&apos;, &apos;狗&apos;, &apos;猪&apos;];</span><br><span class="line">    var i = (year - 4) % 12;</span><br><span class="line">    return animals[i];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="根据年月返回该月的两个节气，一个公历月有两个节气"><a href="#根据年月返回该月的两个节气，一个公历月有两个节气" class="headerlink" title="根据年月返回该月的两个节气，一个公历月有两个节气"></a>根据年月返回该月的两个节气，一个公历月有两个节气</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line"> * 根据年月返回该月的两个节气，一个公历月有两个节气</span><br><span class="line"> *</span><br><span class="line"> * **节气算法**</span><br><span class="line"> *  http://ershisijieqi.baike.com/article-284624.html</span><br><span class="line"> *  http://www.azg168.com/huangli/24sijieqi/28337.html</span><br><span class="line"> *  http://blog.csdn.net/orbit/article/details/7910220</span><br><span class="line"> *</span><br><span class="line"> * **参数**</span><br><span class="line"> *  year  &#123;number&#125; 年</span><br><span class="line"> *  month &#123;number&#125; 月</span><br><span class="line"> *</span><br><span class="line"> * **返回**</span><br><span class="line"> *  object</span><br><span class="line"> *</span><br><span class="line"> * **示例**</span><br><span class="line"> *  getSolarTerm(2016, 4); // &#123;day1: 4, term1: &quot;清明&quot;, day2: 19, term2: &quot;谷雨&quot;&#125;</span><br><span class="line"> *</span><br><span class="line"> */</span><br><span class="line">function getSolarTerm(year, month) &#123;</span><br><span class="line">    var solarTerm = [</span><br><span class="line">        &quot;小寒&quot;, &quot;大寒&quot;,</span><br><span class="line">        &quot;立春&quot;, &quot;雨水&quot;,</span><br><span class="line">        &quot;惊蛰&quot;, &quot;春分&quot;,</span><br><span class="line">        &quot;清明&quot;, &quot;谷雨&quot;,</span><br><span class="line">        &quot;立夏&quot;, &quot;小满&quot;,</span><br><span class="line">        &quot;芒种&quot;, &quot;夏至&quot;,</span><br><span class="line">        &quot;小暑&quot;, &quot;大暑&quot;,</span><br><span class="line">        &quot;立秋&quot;, &quot;处暑&quot;,</span><br><span class="line">        &quot;白露&quot;, &quot;秋分&quot;,</span><br><span class="line">        &quot;寒露&quot;, &quot;霜降&quot;,</span><br><span class="line">        &quot;立冬&quot;, &quot;小雪&quot;,</span><br><span class="line">        &quot;大雪&quot;, &quot;冬至&quot;</span><br><span class="line">    ];</span><br><span class="line">    var termInfo = [</span><br><span class="line">        0, 21208, 42467, 63836, 85337, 107014,</span><br><span class="line">        128867, 150921, 173149, 195551, 218072,</span><br><span class="line">        240693, 263343, 285989, 308563, 331033,</span><br><span class="line">        353350, 375494, 397447, 419210, 440795,</span><br><span class="line">        462224, 483532, 504758</span><br><span class="line">    ];</span><br><span class="line">    // 返回某年的第n个节气为几日(从0小寒起算)</span><br><span class="line">    function computeTermDay(y, n) &#123;</span><br><span class="line">        var d = new Date((31556925974.7 * (y - 1900) + termInfo[n] * 60000) + Date.UTC(1900, 0, 6, 2, 5));</span><br><span class="line">        return d.getUTCDate();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // month 转为 [0-11] 范畴</span><br><span class="line">    month = month - 1;</span><br><span class="line"></span><br><span class="line">    // 计算节气</span><br><span class="line">    var n1 = month * 2;</span><br><span class="line">    var n2 = month * 2 + 1;</span><br><span class="line">    // day1, day2 为当月的两个节气日</span><br><span class="line">    var day1 = computeTermDay(year, n1);</span><br><span class="line">    var day2 = computeTermDay(year, n2);</span><br><span class="line">    // 当月的两个节气名称</span><br><span class="line">    var term1 = solarTerm[n1];</span><br><span class="line">    var term2 = solarTerm[n2];</span><br><span class="line"></span><br><span class="line">    // 返回结果</span><br><span class="line">    return &#123;</span><br><span class="line">        day1: day1,</span><br><span class="line">        term1: term1,</span><br><span class="line">        day2: day2,</span><br><span class="line">        term2: term2</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="获取Y年的清明节是哪一天"><a href="#获取Y年的清明节是哪一天" class="headerlink" title="获取Y年的清明节是哪一天"></a>获取Y年的清明节是哪一天</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line"> * 获取Y年的清明节是哪一天</span><br><span class="line"> *</span><br><span class="line"> * **参数**</span><br><span class="line"> *  yare &#123;number&#125; 年</span><br><span class="line"> *</span><br><span class="line"> * **示例**</span><br><span class="line"> *  getQingMing(2015); // 0405</span><br><span class="line"> *  getQingMing(2016); // 0404</span><br><span class="line"> */</span><br><span class="line">function getQingMing(year) &#123;</span><br><span class="line">    // [Y*D+C]-L</span><br><span class="line">    // Y=年数后2位，D=0.2422，L=闰年数，21世纪C=4.81，20世纪=5.59</span><br><span class="line">    var d = 0.2422;</span><br><span class="line">    var c = 4.81;</span><br><span class="line">    var y = (year + &apos;&apos;).substr(2);</span><br><span class="line">    var day = parseInt(y*d+c) - parseInt(y/4);</span><br><span class="line">    return day;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/posts/20160411/shareJs.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">分享代码</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">Share to: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a>
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a>
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2094285" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
+
+
+
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="date" data-title="日期相关方法" data-url="http://yoursite.com/posts/20160411/date.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"popfly"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 z
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
