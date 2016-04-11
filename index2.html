@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="email=no" name="format-detection">
+	<title>车享保</title>
+	<meta itemprop="name" content="快快租车车享保，高额全保，一口价2499">
+	<meta itemprop="description" content="快快车享保，一口价2499!省下的钱可以买一台iphone se！">
+	<meta itemprop="image" content="http://m.kuaikuaizuche.com/cxbIntroduce/images/share.jpg">
+	<script>
+		!function(a,b){function c(){var b=f.getBoundingClientRect().width;b/i>540&&(b=540*i);var c=b/10;f.style.fontSize=c+"px",k.rem=a.rem=c}var d,e=a.document,f=e.documentElement,g=e.querySelector('meta[name="viewport"]'),h=e.querySelector('meta[name="flexible"]'),i=0,j=0,k=b.flexible||(b.flexible={});if(g){var l=g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);l&&(j=parseFloat(l[1]),i=parseInt(1/j))}else if(h){var m=h.getAttribute("content");if(m){var n=m.match(/initial\-dpr=([\d\.]+)/),o=m.match(/maximum\-dpr=([\d\.]+)/);n&&(i=parseFloat(n[1]),j=parseFloat((1/i).toFixed(2))),o&&(i=parseFloat(o[1]),j=parseFloat((1/i).toFixed(2)))}}if(!i&&!j){var p=a.navigator.userAgent,q=(!!p.match(/android/gi),!!p.match(/iphone/gi)),r=q&&!!p.match(/OS 9_3/),s=a.devicePixelRatio;i=q&&!r?s>=3&&(!i||i>=3)?3:s>=2&&(!i||i>=2)?2:1:1,j=1/i}if(f.setAttribute("data-dpr",i),!g)if(g=e.createElement("meta"),g.setAttribute("name","viewport"),g.setAttribute("content","initial-scale="+j+", maximum-scale="+j+", minimum-scale="+j+", user-scalable=no"),f.firstElementChild)f.firstElementChild.appendChild(g);else{var t=e.createElement("div");t.appendChild(g),e.write(t.innerHTML)}a.addEventListener("resize",function(){clearTimeout(d),d=setTimeout(c,300)},!1),a.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(d),d=setTimeout(c,300))},!1),"complete"===e.readyState?e.body.style.fontSize=12*i+"px":e.addEventListener("DOMContentLoaded",function(){e.body.style.fontSize=12*i+"px"},!1),c(),k.dpr=a.dpr=i,k.refreshRem=c,k.rem2px=function(a){var b=parseFloat(a)*this.rem;return"string"==typeof a&&a.match(/rem$/)&&(b+="px"),b},k.px2rem=function(a){var b=parseFloat(a)/this.rem;return"string"==typeof a&&a.match(/px$/)&&(b+="rem"),b}}(window,window.lib||(window.lib={}));
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/index.css?rev=1460345405468">
+</head>
+<body ontouchstart>
+	<nav>
+		<img src="images/c-banner.png">
+	</nav>
+	<p class="err-tip"></p>
+	<section>
+		<p class="input-wrapper tel-wrapper">
+			<span>手机号码</span>
+			<input type="tel" placeholder="请输入手机号码" maxlength="11" id="tel">
+			<i>+</i>
+		</p>
+		<p class="input-wrapper cap-wrapper">
+			<span>验证码</span>
+			<input type="tel" placeholder="请输入短信验证码" maxlength="6" id="cap">
+			<i>+</i>
+			<button id="getCap">获取验证码</button>
+		</p>
+		<a href="javascript:void(0);" class="submit">进入我的邀请页面</a>
+	</section>
+	<p class="tip">每邀请一名用户成功购买<i>车享宝</i>产品：您和购买产<br/>品的好友最高可获得<i>100元</i>微信红包</p>
+<script src="js/zepto.js"></script>
+<script src="js/md5.min.js"></script>
+<script src="js/index.js?rev=1460345405468"></script>
+</body>
+</html>
