@@ -3,6 +3,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20160411/shareJs.html</loc>
+    <lastmod>2016-04-11T10:58:06.265Z</lastmod>
+    <data>
+        <display>
+        <title>分享代码</title>
+        <pubTime>2016-04-11T08:38:38.000Z</pubTime>
+        
+        <tag>js代码 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20160411/date.html</loc>
     <lastmod>2016-04-11T10:10:07.443Z</lastmod>
     <data>
@@ -28,23 +45,6 @@
         <pubTime>2016-04-08T02:48:09.000Z</pubTime>
         
         <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160411/shareJs.html</loc>
-    <lastmod>2016-04-11T09:45:48.364Z</lastmod>
-    <data>
-        <display>
-        <title>分享代码</title>
-        <pubTime>2016-04-11T08:38:38.000Z</pubTime>
-        
-        <tag>js代码 </tag>
          
          
            
