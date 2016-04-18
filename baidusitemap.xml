@@ -3,6 +3,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20160407/hello-world.html</loc>
+    <lastmod>2016-04-18T09:31:48.001Z</lastmod>
+    <data>
+        <display>
+        <title>前端集合</title>
+        <pubTime>2016-04-07T03:28:29.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20160411/shareJs.html</loc>
     <lastmod>2016-04-11T10:58:06.265Z</lastmod>
     <data>
@@ -43,23 +60,6 @@
         <display>
         <title>pc刮卡抽奖</title>
         <pubTime>2016-04-08T02:48:09.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160407/hello-world.html</loc>
-    <lastmod>2016-04-11T03:45:01.022Z</lastmod>
-    <data>
-        <display>
-        <title>前端集合</title>
-        <pubTime>2016-04-07T03:28:29.000Z</pubTime>
         
         <tag>前端资料 </tag>
          
