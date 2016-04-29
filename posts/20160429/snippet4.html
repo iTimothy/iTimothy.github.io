@@ -5,18 +5,33 @@
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <meta name="baidu-site-verification" content="lZTaCRkdD0" >
-  <title>书籍 | z&#39;blog</title>
+  <title>常用js片段集合(5) | z&#39;blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="前端书籍javascript语言精粹  ECMAScript6入门  正则表达式必知必会  SEO优化  node开发指南  CANVAS游戏开发  高性能JavaScript  JavaScript高级程序设计">
+  <meta name="description" content="数组去重function outRepeat(a){
+        var hash=[],arr=[];
+        for (var i = 0; i &amp;lt; a.length; i++) {
+            hash[a[i]]!=null;
+            if(!hash[a[i]]){
+                arr.push(a[i]);">
 <meta property="og:type" content="article">
-<meta property="og:title" content="书籍">
-<meta property="og:url" content="http://yoursite.com/posts/20160408/books.html">
+<meta property="og:title" content="常用js片段集合(5)">
+<meta property="og:url" content="http://yoursite.com/posts/20160429/snippet4.html">
 <meta property="og:site_name" content="z'blog">
-<meta property="og:description" content="前端书籍javascript语言精粹  ECMAScript6入门  正则表达式必知必会  SEO优化  node开发指南  CANVAS游戏开发  高性能JavaScript  JavaScript高级程序设计">
-<meta property="og:updated_time" content="2016-04-08T04:48:59.298Z">
+<meta property="og:description" content="数组去重function outRepeat(a){
+        var hash=[],arr=[];
+        for (var i = 0; i &amp;lt; a.length; i++) {
+            hash[a[i]]!=null;
+            if(!hash[a[i]]){
+                arr.push(a[i]);">
+<meta property="og:updated_time" content="2016-04-29T02:21:26.945Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="书籍">
-<meta name="twitter:description" content="前端书籍javascript语言精粹  ECMAScript6入门  正则表达式必知必会  SEO优化  node开发指南  CANVAS游戏开发  高性能JavaScript  JavaScript高级程序设计">
+<meta name="twitter:title" content="常用js片段集合(5)">
+<meta name="twitter:description" content="数组去重function outRepeat(a){
+        var hash=[],arr=[];
+        for (var i = 0; i &amp;lt; a.length; i++) {
+            hash[a[i]]!=null;
+            if(!hash[a[i]]){
+                arr.push(a[i]);">
   
     <link rel="alternative" href="/atom.xml" title="z&#39;blog" type="application/atom+xml">
   
@@ -164,11 +179,11 @@
 	</div>
 </nav>
 
-      <div class="body-wrap"><article id="post-books" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-snippet4" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/posts/20160408/books.html" class="article-date">
-  	<time datetime="2016-04-08T04:35:56.000Z" itemprop="datePublished">2016-04-08</time>
+      <a href="/posts/20160429/snippet4.html" class="article-date">
+  	<time datetime="2016-04-29T02:19:41.000Z" itemprop="datePublished">2016-04-29</time>
 </a>
     </div>
   
@@ -181,7 +196,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      书籍
+      常用js片段集合(5)
     </h1>
   
 
@@ -190,7 +205,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/book/">book</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端资料/">前端资料</a></li></ul>
 	</div>
 
         
@@ -201,8 +216,43 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="前端书籍"><a href="#前端书籍" class="headerlink" title="前端书籍"></a>前端书籍</h2><p><a href="http://share.weiyun.com/cc08dbdee0baabf0b42cb26703826486" target="_blank" rel="external">javascript语言精粹</a> <i class="s15"></i> <a href="http://share.weiyun.com/17ebebc1a8cdf48407b969dad707c4e7" target="_blank" rel="external">ECMAScript6入门</a> <i class="s15"></i> <a href="http://share.weiyun.com/72ae0e31b5c5871f5e067f164409ec2c" target="_blank" rel="external">正则表达式必知必会</a> <i class="s15"></i> <a href="http://share.weiyun.com/8338f59aca70b09fed3ab04af8924a7a" target="_blank" rel="external">SEO优化</a> <i class="s15"></i> <a href="http://pan.baidu.com/s/1qXNUchQ" target="_blank" rel="external">node开发指南</a> <i class="s15"></i> <a href="http://pan.baidu.com/s/1eSLgRdw" target="_blank" rel="external">CANVAS游戏开发</a> <i class="s15"></i> <a href="http://pan.baidu.com/s/1dFue5jj" target="_blank" rel="external">高性能JavaScript</a> <i class="s15"></i> <a href="http://pan.baidu.com/s/1jItUub0" target="_blank" rel="external">JavaScript高级程序设计</a></p>
+        <h3 id="数组去重"><a href="#数组去重" class="headerlink" title="数组去重"></a>数组去重</h3><pre><code>function outRepeat(a){
+        var hash=[],arr=[];
+        for (var i = 0; i &lt; a.length; i++) {
+            hash[a[i]]!=null;
+            if(!hash[a[i]]){
+                arr.push(a[i]);
+                hash[a[i]]=true;
+            }
+        }
+        console.log(arr);
+    }
+    outRepeat([2,4,4,5,&quot;a&quot;,&quot;a&quot;]);//[2, 4, 5, &quot;a&quot;]
+</code></pre><a id="more"></a>
+<pre><code>function outRepeat(a){
+            var hash=[],arr=[];
+            for (var i = 0,elem;(elem=a[i])!=null; i++) {
+                if(!hash[elem]){
+                    arr.push(elem);
+                    hash[elem]=true;
+                }
+            }
+            console.log(arr);
+        }
+        outRepeat([2,4,4,5,&quot;a&quot;,&quot;a&quot;]);//[2, 4, 5, &quot;a&quot;]
 
+function outRepeat(a){
+            var hash=[],arr=[];
+            for (var i = 0; i &lt; a.length; i++) {
+                hash[a[i]]=null;
+            }
+            for(var key in hash){
+                   arr.push(key);                
+                }
+            console.log(arr);
+        }
+        outRepeat([2,4,4,5,&quot;a&quot;,&quot;a&quot;]);//[&quot;2&quot;, &quot;4&quot;, &quot;5&quot;, &quot;a&quot;]
+</code></pre>
       
     </div>
     
@@ -211,18 +261,9 @@
     
 <nav id="article-nav">
   
-    <a href="/posts/20160411/shareJs.html" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          分享代码
-        
-      </div>
-    </a>
   
-  
-    <a href="/posts/20160408/effects.html" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">转盘抽奖</div>
+    <a href="/posts/20160411/date.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">日期相关方法</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -257,7 +298,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="books" data-title="书籍" data-url="http://yoursite.com/posts/20160408/books.html"></div>
+	<div class="ds-thread" data-thread-key="snippet4" data-title="常用js片段集合(5)" data-url="http://yoursite.com/posts/20160429/snippet4.html"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">

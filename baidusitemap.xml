@@ -3,6 +3,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20160429/snippet4.html</loc>
+    <lastmod>2016-04-29T02:21:26.945Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(5)</title>
+        <pubTime>2016-04-29T02:19:41.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20160407/hello-world.html</loc>
     <lastmod>2016-04-18T09:31:48.001Z</lastmod>
     <data>
@@ -45,23 +62,6 @@
         <pubTime>2016-04-11T10:03:36.000Z</pubTime>
         
         <tag>js代码 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160408/effects2.html</loc>
-    <lastmod>2016-04-11T09:47:07.206Z</lastmod>
-    <data>
-        <display>
-        <title>pc刮卡抽奖</title>
-        <pubTime>2016-04-08T02:48:09.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
          
          
            
