@@ -21,7 +21,7 @@
 * 调用： f.rootTouchBind(t);
 *    t:  传入调用此方法的id字符串
 */">
-<meta property="og:updated_time" content="2016-04-08T03:39:23.170Z">
+<meta property="og:updated_time" content="2016-05-19T08:39:24.445Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="常用js片段集合(4)">
 <meta name="twitter:description" content="自定义滚动条/**
@@ -401,64 +401,6 @@
     document.body.innerHTML = dd + &quot;天&quot; + hh + &quot;时&quot; + mm + &quot;分&quot; + ss + &quot;秒&quot;;  
 }  
 setInterval(timer,1000);
-</code></pre><h3 id="简单手势封装"><a href="#简单手势封装" class="headerlink" title="简单手势封装"></a>简单手势封装</h3><pre><code>!(function(){
-    /**
-    * [addListener Class]
-    * @param {[type]} option object
-    * @example new addListener({elem:htmlElement});
-    */
-    var addListener = function(option){
-        this.option = option || {};
-        this.handler();
-    }
-    addListener.prototype.handler = function(){
-        var init = {sx:0,sy:0,ex:0,ey:0,cx:0,cy:0,ax:50,ay:50},
-        option = this.option,
-        path = option.path || 20,
-        _elem = option.elem;
-
-        _elem.addEventListener(&apos;touchstart&apos;,function(e){
-
-            e.preventDefault();
-            init.sx=e.targetTouches[0].pageX;
-            init.sy=e.targetTouches[0].pageY;
-
-         },false);
-
-        _elem.addEventListener(&apos;touchmove&apos;, function(e){
-
-            e.preventDefault();
-            init.ex = e.targetTouches[0].pageX;
-            init.ey = e.targetTouches[0].pageY;
-
-          }, false);
-
-        _elem.addEventListener(&apos;touchend&apos;, function(e){
-
-          e.preventDefault();
-          init.cx = init.ex - init.sx;
-          init.cy = init.ey - init.sy;
-          if(init.cx&gt;path &amp;&amp; Math.abs(init.cy)&lt;=init.ay){
-
-            option.swipeRight &amp;&amp; option.swipeRight();
-
-          }else if(init.cx&lt;-path &amp;&amp; Math.abs(init.cy)&lt;=init.ay){
-
-            option.swipeLeft &amp;&amp; option.swipeLeft();
-
-          }else if(init.cy&lt;-path &amp;&amp; Math.abs(init.cx)&lt;=init.ax){
-
-            option.swipeUp &amp;&amp; option.swipeUp();
-
-          }else if(init.cy&gt;path &amp;&amp; Math.abs(init.cx)&lt;=init.ax){
-
-            option.swipeDown &amp;&amp; option.swipeDown();
-
-          }
-        }, false);
-    }
-    window.addListener = addListener;
-}(window));
 </code></pre><h3 id="类似jq的选择器"><a href="#类似jq的选择器" class="headerlink" title="类似jq的选择器"></a>类似jq的选择器</h3><pre><code>!function(win, doc, undefined) {
 
     var slice = Array.prototype.slice

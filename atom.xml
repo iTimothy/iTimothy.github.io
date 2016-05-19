@@ -491,7 +491,7 @@ function outRepeat(a){
     <link href="http://yoursite.com/posts/20160408/snippet3.html"/>
     <id>http://yoursite.com/posts/20160408/snippet3.html</id>
     <published>2016-04-08T02:27:12.000Z</published>
-    <updated>2016-04-08T03:39:23.170Z</updated>
+    <updated>2016-05-19T08:39:24.445Z</updated>
     
     <content type="html">&lt;h3 id=&quot;自定义滚动条&quot;&gt;&lt;a href=&quot;#自定义滚动条&quot; class=&quot;headerlink&quot; title=&quot;自定义滚动条&quot;&gt;&lt;/a&gt;自定义滚动条&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;/**
 *
@@ -681,64 +681,6 @@ function outRepeat(a){
     document.body.innerHTML = dd + &amp;quot;天&amp;quot; + hh + &amp;quot;时&amp;quot; + mm + &amp;quot;分&amp;quot; + ss + &amp;quot;秒&amp;quot;;  
 }  
 setInterval(timer,1000);
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;简单手势封装&quot;&gt;&lt;a href=&quot;#简单手势封装&quot; class=&quot;headerlink&quot; title=&quot;简单手势封装&quot;&gt;&lt;/a&gt;简单手势封装&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;!(function(){
-    /**
-    * [addListener Class]
-    * @param {[type]} option object
-    * @example new addListener({elem:htmlElement});
-    */
-    var addListener = function(option){
-        this.option = option || {};
-        this.handler();
-    }
-    addListener.prototype.handler = function(){
-        var init = {sx:0,sy:0,ex:0,ey:0,cx:0,cy:0,ax:50,ay:50},
-        option = this.option,
-        path = option.path || 20,
-        _elem = option.elem;
-
-        _elem.addEventListener(&amp;apos;touchstart&amp;apos;,function(e){
-
-            e.preventDefault();
-            init.sx=e.targetTouches[0].pageX;
-            init.sy=e.targetTouches[0].pageY;
-
-         },false);
-
-        _elem.addEventListener(&amp;apos;touchmove&amp;apos;, function(e){
-
-            e.preventDefault();
-            init.ex = e.targetTouches[0].pageX;
-            init.ey = e.targetTouches[0].pageY;
-
-          }, false);
-
-        _elem.addEventListener(&amp;apos;touchend&amp;apos;, function(e){
-
-          e.preventDefault();
-          init.cx = init.ex - init.sx;
-          init.cy = init.ey - init.sy;
-          if(init.cx&amp;gt;path &amp;amp;&amp;amp; Math.abs(init.cy)&amp;lt;=init.ay){
-
-            option.swipeRight &amp;amp;&amp;amp; option.swipeRight();
-
-          }else if(init.cx&amp;lt;-path &amp;amp;&amp;amp; Math.abs(init.cy)&amp;lt;=init.ay){
-
-            option.swipeLeft &amp;amp;&amp;amp; option.swipeLeft();
-
-          }else if(init.cy&amp;lt;-path &amp;amp;&amp;amp; Math.abs(init.cx)&amp;lt;=init.ax){
-
-            option.swipeUp &amp;amp;&amp;amp; option.swipeUp();
-
-          }else if(init.cy&amp;gt;path &amp;amp;&amp;amp; Math.abs(init.cx)&amp;lt;=init.ax){
-
-            option.swipeDown &amp;amp;&amp;amp; option.swipeDown();
-
-          }
-        }, false);
-    }
-    window.addListener = addListener;
-}(window));
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;类似jq的选择器&quot;&gt;&lt;a href=&quot;#类似jq的选择器&quot; class=&quot;headerlink&quot; title=&quot;类似jq的选择器&quot;&gt;&lt;/a&gt;类似jq的选择器&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;!function(win, doc, undefined) {
 
     var slice = Array.prototype.slice

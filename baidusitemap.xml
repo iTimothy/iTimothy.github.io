@@ -3,6 +3,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20160408/snippet3.html</loc>
+    <lastmod>2016-05-19T08:39:24.445Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(4)</title>
+        <pubTime>2016-04-08T02:27:12.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20160429/snippet4.html</loc>
     <lastmod>2016-04-29T02:21:26.945Z</lastmod>
     <data>
@@ -79,23 +96,6 @@
         <pubTime>2016-04-08T04:35:56.000Z</pubTime>
         
         <tag>book </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160408/snippet3.html</loc>
-    <lastmod>2016-04-08T03:39:23.170Z</lastmod>
-    <data>
-        <display>
-        <title>常用js片段集合(4)</title>
-        <pubTime>2016-04-08T02:27:12.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
          
          
            
