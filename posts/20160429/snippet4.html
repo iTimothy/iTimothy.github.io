@@ -23,7 +23,7 @@
             hash[a[i]]!=null;
             if(!hash[a[i]]){
                 arr.push(a[i]);">
-<meta property="og:updated_time" content="2016-04-29T02:21:26.945Z">
+<meta property="og:updated_time" content="2016-05-25T07:02:17.478Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="常用js片段集合(5)">
 <meta name="twitter:description" content="数组去重function outRepeat(a){
@@ -252,7 +252,11 @@ function outRepeat(a){
             console.log(arr);
         }
         outRepeat([2,4,4,5,&quot;a&quot;,&quot;a&quot;]);//[&quot;2&quot;, &quot;4&quot;, &quot;5&quot;, &quot;a&quot;]
-</code></pre>
+</code></pre><h3 id="检查元素是否位于当前视窗-可用于lazyload-infinite-scroll等常见功能"><a href="#检查元素是否位于当前视窗-可用于lazyload-infinite-scroll等常见功能" class="headerlink" title="检查元素是否位于当前视窗(可用于lazyload, infinite scroll等常见功能)"></a>检查元素是否位于当前视窗(可用于lazyload, infinite scroll等常见功能)</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">function isInViewport(el) &#123;</span><br><span class="line">    var rect = el.getBoundingClientRect();</span><br><span class="line"></span><br><span class="line">    return rect.bottom &gt; 0 &amp;&amp;</span><br><span class="line">        rect.right &gt; 0 &amp;&amp;</span><br><span class="line">        rect.left &lt; (window.innerWidth || document. documentElement.clientWidth) &amp;&amp;</span><br><span class="line">        rect.top &lt; (window.innerHeight || document. documentElement.clientHeight);</span><br><span class="line">&#125;</span><br><span class="line">e.g.</span><br><span class="line">window.addEventListener(&apos;scroll&apos;, function() &#123;</span><br><span class="line">    isInViewport(el);</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<h3 id="html5-标签在-IE-下使用"><a href="#html5-标签在-IE-下使用" class="headerlink" title="html5 标签在 IE 下使用"></a>html5 标签在 IE 下使用</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(function()&#123;if(!/*@cc_on!@*/0)return;var e = &quot;abbr,article,aside,audio,bb,canvas,datagrid,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video&quot;.split(&apos;,&apos;),i=e.length;while(i--)&#123;document.createElement(e[i])&#125;&#125;)()</span><br></pre></td></tr></table></figure>
+<h3 id="浅化-深化颜色"><a href="#浅化-深化颜色" class="headerlink" title="浅化/深化颜色"></a>浅化/深化颜色</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">function LightenDarkenColor(col, amt) &#123;</span><br><span class="line">    var usePound = false;</span><br><span class="line">    if (col[0] == &quot;#&quot;) &#123;</span><br><span class="line">        col = col.slice(1);</span><br><span class="line">        usePound = true;</span><br><span class="line">    &#125;</span><br><span class="line">    var num = parseInt(col,16);</span><br><span class="line">    var r = (num &gt;&gt; 16) + amt;</span><br><span class="line">    if (r &gt; 255) r = 255;</span><br><span class="line">    else if  (r &lt; 0) r = 0;</span><br><span class="line">    var b = ((num &gt;&gt; 8) &amp; 0x00FF) + amt;</span><br><span class="line">    if (b &gt; 255) b = 255;</span><br><span class="line">    else if  (b &lt; 0) b = 0;</span><br><span class="line">    var g = (num &amp; 0x0000FF) + amt;</span><br><span class="line">    if (g &gt; 255) g = 255;</span><br><span class="line">    else if (g &lt; 0) g = 0;</span><br><span class="line">    return (usePound?&quot;#&quot;:&quot;&quot;) + (g | (b &lt;&lt; 8) | (r &lt;&lt; 16)).toString(16);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">e.g.</span><br><span class="line">// Lighten</span><br><span class="line">var NewColor = LightenDarkenColor(&quot;#F06D06&quot;, 20);</span><br><span class="line"></span><br><span class="line">// Darken</span><br><span class="line">var NewColor = LightenDarkenColor(&quot;#F06D06&quot;, -20);</span><br></pre></td></tr></table></figure>
+<h3 id="让-IE-背景图不闪烁"><a href="#让-IE-背景图不闪烁" class="headerlink" title="让 IE 背景图不闪烁"></a>让 IE 背景图不闪烁</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">try &#123;</span><br><span class="line"> document.execCommand(&quot;BackgroundImageCache&quot;, false, true);</span><br><span class="line">&#125; catch(err) &#123;&#125;</span><br></pre></td></tr></table></figure>
+
       
     </div>
     
@@ -260,6 +264,15 @@ function outRepeat(a){
   
     
 <nav id="article-nav">
+  
+    <a href="/posts/20160525/snippet6.html" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          常用js片段集合(6)
+        
+      </div>
+    </a>
   
   
     <a href="/posts/20160411/date.html" id="article-nav-older" class="article-nav-link-wrap">

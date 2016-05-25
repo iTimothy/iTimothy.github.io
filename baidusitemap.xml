@@ -3,12 +3,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/posts/20160408/snippet3.html</loc>
-    <lastmod>2016-05-19T08:39:24.445Z</lastmod>
+    <loc>http://yoursite.com/posts/20160525/snippet7.html</loc>
+    <lastmod>2016-05-25T07:10:00.837Z</lastmod>
     <data>
         <display>
-        <title>常用js片段集合(4)</title>
-        <pubTime>2016-04-08T02:27:12.000Z</pubTime>
+        <title>常用js片段集合(7)</title>
+        <pubTime>2016-05-25T07:05:05.000Z</pubTime>
         
         <tag>前端资料 </tag>
          
@@ -21,11 +21,45 @@
     
   <url>
     <loc>http://yoursite.com/posts/20160429/snippet4.html</loc>
-    <lastmod>2016-04-29T02:21:26.945Z</lastmod>
+    <lastmod>2016-05-25T07:02:17.478Z</lastmod>
     <data>
         <display>
         <title>常用js片段集合(5)</title>
         <pubTime>2016-04-29T02:19:41.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160525/snippet6.html</loc>
+    <lastmod>2016-05-25T06:54:39.048Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(6)</title>
+        <pubTime>2016-05-25T06:29:02.000Z</pubTime>
+        
+        <tag>前端资料 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160408/snippet3.html</loc>
+    <lastmod>2016-05-19T08:39:24.445Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(4)</title>
+        <pubTime>2016-04-08T02:27:12.000Z</pubTime>
         
         <tag>前端资料 </tag>
          

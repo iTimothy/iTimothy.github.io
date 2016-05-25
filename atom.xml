@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-29T02:21:26.945Z</updated>
+  <updated>2016-05-25T07:10:00.837Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,177 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>常用js片段集合(7)</title>
+    <link href="http://yoursite.com/posts/20160525/snippet7.html"/>
+    <id>http://yoursite.com/posts/20160525/snippet7.html</id>
+    <published>2016-05-25T07:05:05.000Z</published>
+    <updated>2016-05-25T07:10:00.837Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;中文转拼音&quot;&gt;&lt;a href=&quot;#中文转拼音&quot; class=&quot;headerlink&quot; title=&quot;中文转拼音&quot;&gt;&lt;/a&gt;中文转拼音&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;/**/~(function(){/**/
+//二分法汉字转拼音
+var key = &amp;quot;吖哎安肮凹八挀扳邦勹陂奔伻皀边灬憋汃冫癶峬嚓偲参仓撡冊嵾噌叉犲辿伥抄车抻阷吃充抽出膗巛刅吹旾踔呲从凑粗汆镩蹿崔邨搓咑呆丹当刀恴揼灯仾嗲敁刁爹丁丟东吺剢耑叾吨多妸奀鞥仒发帆匚飞分丰覅仏垺夫旮侅干冈皋戈给根更工勾估瓜乖关光归丨呙妎咍兯夯茠诃黒拫亨乊叿齁乎花怀欢巟灰昏吙丌加戋江艽阶巾坕冂丩凥姢噘军咔开刊忼尻匼肎劥空廤扝夸蒯宽匡亏坤扩垃来兰啷捞仂雷塄唎俩嫾簗蹽咧厸伶溜咯龙娄噜驴孪掠抡捋嘸妈埋颟牤猫庅呅椚掹踎宀喵乜民名谬摸哞某母拏腉囡囔孬疒娞嫩莻妮拈娘鸟捏脌宁妞农羺奴女疟奻硸噢妑拍眅乓抛呸喷匉丕片剽氕姘乒钋剖仆七掐千呛悄切亲靑宆丘区峑炔夋亽呥穣荛惹人扔日戎厹嶿堧桵闰挼仨毢三桒掻色杀筛山伤弰奢申升尸収书刷衰闩双谁妁厶忪凁苏狻夊孙唆他囼坍汤仐忑膯剔天旫怗厅囲偷凸湍推吞乇屲歪乛尣危塭翁挝乌夕呷仙乡灱些忄兴凶休戌吅疶坃丫咽央幺倻膶一乚应哟佣优扜囦曰蒀帀災兂牂傮啫贼怎曽吒夈沾张佋蜇贞凧之中州朱抓拽专妆隹宒卓仔孖宗邹租劗厜尊昨&amp;quot;.split(&amp;quot;&amp;quot;);
+var pinyin = &amp;quot;AAiAnAngAoBaBaiBanBangBaoBeiBenBengBiBianBiaoBieBinBingBoBuCaCaiCanCangCaoCeCenCengChaChaiChanChangChaoCheChenChengChiChongChouChuChuaiChuanChuangChuiChunChuoCiCongCouCuCuanChuanCuanCuiCunCuoDaDaiDanDangDaoDeDenDengDiDiaDianDiaoDieDingDiuDongDouDuDuanDuiDunDuoEEnEngErFaFanFangFeiFenFengFiaoFoFouFuGaGaiGanGangGaoGeGeiGenGengGongGouGuGuaGuaiGuanGuangGuiGunGuoHaHaiHanHangHaoHeHeiHenHengHoHongHouHuHuaHuaiHuanHuangHuiHunHuoJiJiaJianJiangJiaoJieJinJingJiongJiuJuJuanJueJunKaKaiKanKangKaoKeKenKengKongKouKuKuaKuaiKuanKuangKuiKunKuoLaLaiLanLangLaoLeLeiLengLiLiaLianLiangLiaoLieLinLingLiuLoLongLouLuLvLuanLveLunLuoMMaMaiManMangMaoMeMeiMenMengMiMianMiaoMieMinMingMiuMoMouMeiMuNaNaiNanNangNaoNeNeiNenNNiNianNiangNiaoNieNinNingNiuNongNouNuNvNveNuanNuoOuPaPaiPanPangPaoPeiPenPengPiPianPiaoPiePinPingPoPouPuQiQiaQianQiangQiaoQieQinQingQiongQiuQuQuanQueQunRaRanRangRaoReRenRengRiRongRouRuRuanRuiRunRuoSaSaiSanSangSaoSeShaShaiShanShangShaoSheShenShengShiShouShuShuaShuaiShuanShuangShuiShuoSiSongSouSuSuanSuiSunSuoTaTaiTanTangTaoTeTengTiTianTiaoTieTingTongTouTuTuanTuiTunTuoWaWaiWanWangWeiWenWengWoWuXiXiaXianXiangXiaoXieXinXingXiongXiuXuXuanXueXunYaYanYangYaoYeYenYiYinYingYoYongYouYuYuanYueYunZaZaiZanZangZaoZeZeiZenZengZhaZhaiZhanZhangZhaoZheZhenZhengZhiZhongZhouZhuZhuaZhuaiZhuanZhuangZhuiZhunZhuoZaiZiZongZouZuZuanZuiZunZuo&amp;quot;.split(/(?=[A-Z])/g);
+var cache = {};
+var keyLen=key.length-1;
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;pre&gt;&lt;code&gt;return function pinyinFn(w){
+
+  if(w.length&amp;gt;1){
+    var ret=&amp;apos;&amp;apos;;
+    for(var i=0;i&amp;lt;w.length;i++){
+      ret+=pinyinFn(w.charAt(i))
+    }
+    return ret;
+  }
+
+  if(!/[\u4e00-\u9fa5]/.test(w)){
+    return w;
+  }
+
+  if(cache[w]){
+    return cache[w];
+  }
+
+  var begin=0;
+
+  var end=keyLen;
+
+  while(begin&amp;lt;=end){
+   var middle = Math.floor((begin+end)/2);
+   if(w.localeCompare(key[middle])&amp;lt;0){
+     end=middle-1;
+   } else {
+     begin=middle+1;
+   }
+  }
+
+  return cache[w] = pinyin[end];
+
+};
+/**/}());/**/
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;按字节截取字符串&quot;&gt;&lt;a href=&quot;#按字节截取字符串&quot; class=&quot;headerlink&quot; title=&quot;按字节截取字符串&quot;&gt;&lt;/a&gt;按字节截取字符串&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;function subSt(str, len)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  var newLength = 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  var newStr = &amp;quot;&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  var chineseRegex = /[^\x00-\xff]/g;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  var singleChar = &amp;quot;&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  var strLength = str.replace(chineseRegex,&amp;quot;**&amp;quot;).length;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  for(var i = 0;i &amp;lt; strLength;i++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      singleChar = str.charAt(i).toString();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      if(singleChar.match(chineseRegex) != null) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          newLength += 2;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &amp;#125; else  &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          newLength++;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      if(newLength &amp;gt; len) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;          break;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      newStr += singleChar;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  return newStr;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;e.g.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;subSt(‘我是中国人’, 4); //我是&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;中文转拼音&quot;&gt;&lt;a href=&quot;#中文转拼音&quot; class=&quot;headerlink&quot; title=&quot;中文转拼音&quot;&gt;&lt;/a&gt;中文转拼音&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;/**/~(function(){/**/
+//二分法汉字转拼音
+var key = &amp;quot;吖哎安肮凹八挀扳邦勹陂奔伻皀边灬憋汃冫癶峬嚓偲参仓撡冊嵾噌叉犲辿伥抄车抻阷吃充抽出膗巛刅吹旾踔呲从凑粗汆镩蹿崔邨搓咑呆丹当刀恴揼灯仾嗲敁刁爹丁丟东吺剢耑叾吨多妸奀鞥仒发帆匚飞分丰覅仏垺夫旮侅干冈皋戈给根更工勾估瓜乖关光归丨呙妎咍兯夯茠诃黒拫亨乊叿齁乎花怀欢巟灰昏吙丌加戋江艽阶巾坕冂丩凥姢噘军咔开刊忼尻匼肎劥空廤扝夸蒯宽匡亏坤扩垃来兰啷捞仂雷塄唎俩嫾簗蹽咧厸伶溜咯龙娄噜驴孪掠抡捋嘸妈埋颟牤猫庅呅椚掹踎宀喵乜民名谬摸哞某母拏腉囡囔孬疒娞嫩莻妮拈娘鸟捏脌宁妞农羺奴女疟奻硸噢妑拍眅乓抛呸喷匉丕片剽氕姘乒钋剖仆七掐千呛悄切亲靑宆丘区峑炔夋亽呥穣荛惹人扔日戎厹嶿堧桵闰挼仨毢三桒掻色杀筛山伤弰奢申升尸収书刷衰闩双谁妁厶忪凁苏狻夊孙唆他囼坍汤仐忑膯剔天旫怗厅囲偷凸湍推吞乇屲歪乛尣危塭翁挝乌夕呷仙乡灱些忄兴凶休戌吅疶坃丫咽央幺倻膶一乚应哟佣优扜囦曰蒀帀災兂牂傮啫贼怎曽吒夈沾张佋蜇贞凧之中州朱抓拽专妆隹宒卓仔孖宗邹租劗厜尊昨&amp;quot;.split(&amp;quot;&amp;quot;);
+var pinyin = &amp;quot;AAiAnAngAoBaBaiBanBangBaoBeiBenBengBiBianBiaoBieBinBingBoBuCaCaiCanCangCaoCeCenCengChaChaiChanChangChaoCheChenChengChiChongChouChuChuaiChuanChuangChuiChunChuoCiCongCouCuCuanChuanCuanCuiCunCuoDaDaiDanDangDaoDeDenDengDiDiaDianDiaoDieDingDiuDongDouDuDuanDuiDunDuoEEnEngErFaFanFangFeiFenFengFiaoFoFouFuGaGaiGanGangGaoGeGeiGenGengGongGouGuGuaGuaiGuanGuangGuiGunGuoHaHaiHanHangHaoHeHeiHenHengHoHongHouHuHuaHuaiHuanHuangHuiHunHuoJiJiaJianJiangJiaoJieJinJingJiongJiuJuJuanJueJunKaKaiKanKangKaoKeKenKengKongKouKuKuaKuaiKuanKuangKuiKunKuoLaLaiLanLangLaoLeLeiLengLiLiaLianLiangLiaoLieLinLingLiuLoLongLouLuLvLuanLveLunLuoMMaMaiManMangMaoMeMeiMenMengMiMianMiaoMieMinMingMiuMoMouMeiMuNaNaiNanNangNaoNeNeiNenNNiNianNiangNiaoNieNinNingNiuNongNouNuNvNveNuanNuoOuPaPaiPanPangPaoPeiPenPengPiPianPiaoPiePinPingPoPouPuQiQiaQianQiangQiaoQieQinQingQiongQiuQuQuanQueQunRaRanRangRaoReRenRengRiRongRouRuRuanRuiRunRuoSaSaiSanSangSaoSeShaShaiShanShangShaoSheShenShengShiShouShuShuaShuaiShuanShuangShuiShuoSiSongSouSuSuanSuiSunSuoTaTaiTanTangTaoTeTengTiTianTiaoTieTingTongTouTuTuanTuiTunTuoWaWaiWanWangWeiWenWengWoWuXiXiaXianXiangXiaoXieXinXingXiongXiuXuXuanXueXunYaYanYangYaoYeYenYiYinYingYoYongYouYuYuanYueYunZaZaiZanZangZaoZeZeiZenZengZhaZhaiZhanZhangZhaoZheZhenZhengZhiZhongZhouZhuZhuaZhuaiZhuanZhuangZhuiZhunZhuoZaiZiZongZouZuZuanZuiZunZuo&amp;quot;.split(/(?=[A-Z])/g);
+var cache = {};
+var keyLen=key.length-1;
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用js片段集合(6)</title>
+    <link href="http://yoursite.com/posts/20160525/snippet6.html"/>
+    <id>http://yoursite.com/posts/20160525/snippet6.html</id>
+    <published>2016-05-25T06:29:02.000Z</published>
+    <updated>2016-05-25T06:54:39.048Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;图片懒加载&quot;&gt;&lt;a href=&quot;#图片懒加载&quot; class=&quot;headerlink&quot; title=&quot;图片懒加载&quot;&gt;&lt;/a&gt;图片懒加载&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;blank.gif&amp;quot; class=&amp;quot;lazy&amp;quot; data-src=&amp;quot;/images/full-size.jpg&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;152&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;pre&gt;&lt;code&gt;!function(window){
+  var $q = function(q, res){
+        if (document.querySelectorAll) {
+          res = document.querySelectorAll(q);
+        } else {
+          var d=document
+            , a=d.styleSheets[0] || d.createStyleSheet();
+          a.addRule(q,&amp;apos;f:b&amp;apos;);
+          for(var l=d.all,b=0,c=[],f=l.length;b&amp;lt;f;b++)
+            l[b].currentStyle.f &amp;amp;&amp;amp; c.push(l[b]);
+
+          a.removeRule(0);
+          res = c;
+        }
+        return res;
+      }
+    , addEventListener = function(evt, fn){
+        window.addEventListener
+          ? this.addEventListener(evt, fn, false)
+          : (window.attachEvent)
+            ? this.attachEvent(&amp;apos;on&amp;apos; + evt, fn)
+            : this[&amp;apos;on&amp;apos; + evt] = fn;
+      }
+    , _has = function(obj, key) {
+        return Object.prototype.hasOwnProperty.call(obj, key);
+      }
+    ;
+
+  function loadImage (el, fn) {
+    var img = new Image()
+      , src = el.getAttribute(&amp;apos;data-src&amp;apos;);
+    img.onload = function() {
+      if (!! el.parent)
+        el.parent.replaceChild(img, el)
+      else
+        el.src = src;
+
+      fn? fn() : null;
+    }
+    img.src = src;
+  }
+
+  function elementInViewport(el) {
+    var rect = el.getBoundingClientRect()
+
+    return (
+       rect.top    &amp;gt;= 0
+    &amp;amp;&amp;amp; rect.left   &amp;gt;= 0
+    &amp;amp;&amp;amp; rect.top &amp;lt;= (window.innerHeight || document.documentElement.clientHeight)
+    )
+  }
+
+    var images = new Array()
+      , query = $q(&amp;apos;img.lazy&amp;apos;)
+      , processScroll = function(){
+          for (var i = 0; i &amp;lt; images.length; i++) {
+            if (elementInViewport(images[i])) {
+              loadImage(images[i], function () {
+                images.splice(i, i);
+              });
+            }
+          };
+        }
+      ;
+    // Array.prototype.slice.call is not callable under our lovely IE8
+    for (var i = 0; i &amp;lt; query.length; i++) {
+      images.push(query[i]);
+    };
+
+    processScroll();
+    addEventListener(&amp;apos;scroll&amp;apos;,processScroll);
+
+}(this);​
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;异步js加载器&quot;&gt;&lt;a href=&quot;#异步js加载器&quot; class=&quot;headerlink&quot; title=&quot;异步js加载器&quot;&gt;&lt;/a&gt;异步js加载器&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;var Loader = function () &amp;#123; &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Loader.prototype = &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    require: function (scripts, callback) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        this.loadCount      = 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        this.totalRequired  = scripts.length;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        this.callback       = callback;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        for (var i = 0; i &amp;lt; scripts.length; i++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;            this.writeScript(scripts[i]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    loaded: function (evt) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        this.loadCount++;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        if (this.loadCount == this.totalRequired &amp;amp;&amp;amp; typeof this.callback == &amp;apos;function&amp;apos;) this.callback.call();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    writeScript: function (src) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        var self = this;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        var s = document.createElement(&amp;apos;script&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        s.type = &amp;quot;text/javascript&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        s.async = true;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        s.src = src;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        s.addEventListener(&amp;apos;load&amp;apos;, function (e) &amp;#123; self.loaded(e); &amp;#125;, false);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        var head = document.getElementsByTagName(&amp;apos;head&amp;apos;)[0];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        head.appendChild(s);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;e.g.--------&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;var l = new Loader();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;l.require([&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;quot;example-script-1.js&amp;quot;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;quot;example-script-2.js&amp;quot;],&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    function() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        // Callback&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        console.log(&amp;apos;All Scripts Loaded&amp;apos;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;图片懒加载&quot;&gt;&lt;a href=&quot;#图片懒加载&quot; class=&quot;headerlink&quot; title=&quot;图片懒加载&quot;&gt;&lt;/a&gt;图片懒加载&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;blank.gif&amp;quot; class=&amp;quot;lazy&amp;quot; data-src=&amp;quot;/images/full-size.jpg&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;152&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
+  
+  <entry>
     <title>常用js片段集合(5)</title>
     <link href="http://yoursite.com/posts/20160429/snippet4.html"/>
     <id>http://yoursite.com/posts/20160429/snippet4.html</id>
     <published>2016-04-29T02:19:41.000Z</published>
-    <updated>2016-04-29T02:21:26.945Z</updated>
+    <updated>2016-05-25T07:02:17.478Z</updated>
     
     <content type="html">&lt;h3 id=&quot;数组去重&quot;&gt;&lt;a href=&quot;#数组去重&quot; class=&quot;headerlink&quot; title=&quot;数组去重&quot;&gt;&lt;/a&gt;数组去重&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function outRepeat(a){
         var hash=[],arr=[];
@@ -58,7 +224,11 @@ function outRepeat(a){
             console.log(arr);
         }
         outRepeat([2,4,4,5,&amp;quot;a&amp;quot;,&amp;quot;a&amp;quot;]);//[&amp;quot;2&amp;quot;, &amp;quot;4&amp;quot;, &amp;quot;5&amp;quot;, &amp;quot;a&amp;quot;]
-&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;检查元素是否位于当前视窗-可用于lazyload-infinite-scroll等常见功能&quot;&gt;&lt;a href=&quot;#检查元素是否位于当前视窗-可用于lazyload-infinite-scroll等常见功能&quot; class=&quot;headerlink&quot; title=&quot;检查元素是否位于当前视窗(可用于lazyload, infinite scroll等常见功能)&quot;&gt;&lt;/a&gt;检查元素是否位于当前视窗(可用于lazyload, infinite scroll等常见功能)&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;function isInViewport(el) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    var rect = el.getBoundingClientRect();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    return rect.bottom &amp;gt; 0 &amp;amp;&amp;amp;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        rect.right &amp;gt; 0 &amp;amp;&amp;amp;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        rect.left &amp;lt; (window.innerWidth || document. documentElement.clientWidth) &amp;amp;&amp;amp;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        rect.top &amp;lt; (window.innerHeight || document. documentElement.clientHeight);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;e.g.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;window.addEventListener(&amp;apos;scroll&amp;apos;, function() &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    isInViewport(el);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;html5-标签在-IE-下使用&quot;&gt;&lt;a href=&quot;#html5-标签在-IE-下使用&quot; class=&quot;headerlink&quot; title=&quot;html5 标签在 IE 下使用&quot;&gt;&lt;/a&gt;html5 标签在 IE 下使用&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;(function()&amp;#123;if(!/*@cc_on!@*/0)return;var e = &amp;quot;abbr,article,aside,audio,bb,canvas,datagrid,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video&amp;quot;.split(&amp;apos;,&amp;apos;),i=e.length;while(i--)&amp;#123;document.createElement(e[i])&amp;#125;&amp;#125;)()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;浅化-深化颜色&quot;&gt;&lt;a href=&quot;#浅化-深化颜色&quot; class=&quot;headerlink&quot; title=&quot;浅化/深化颜色&quot;&gt;&lt;/a&gt;浅化/深化颜色&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;function LightenDarkenColor(col, amt) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    var usePound = false;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    if (col[0] == &amp;quot;#&amp;quot;) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        col = col.slice(1);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        usePound = true;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    var num = parseInt(col,16);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    var r = (num &amp;gt;&amp;gt; 16) + amt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    if (r &amp;gt; 255) r = 255;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    else if  (r &amp;lt; 0) r = 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    var b = ((num &amp;gt;&amp;gt; 8) &amp;amp; 0x00FF) + amt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    if (b &amp;gt; 255) b = 255;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    else if  (b &amp;lt; 0) b = 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    var g = (num &amp;amp; 0x0000FF) + amt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    if (g &amp;gt; 255) g = 255;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    else if (g &amp;lt; 0) g = 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    return (usePound?&amp;quot;#&amp;quot;:&amp;quot;&amp;quot;) + (g | (b &amp;lt;&amp;lt; 8) | (r &amp;lt;&amp;lt; 16)).toString(16);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;e.g.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// Lighten&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;var NewColor = LightenDarkenColor(&amp;quot;#F06D06&amp;quot;, 20);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// Darken&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;var NewColor = LightenDarkenColor(&amp;quot;#F06D06&amp;quot;, -20);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;让-IE-背景图不闪烁&quot;&gt;&lt;a href=&quot;#让-IE-背景图不闪烁&quot; class=&quot;headerlink&quot; title=&quot;让 IE 背景图不闪烁&quot;&gt;&lt;/a&gt;让 IE 背景图不闪烁&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;try &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; document.execCommand(&amp;quot;BackgroundImageCache&amp;quot;, false, true);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125; catch(err) &amp;#123;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
     
     <summary type="html">
     
