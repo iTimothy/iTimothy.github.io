@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-25T07:10:00.837Z</updated>
+  <updated>2016-05-26T03:03:24.287Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>css片段</title>
+    <link href="http://yoursite.com/posts/20160526/cssSnippet1.html"/>
+    <id>http://yoursite.com/posts/20160526/cssSnippet1.html</id>
+    <published>2016-05-26T03:01:40.000Z</published>
+    <updated>2016-05-26T03:03:24.287Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;伪元素实现行级元素换行&quot;&gt;&lt;a href=&quot;#伪元素实现行级元素换行&quot; class=&quot;headerlink&quot; title=&quot;伪元素实现行级元素换行&quot;&gt;&lt;/a&gt;伪元素实现行级元素换行&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;.inline-element::after{&lt;br&gt;    content: “\A”;&lt;br&gt;    white-space: pre;&lt;br&gt;}&lt;br&gt; Unicode 字符是专门代表换行符的：0x000A 。 在 CSS 中，这个字符可以写作 “\000A”， 或简化为 “\A”。这里我们用它来作为 ::after 伪元素的内容。也就是在元素末尾添加了一个换行符的意思。white-space: pre; 的作用是保留元素后面的空白符和换行符&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;伪元素实现行级元素换行&quot;&gt;&lt;a href=&quot;#伪元素实现行级元素换行&quot; class=&quot;headerlink&quot; title=&quot;伪元素实现行级元素换行&quot;&gt;&lt;/a&gt;伪元素实现行级元素换行&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;.inline-element::afte
+    
+    </summary>
+    
+    
+      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+    
+  </entry>
   
   <entry>
     <title>常用js片段集合(7)</title>
