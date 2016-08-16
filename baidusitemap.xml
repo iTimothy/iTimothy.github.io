@@ -3,6 +3,176 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20160816/snippet8.html</loc>
+    <lastmod>2016-08-16T10:08:57.236Z</lastmod>
+    <data>
+        <display>
+        <title>js片段(8)</title>
+        <pubTime>2016-08-16T10:05:44.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160526/cssSnippet1.html</loc>
+    <lastmod>2016-08-16T10:08:19.157Z</lastmod>
+    <data>
+        <display>
+        <title>css片段</title>
+        <pubTime>2016-05-26T03:01:40.000Z</pubTime>
+        
+        <tag>CSS </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160411/date.html</loc>
+    <lastmod>2016-08-16T10:07:29.676Z</lastmod>
+    <data>
+        <display>
+        <title>日期相关方法</title>
+        <pubTime>2016-04-11T10:03:36.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160411/shareJs.html</loc>
+    <lastmod>2016-08-16T10:07:21.966Z</lastmod>
+    <data>
+        <display>
+        <title>分享代码</title>
+        <pubTime>2016-04-11T08:38:38.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160408/snippet.html</loc>
+    <lastmod>2016-08-16T10:07:16.550Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(2)</title>
+        <pubTime>2016-04-08T01:55:22.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160408/snippet2.html</loc>
+    <lastmod>2016-08-16T10:07:12.396Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(3)</title>
+        <pubTime>2016-04-08T02:11:56.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160408/snippet3.html</loc>
+    <lastmod>2016-08-16T10:07:09.573Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(4)</title>
+        <pubTime>2016-04-08T02:27:12.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160429/snippet4.html</loc>
+    <lastmod>2016-08-16T10:07:06.686Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(5)</title>
+        <pubTime>2016-04-29T02:19:41.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160525/snippet6.html</loc>
+    <lastmod>2016-08-16T10:07:03.460Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(6)</title>
+        <pubTime>2016-05-25T06:29:02.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/20160525/snippet7.html</loc>
+    <lastmod>2016-08-16T10:06:57.974Z</lastmod>
+    <data>
+        <display>
+        <title>常用js片段集合(7)</title>
+        <pubTime>2016-05-25T07:05:05.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20160804/gulp.html</loc>
     <lastmod>2016-08-04T02:35:31.726Z</lastmod>
     <data>
@@ -37,91 +207,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/posts/20160525/snippet7.html</loc>
-    <lastmod>2016-07-07T06:11:43.305Z</lastmod>
-    <data>
-        <display>
-        <title>常用js片段集合(7)</title>
-        <pubTime>2016-05-25T07:05:05.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160526/cssSnippet1.html</loc>
-    <lastmod>2016-05-26T03:03:24.287Z</lastmod>
-    <data>
-        <display>
-        <title>css片段</title>
-        <pubTime>2016-05-26T03:01:40.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160429/snippet4.html</loc>
-    <lastmod>2016-05-25T07:02:17.478Z</lastmod>
-    <data>
-        <display>
-        <title>常用js片段集合(5)</title>
-        <pubTime>2016-04-29T02:19:41.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160525/snippet6.html</loc>
-    <lastmod>2016-05-25T06:54:39.048Z</lastmod>
-    <data>
-        <display>
-        <title>常用js片段集合(6)</title>
-        <pubTime>2016-05-25T06:29:02.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160408/snippet3.html</loc>
-    <lastmod>2016-05-19T08:39:24.445Z</lastmod>
-    <data>
-        <display>
-        <title>常用js片段集合(4)</title>
-        <pubTime>2016-04-08T02:27:12.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/posts/20160407/hello-world.html</loc>
     <lastmod>2016-04-18T09:31:48.001Z</lastmod>
     <data>
@@ -130,40 +215,6 @@
         <pubTime>2016-04-07T03:28:29.000Z</pubTime>
         
         <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160411/shareJs.html</loc>
-    <lastmod>2016-04-11T10:58:06.265Z</lastmod>
-    <data>
-        <display>
-        <title>分享代码</title>
-        <pubTime>2016-04-11T08:38:38.000Z</pubTime>
-        
-        <tag>js代码 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160411/date.html</loc>
-    <lastmod>2016-04-11T10:10:07.443Z</lastmod>
-    <data>
-        <display>
-        <title>日期相关方法</title>
-        <pubTime>2016-04-11T10:03:36.000Z</pubTime>
-        
-        <tag>js代码 </tag>
          
          
            
@@ -196,40 +247,6 @@
         <display>
         <title>常用js片段集合(1)</title>
         <pubTime>2016-04-07T03:28:29.236Z</pubTime>
-        
-        <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160408/snippet.html</loc>
-    <lastmod>2016-04-08T03:20:46.564Z</lastmod>
-    <data>
-        <display>
-        <title>常用js片段集合(2)</title>
-        <pubTime>2016-04-08T01:55:22.000Z</pubTime>
-        
-        <tag>前端资料 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160408/snippet2.html</loc>
-    <lastmod>2016-04-08T03:20:34.245Z</lastmod>
-    <data>
-        <display>
-        <title>常用js片段集合(3)</title>
-        <pubTime>2016-04-08T02:11:56.000Z</pubTime>
         
         <tag>前端资料 </tag>
          

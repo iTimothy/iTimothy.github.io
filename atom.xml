@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-04T02:35:31.726Z</updated>
+  <updated>2016-08-16T10:08:57.236Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>js片段(8)</title>
+    <link href="http://yoursite.com/posts/20160816/snippet8.html"/>
+    <id>http://yoursite.com/posts/20160816/snippet8.html</id>
+    <published>2016-08-16T10:05:44.000Z</published>
+    <updated>2016-08-16T10:08:57.236Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;监听chrome打开dev-tool&quot;&gt;&lt;a href=&quot;#监听chrome打开dev-tool&quot; class=&quot;headerlink&quot; title=&quot;监听chrome打开dev-tool&quot;&gt;&lt;/a&gt;监听chrome打开dev-tool&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;(function () &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		  var re = /x/;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		  var i = 0;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		  console.log(re);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		  re.toString = function () &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		    return &amp;apos;第 &amp;apos; + (++i) + &amp;apos; 次打开控制台&amp;apos;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		  &amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;)();&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;监听chrome打开dev-tool&quot;&gt;&lt;a href=&quot;#监听chrome打开dev-tool&quot; class=&quot;headerlink&quot; title=&quot;监听chrome打开dev-tool&quot;&gt;&lt;/a&gt;监听chrome打开dev-tool&lt;/h3&gt;&lt;figure c
+    
+    </summary>
+    
+    
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>gulp</title>
@@ -71,7 +91,7 @@
     <link href="http://yoursite.com/posts/20160526/cssSnippet1.html"/>
     <id>http://yoursite.com/posts/20160526/cssSnippet1.html</id>
     <published>2016-05-26T03:01:40.000Z</published>
-    <updated>2016-05-26T03:03:24.287Z</updated>
+    <updated>2016-08-16T10:08:19.157Z</updated>
     
     <content type="html">&lt;h3 id=&quot;伪元素实现行级元素换行&quot;&gt;&lt;a href=&quot;#伪元素实现行级元素换行&quot; class=&quot;headerlink&quot; title=&quot;伪元素实现行级元素换行&quot;&gt;&lt;/a&gt;伪元素实现行级元素换行&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;.inline-element::after{&lt;br&gt;    content: “\A”;&lt;br&gt;    white-space: pre;&lt;br&gt;}&lt;br&gt; Unicode 字符是专门代表换行符的：0x000A 。 在 CSS 中，这个字符可以写作 “\000A”， 或简化为 “\A”。这里我们用它来作为 ::after 伪元素的内容。也就是在元素末尾添加了一个换行符的意思。white-space: pre; 的作用是保留元素后面的空白符和换行符&lt;/p&gt;
@@ -86,7 +106,7 @@
     </summary>
     
     
-      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+      <category term="CSS" scheme="http://yoursite.com/tags/CSS/"/>
     
   </entry>
   
@@ -95,7 +115,7 @@
     <link href="http://yoursite.com/posts/20160525/snippet7.html"/>
     <id>http://yoursite.com/posts/20160525/snippet7.html</id>
     <published>2016-05-25T07:05:05.000Z</published>
-    <updated>2016-07-07T06:11:43.305Z</updated>
+    <updated>2016-08-16T10:06:57.974Z</updated>
     
     <content type="html">&lt;h3 id=&quot;中文转拼音&quot;&gt;&lt;a href=&quot;#中文转拼音&quot; class=&quot;headerlink&quot; title=&quot;中文转拼音&quot;&gt;&lt;/a&gt;中文转拼音&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;/**/~(function(){/**/
 //二分法汉字转拼音
@@ -156,7 +176,7 @@ var keyLen=key.length-1;
     </summary>
     
     
-      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
@@ -165,7 +185,7 @@ var keyLen=key.length-1;
     <link href="http://yoursite.com/posts/20160525/snippet6.html"/>
     <id>http://yoursite.com/posts/20160525/snippet6.html</id>
     <published>2016-05-25T06:29:02.000Z</published>
-    <updated>2016-05-25T06:54:39.048Z</updated>
+    <updated>2016-08-16T10:07:03.460Z</updated>
     
     <content type="html">&lt;h3 id=&quot;图片懒加载&quot;&gt;&lt;a href=&quot;#图片懒加载&quot; class=&quot;headerlink&quot; title=&quot;图片懒加载&quot;&gt;&lt;/a&gt;图片懒加载&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;blank.gif&amp;quot; class=&amp;quot;lazy&amp;quot; data-src=&amp;quot;/images/full-size.jpg&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;152&amp;quot;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -253,7 +273,7 @@ var keyLen=key.length-1;
     </summary>
     
     
-      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
@@ -262,7 +282,7 @@ var keyLen=key.length-1;
     <link href="http://yoursite.com/posts/20160429/snippet4.html"/>
     <id>http://yoursite.com/posts/20160429/snippet4.html</id>
     <published>2016-04-29T02:19:41.000Z</published>
-    <updated>2016-05-25T07:02:17.478Z</updated>
+    <updated>2016-08-16T10:07:06.686Z</updated>
     
     <content type="html">&lt;h3 id=&quot;数组去重&quot;&gt;&lt;a href=&quot;#数组去重&quot; class=&quot;headerlink&quot; title=&quot;数组去重&quot;&gt;&lt;/a&gt;数组去重&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function outRepeat(a){
         var hash=[],arr=[];
@@ -325,7 +345,7 @@ function outRepeat(a){
     </summary>
     
     
-      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
@@ -334,7 +354,7 @@ function outRepeat(a){
     <link href="http://yoursite.com/posts/20160411/date.html"/>
     <id>http://yoursite.com/posts/20160411/date.html</id>
     <published>2016-04-11T10:03:36.000Z</published>
-    <updated>2016-04-11T10:10:07.443Z</updated>
+    <updated>2016-08-16T10:07:29.676Z</updated>
     
     <content type="html">&lt;h2 id=&quot;判断闰年&quot;&gt;&lt;a href=&quot;#判断闰年&quot; class=&quot;headerlink&quot; title=&quot;判断闰年&quot;&gt;&lt;/a&gt;判断闰年&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;/*&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; * 判断闰年&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; * @param  &amp;#123;Number&amp;#125; 年&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; * @return &amp;#123;Blooean&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; */&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;function isLeapYear(year) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    return (year % 4 == 0 &amp;amp;&amp;amp; year % 100 != 0) || (year % 400 == 0)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;isLeapYear(2015) // false&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;isLeapYear(2016) // true&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -358,7 +378,7 @@ function outRepeat(a){
     </summary>
     
     
-      <category term="js代码" scheme="http://yoursite.com/tags/js%E4%BB%A3%E7%A0%81/"/>
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
@@ -367,7 +387,7 @@ function outRepeat(a){
     <link href="http://yoursite.com/posts/20160411/shareJs.html"/>
     <id>http://yoursite.com/posts/20160411/shareJs.html</id>
     <published>2016-04-11T08:38:38.000Z</published>
-    <updated>2016-04-11T10:58:06.265Z</updated>
+    <updated>2016-08-16T10:07:21.966Z</updated>
     
     <content type="html">&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;qzone:http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;title=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;desc=&amp;#123;&amp;#123;DESCRIPTION&amp;#125;&amp;#125;&amp;amp;summary=&amp;#123;&amp;#123;SUMMARY&amp;#125;&amp;#125;&amp;amp;site=&amp;#123;&amp;#123;SOURCE&amp;#125;&amp;#125;&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;qq:&amp;apos;http://connect.qq.com/widget/shareqq/index.html?url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;title=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;source=&amp;#123;&amp;#123;SOURCE&amp;#125;&amp;#125;&amp;amp;desc=&amp;#123;&amp;#123;DESCRIPTION&amp;#125;&amp;#125;&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tencent: &amp;apos;http://share.v.t.qq.com/index.php?c=share&amp;amp;a=index&amp;amp;title=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;pic=&amp;#123;&amp;#123;IMAGE&amp;#125;&amp;#125;&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;weibo: &amp;apos;http://service.weibo.com/share/share.php?url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;title=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;pic=&amp;#123;&amp;#123;IMAGE&amp;#125;&amp;#125;&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;douban:&amp;apos;http://shuo.douban.com/!service/share?href=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;name=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;text=&amp;#123;&amp;#123;DESCRIPTION&amp;#125;&amp;#125;&amp;amp;image=&amp;#123;&amp;#123;IMAGE&amp;#125;&amp;#125;&amp;amp;starid=0&amp;amp;aid=0&amp;amp;style=11&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;diandian: &amp;apos;http://www.diandian.com/share?lo=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;ti=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;type=link&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;linkedin:&amp;apos;http://www.linkedin.com/shareArticle?mini=true&amp;amp;ro=true&amp;amp;title=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;summary=&amp;#123;&amp;#123;SUMMARY&amp;#125;&amp;#125;&amp;amp;source=&amp;#123;&amp;#123;SOURCE&amp;#125;&amp;#125;&amp;amp;armin=armin&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;facebook: &amp;apos;https://www.facebook.com/sharer/sharer.php?u=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;twitter: &amp;apos;https://twitter.com/intent/tweet?text=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;via=&amp;#123;&amp;#123;SITE_URL&amp;#125;&amp;#125;&amp;apos;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;google: &amp;apos;https://plus.google.com/share?url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 </content>
@@ -379,7 +399,7 @@ function outRepeat(a){
     </summary>
     
     
-      <category term="js代码" scheme="http://yoursite.com/tags/js%E4%BB%A3%E7%A0%81/"/>
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
@@ -409,7 +429,7 @@ function outRepeat(a){
     <link href="http://yoursite.com/posts/20160408/snippet3.html"/>
     <id>http://yoursite.com/posts/20160408/snippet3.html</id>
     <published>2016-04-08T02:27:12.000Z</published>
-    <updated>2016-05-19T08:39:24.445Z</updated>
+    <updated>2016-08-16T10:07:09.573Z</updated>
     
     <content type="html">&lt;h3 id=&quot;自定义滚动条&quot;&gt;&lt;a href=&quot;#自定义滚动条&quot; class=&quot;headerlink&quot; title=&quot;自定义滚动条&quot;&gt;&lt;/a&gt;自定义滚动条&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;/**
 *
@@ -718,7 +738,7 @@ setInterval(timer,1000);
     </summary>
     
     
-      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
@@ -727,7 +747,7 @@ setInterval(timer,1000);
     <link href="http://yoursite.com/posts/20160408/snippet2.html"/>
     <id>http://yoursite.com/posts/20160408/snippet2.html</id>
     <published>2016-04-08T02:11:56.000Z</published>
-    <updated>2016-04-08T03:20:34.245Z</updated>
+    <updated>2016-08-16T10:07:12.396Z</updated>
     
     <content type="html">&lt;h3 id=&quot;网站变灰&quot;&gt;&lt;a href=&quot;#网站变灰&quot; class=&quot;headerlink&quot; title=&quot;网站变灰&quot;&gt;&lt;/a&gt;网站变灰&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
 &lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -930,7 +950,7 @@ myURL.file;     // = &amp;apos;index.html&amp;apos;
     </summary>
     
     
-      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
@@ -939,7 +959,7 @@ myURL.file;     // = &amp;apos;index.html&amp;apos;
     <link href="http://yoursite.com/posts/20160408/snippet.html"/>
     <id>http://yoursite.com/posts/20160408/snippet.html</id>
     <published>2016-04-08T01:55:22.000Z</published>
-    <updated>2016-04-08T03:20:46.564Z</updated>
+    <updated>2016-08-16T10:07:16.550Z</updated>
     
     <content type="html">&lt;h3 id=&quot;去除ie10输入框删除图标&quot;&gt;&lt;a href=&quot;#去除ie10输入框删除图标&quot; class=&quot;headerlink&quot; title=&quot;去除ie10输入框删除图标&quot;&gt;&lt;/a&gt;去除ie10输入框删除图标&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;input::-ms-clear,
 input::-ms-reveal {
@@ -1100,7 +1120,7 @@ display: none;
     </summary>
     
     
-      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
