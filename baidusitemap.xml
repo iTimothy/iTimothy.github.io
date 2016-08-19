@@ -3,12 +3,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/posts/20160816/snippet8.html</loc>
-    <lastmod>2016-08-19T06:28:53.088Z</lastmod>
+    <loc>http://yoursite.com/posts/20160411/date.html</loc>
+    <lastmod>2016-08-19T07:18:02.563Z</lastmod>
     <data>
         <display>
-        <title>js片段(8)</title>
-        <pubTime>2016-08-16T10:05:44.000Z</pubTime>
+        <title>日期相关方法</title>
+        <pubTime>2016-04-11T10:03:36.000Z</pubTime>
         
         <tag>javascript </tag>
          
@@ -21,10 +21,10 @@
     
   <url>
     <loc>http://yoursite.com/posts/20160526/cssSnippet1.html</loc>
-    <lastmod>2016-08-16T10:08:19.157Z</lastmod>
+    <lastmod>2016-08-19T07:15:08.122Z</lastmod>
     <data>
         <display>
-        <title>css片段</title>
+        <title>css集合</title>
         <pubTime>2016-05-26T03:01:40.000Z</pubTime>
         
         <tag>CSS </tag>
@@ -37,12 +37,12 @@
 
     
   <url>
-    <loc>http://yoursite.com/posts/20160411/date.html</loc>
-    <lastmod>2016-08-16T10:07:29.676Z</lastmod>
+    <loc>http://yoursite.com/posts/20160816/snippet8.html</loc>
+    <lastmod>2016-08-19T06:38:30.128Z</lastmod>
     <data>
         <display>
-        <title>日期相关方法</title>
-        <pubTime>2016-04-11T10:03:36.000Z</pubTime>
+        <title>js片段(8)</title>
+        <pubTime>2016-08-16T10:05:44.000Z</pubTime>
         
         <tag>javascript </tag>
          
