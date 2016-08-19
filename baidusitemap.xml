@@ -3,6 +3,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20160816/snippet8.html</loc>
+    <lastmod>2016-08-19T09:50:01.098Z</lastmod>
+    <data>
+        <display>
+        <title>js片段(8)</title>
+        <pubTime>2016-08-16T10:05:44.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20160411/date.html</loc>
     <lastmod>2016-08-19T07:18:02.563Z</lastmod>
     <data>
@@ -28,23 +45,6 @@
         <pubTime>2016-05-26T03:01:40.000Z</pubTime>
         
         <tag>CSS </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160816/snippet8.html</loc>
-    <lastmod>2016-08-19T06:38:30.128Z</lastmod>
-    <data>
-        <display>
-        <title>js片段(8)</title>
-        <pubTime>2016-08-16T10:05:44.000Z</pubTime>
-        
-        <tag>javascript </tag>
          
          
            
