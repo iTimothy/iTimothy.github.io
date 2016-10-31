@@ -3,6 +3,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20160804/gulp.html</loc>
+    <lastmod>2016-10-31T08:40:07.317Z</lastmod>
+    <data>
+        <display>
+        <title>gulp</title>
+        <pubTime>2016-08-04T02:33:00.000Z</pubTime>
+        
+        <tag>gulp </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20160816/snippet8.html</loc>
     <lastmod>2016-09-08T04:01:50.950Z</lastmod>
     <data>
@@ -164,23 +181,6 @@
         <pubTime>2016-05-25T07:05:05.000Z</pubTime>
         
         <tag>javascript </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160804/gulp.html</loc>
-    <lastmod>2016-08-04T02:35:31.726Z</lastmod>
-    <data>
-        <display>
-        <title>gulp</title>
-        <pubTime>2016-08-04T02:33:00.000Z</pubTime>
-        
-        <tag>gulp </tag>
          
          
            
