@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-02T01:29:54.215Z</updated>
+  <updated>2016-11-25T12:01:35.508Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>npm error</title>
+    <link href="http://yoursite.com/posts/20161125/npm.html"/>
+    <id>http://yoursite.com/posts/20161125/npm.html</id>
+    <published>2016-11-25T11:50:52.000Z</published>
+    <updated>2016-11-25T12:01:35.508Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;img/npm-error.png&quot; alt=&quot;npm error&quot;&gt;    &lt;/p&gt;
+&lt;p&gt;方法一、 package.json中添加version属性&lt;br&gt;方法二、修改npm_prompt.lua文件&lt;br&gt;&lt;img src=&quot;img/npm-fix.png&quot; alt=&quot;npm fix&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;img/npm-error.png&quot; alt=&quot;npm error&quot;&gt;    &lt;/p&gt;
+&lt;p&gt;方法一、 package.json中添加version属性&lt;br&gt;方法二、修改npm_prompt.lua文件&lt;br&gt;&lt;img src=&quot;img/npm-fix
+    
+    </summary>
+    
+    
+      <category term="npm" scheme="http://yoursite.com/tags/npm/"/>
+    
+  </entry>
   
   <entry>
     <title>js集合(8)</title>
