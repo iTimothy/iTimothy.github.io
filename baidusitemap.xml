@@ -3,6 +3,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20160526/cssSnippet1.html</loc>
+    <lastmod>2016-11-28T09:28:33.351Z</lastmod>
+    <data>
+        <display>
+        <title>css集合</title>
+        <pubTime>2016-05-26T03:01:40.000Z</pubTime>
+        
+        <tag>CSS </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20161125/npm.html</loc>
     <lastmod>2016-11-25T12:01:35.508Z</lastmod>
     <data>
@@ -181,23 +198,6 @@
         <pubTime>2016-04-11T10:03:36.000Z</pubTime>
         
         <tag>javascript </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160526/cssSnippet1.html</loc>
-    <lastmod>2016-08-19T07:15:08.122Z</lastmod>
-    <data>
-        <display>
-        <title>css集合</title>
-        <pubTime>2016-05-26T03:01:40.000Z</pubTime>
-        
-        <tag>CSS </tag>
          
          
            
