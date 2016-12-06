@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-25T12:01:35.508Z</updated>
+  <updated>2016-12-06T08:49:18.440Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ios 惯性滚动</title>
+    <link href="http://yoursite.com/posts/20161206/iosUIView.html"/>
+    <id>http://yoursite.com/posts/20161206/iosUIView.html</id>
+    <published>2016-12-06T08:27:53.000Z</published>
+    <updated>2016-12-06T08:49:18.440Z</updated>
+    
+    <content type="html">&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ul&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	-webkit-overflow-scrolling: touch;&lt;span class=&quot;comment&quot;&gt;//ios私有&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	overflow:scroll;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;-webkit-overflow-scrolling: touch(原生的滚动效果。使用此效果会构造一个 stacking context) | auto(普通的无惯性滚动效果);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;touch-一些坑&quot;&gt;&lt;a href=&quot;#touch-一些坑&quot; class=&quot;headerlink&quot; title=&quot;touch:一些坑&quot;&gt;&lt;/a&gt;touch:一些坑&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;滚动中 scrollTop 属性不会变化&lt;/li&gt;
+&lt;li&gt;手势可穿过其他元素触发元素滚动&lt;/li&gt;
+&lt;li&gt;滚动时暂停其他 transition  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;解决方案：    &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;- 使用 WKWebView（支持ios8以上系统） 替换 UIWebView 内核
+- 针对UIWebView 可以设置_webView.scrollView.decelerationRate = UIScrollViewDecelerationRateNormal;（设置UIWebView的scrollView的减速率）
+  减速率默认是：0.989324，UIScrollViewDecelerationRateNormal：0.998000，UIScrollViewDecelerationRateFast：0.990000
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;l
+    
+    </summary>
+    
+    
+      <category term="ios 前端" scheme="http://yoursite.com/tags/ios-%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>npm error</title>
