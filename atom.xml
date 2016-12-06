@@ -464,27 +464,6 @@ function outRepeat(a){
   </entry>
   
   <entry>
-    <title>书籍</title>
-    <link href="http://yoursite.com/posts/20160408/books.html"/>
-    <id>http://yoursite.com/posts/20160408/books.html</id>
-    <published>2016-04-08T04:35:56.000Z</published>
-    <updated>2016-04-08T04:48:59.298Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;前端书籍&quot;&gt;&lt;a href=&quot;#前端书籍&quot; class=&quot;headerlink&quot; title=&quot;前端书籍&quot;&gt;&lt;/a&gt;前端书籍&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://share.weiyun.com/cc08dbdee0baabf0b42cb26703826486&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;javascript语言精粹&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://share.weiyun.com/17ebebc1a8cdf48407b969dad707c4e7&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ECMAScript6入门&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://share.weiyun.com/72ae0e31b5c5871f5e067f164409ec2c&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;正则表达式必知必会&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://share.weiyun.com/8338f59aca70b09fed3ab04af8924a7a&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SEO优化&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://pan.baidu.com/s/1qXNUchQ&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;node开发指南&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://pan.baidu.com/s/1eSLgRdw&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CANVAS游戏开发&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://pan.baidu.com/s/1dFue5jj&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;高性能JavaScript&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://pan.baidu.com/s/1jItUub0&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript高级程序设计&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前端书籍&quot;&gt;&lt;a href=&quot;#前端书籍&quot; class=&quot;headerlink&quot; title=&quot;前端书籍&quot;&gt;&lt;/a&gt;前端书籍&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://share.weiyun.com/cc08dbdee0baabf0b42cb26703826
-    
-    </summary>
-    
-    
-      <category term="book" scheme="http://yoursite.com/tags/book/"/>
-    
-  </entry>
-  
-  <entry>
     <title>js集合(4)</title>
     <link href="http://yoursite.com/posts/20160408/snippet3.html"/>
     <id>http://yoursite.com/posts/20160408/snippet3.html</id>

@@ -273,21 +273,4 @@
     </data>
     </url>
 
-    
-  <url>
-    <loc>http://yoursite.com/posts/20160408/books.html</loc>
-    <lastmod>2016-04-08T04:48:59.298Z</lastmod>
-    <data>
-        <display>
-        <title>书籍</title>
-        <pubTime>2016-04-08T04:35:56.000Z</pubTime>
-        
-        <tag>book </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
