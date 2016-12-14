@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-12-14T04:42:26.009Z</updated>
+  <updated>2016-12-14T04:44:27.689Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>iOSProblem</title>
+    <title>iMessage加载url</title>
     <link href="http://yoursite.com/posts/20161214/iOSProblem.html"/>
     <id>http://yoursite.com/posts/20161214/iOSProblem.html</id>
     <published>2016-12-14T04:37:46.000Z</published>
-    <updated>2016-12-14T04:42:26.009Z</updated>
+    <updated>2016-12-14T04:44:27.689Z</updated>
     
     <content type="html">&lt;h3 id=&quot;iMessage加载url时设置预览图&quot;&gt;&lt;a href=&quot;#iMessage加载url时设置预览图&quot; class=&quot;headerlink&quot; title=&quot;iMessage加载url时设置预览图&quot;&gt;&lt;/a&gt;iMessage加载url时设置预览图&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;img/iMessage.png&quot; alt=&quot;iMessage.png&quot;&gt;&lt;br&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;meta property=&lt;span class=&quot;string&quot;&gt;&quot;og:image&quot;&lt;/span&gt; content=&lt;span class=&quot;string&quot;&gt;&quot;https://app.kuaikuaizuche.com/image/logo.png&quot;&lt;/span&gt;/&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 </content>
