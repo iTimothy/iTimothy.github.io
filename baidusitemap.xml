@@ -3,6 +3,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/20161214/iOSProblem.html</loc>
+    <lastmod>2017-01-04T02:07:31.588Z</lastmod>
+    <data>
+        <display>
+        <title>iMessage加载url</title>
+        <pubTime>2016-12-14T04:37:46.000Z</pubTime>
+        
+        <tag>iOS 前端 </tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/20160816/snippet8.html</loc>
     <lastmod>2017-01-04T02:06:53.044Z</lastmod>
     <data>
@@ -45,23 +62,6 @@
         <pubTime>2016-04-11T10:03:36.000Z</pubTime>
         
         <tag>javascript </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/20161214/iOSProblem.html</loc>
-    <lastmod>2016-12-14T04:44:27.689Z</lastmod>
-    <data>
-        <display>
-        <title>iMessage加载url</title>
-        <pubTime>2016-12-14T04:37:46.000Z</pubTime>
-        
-        <tag>iOS 前端 </tag>
          
          
            
