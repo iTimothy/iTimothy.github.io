@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://popfly.club/"/>
-  <updated>2017-01-05T11:34:33.748Z</updated>
+  <updated>2017-01-05T12:26:10.167Z</updated>
   <id>http://popfly.club/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://popfly.club/posts/20161214/iOSProblem.html"/>
     <id>http://popfly.club/posts/20161214/iOSProblem.html</id>
     <published>2016-12-14T04:37:46.000Z</published>
-    <updated>2017-01-05T11:34:33.748Z</updated>
+    <updated>2017-01-05T12:26:10.167Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;iMessage加载url时设置预览图&quot;&gt;&lt;a href=&quot;#iMessage加载url时设置预览图&quot; class=&quot;headerlink&quot; title=&quot;iMessage加载url时设置预览图&quot;&gt;&lt;/a&gt;iMessage加载url时设置预览图&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;images/iMessage.png&quot; alt=&quot;iMessage.png&quot;&gt;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://图片地址&amp;quot;/&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    <content type="html">&lt;h3 id=&quot;iMessage加载url时设置预览图&quot;&gt;&lt;a href=&quot;#iMessage加载url时设置预览图&quot; class=&quot;headerlink&quot; title=&quot;iMessage加载url时设置预览图&quot;&gt;&lt;/a&gt;iMessage加载url时设置预览图&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/images/iMessage.png&quot; alt=&quot;iMessage.png&quot;&gt;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://图片地址&amp;quot;/&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -31,8 +31,8 @@
     
     </summary>
     
+      <category term="iOS 前端" scheme="http://popfly.club/categories/iOS-%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="iOS 前端" scheme="http://popfly.club/tags/iOS-%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -41,7 +41,7 @@
     <link href="http://popfly.club/posts/20161206/iosUIView.html"/>
     <id>http://popfly.club/posts/20161206/iosUIView.html</id>
     <published>2016-12-06T08:27:53.000Z</published>
-    <updated>2017-01-04T02:06:38.493Z</updated>
+    <updated>2017-01-05T12:21:44.751Z</updated>
     
     <content type="html">&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;ul&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	-webkit-overflow-scrolling: touch;//ios私有&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	overflow:scroll;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;-webkit-overflow-scrolling: touch(原生的滚动效果。使用此效果会构造一个 stacking context) | auto(普通的无惯性滚动效果);&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;touch-一些坑&quot;&gt;&lt;a href=&quot;#touch-一些坑&quot; class=&quot;headerlink&quot; title=&quot;touch:一些坑&quot;&gt;&lt;/a&gt;touch:一些坑&lt;/h3&gt;&lt;ol&gt;
@@ -63,8 +63,6 @@
     </summary>
     
     
-      <category term="ios 前端" scheme="http://popfly.club/tags/ios-%E5%89%8D%E7%AB%AF/"/>
-    
   </entry>
   
   <entry>
@@ -72,30 +70,28 @@
     <link href="http://popfly.club/posts/20161125/npm.html"/>
     <id>http://popfly.club/posts/20161125/npm.html</id>
     <published>2016-11-25T11:50:52.000Z</published>
-    <updated>2017-01-05T11:33:17.284Z</updated>
+    <updated>2017-01-05T12:32:37.783Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;img src=&quot;images/npm-error.png&quot; alt=&quot;npm error&quot;&gt;    &lt;/p&gt;
-&lt;p&gt;方法一、 package.json中添加version属性&lt;br&gt;方法二、修改npm_prompt.lua文件&lt;br&gt;&lt;img src=&quot;images/npm-fix.png&quot; alt=&quot;npm fix&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/npm-error.png&quot; alt=&quot;npm error&quot;&gt;    &lt;/p&gt;
+&lt;p&gt;方法一、 package.json中添加version属性&lt;br&gt;方法二、修改npm_prompt.lua文件&lt;br&gt;&lt;img src=&quot;/images/npm-fix.png&quot; alt=&quot;npm fix&quot;&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;images/npm-error.png&quot; alt=&quot;npm error&quot;&gt;    &lt;/p&gt;
-&lt;p&gt;方法一、 package.json中添加version属性&lt;br&gt;方法二、修改npm_prompt.lua文件&lt;br&gt;&lt;img src=&quot;images/n
+      &lt;p&gt;&lt;img src=&quot;/images/npm-error.png&quot; alt=&quot;npm error&quot;&gt;    &lt;/p&gt;
+&lt;p&gt;方法一、 package.json中添加version属性&lt;br&gt;方法二、修改npm_prompt.lua文件&lt;br&gt;&lt;img src=&quot;/images
     
     </summary>
     
     
-      <category term="npm" scheme="http://popfly.club/tags/npm/"/>
-    
   </entry>
   
   <entry>
-    <title>js集合(8)</title>
+    <title>js snippet(8)</title>
     <link href="http://popfly.club/posts/20160816/snippet8.html"/>
     <id>http://popfly.club/posts/20160816/snippet8.html</id>
     <published>2016-08-16T10:05:44.000Z</published>
-    <updated>2017-01-04T02:06:53.044Z</updated>
+    <updated>2017-01-05T12:23:15.672Z</updated>
     
     <content type="html">&lt;h3 id=&quot;监听chrome打开dev-tool&quot;&gt;&lt;a href=&quot;#监听chrome打开dev-tool&quot; class=&quot;headerlink&quot; title=&quot;监听chrome打开dev-tool&quot;&gt;&lt;/a&gt;监听chrome打开dev-tool&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;(function () &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		  var re = /x/;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		  var i = 0;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		  console.log(re);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		  re.toString = function () &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		    return &amp;apos;第 &amp;apos; + (++i) + &amp;apos; 次打开控制台&amp;apos;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		  &amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&amp;#125;)();&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;xml转json&quot;&gt;&lt;a href=&quot;#xml转json&quot; class=&quot;headerlink&quot; title=&quot;xml转json&quot;&gt;&lt;/a&gt;xml转json&lt;/h3&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;20&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;21&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;22&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;23&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;24&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;25&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;26&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;27&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;28&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;29&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;30&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;31&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;32&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;33&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;34&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;35&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;36&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;37&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;xmlToJson&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;xml&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;comment&quot;&gt;// Create the return object&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; obj = &amp;#123;&amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (xml.nodeType == &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) &amp;#123; &lt;span class=&quot;comment&quot;&gt;// element&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;comment&quot;&gt;// do attributes&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (xml.attributes.length &amp;gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		obj[&lt;span class=&quot;string&quot;&gt;&quot;@attributes&quot;&lt;/span&gt;] = &amp;#123;&amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; (&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; j = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; j &amp;lt; xml.attributes.length; j++) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; attribute = xml.attributes.item(j);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				obj[&lt;span class=&quot;string&quot;&gt;&quot;@attributes&quot;&lt;/span&gt;][attribute.nodeName] = attribute.nodeValue;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&amp;#125; &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (xml.nodeType == &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;) &amp;#123; &lt;span class=&quot;comment&quot;&gt;// text&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		obj = xml.nodeValue;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;comment&quot;&gt;// do children&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (xml.hasChildNodes()) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; i = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; i &amp;lt; xml.childNodes.length; i++) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; item = xml.childNodes.item(i);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; nodeName = item.nodeName;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (&lt;span class=&quot;keyword&quot;&gt;typeof&lt;/span&gt;(obj[nodeName]) == &lt;span class=&quot;string&quot;&gt;&quot;undefined&quot;&lt;/span&gt;) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				obj[nodeName] = xmlToJson(item);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&amp;#125; &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (&lt;span class=&quot;keyword&quot;&gt;typeof&lt;/span&gt;(obj[nodeName].push) == &lt;span class=&quot;string&quot;&gt;&quot;undefined&quot;&lt;/span&gt;) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;					&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; old = obj[nodeName];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;					obj[nodeName] = [];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;					obj[nodeName].push(old);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				obj[nodeName].push(xmlToJson(item));&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; obj;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -115,8 +111,6 @@
     </summary>
     
     
-      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
-    
   </entry>
   
   <entry>
@@ -124,7 +118,7 @@
     <link href="http://popfly.club/posts/20160804/gulp.html"/>
     <id>http://popfly.club/posts/20160804/gulp.html</id>
     <published>2016-08-04T02:33:00.000Z</published>
-    <updated>2016-11-09T06:35:30.448Z</updated>
+    <updated>2017-01-05T12:21:36.726Z</updated>
     
     <content type="html">&lt;h3 id=&quot;config&quot;&gt;&lt;a href=&quot;#config&quot; class=&quot;headerlink&quot; title=&quot;config&quot;&gt;&lt;/a&gt;config&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;20&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;21&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;22&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;23&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;24&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;25&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;26&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;27&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;28&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;29&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;30&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;31&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;32&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;33&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;34&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;35&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;36&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;37&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;38&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;39&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;40&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;41&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;42&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;43&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;44&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;45&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;46&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;47&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;48&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;49&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;50&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;51&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;52&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;53&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;54&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;55&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;56&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;57&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;58&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;59&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;var fs = require(&amp;apos;fs&amp;apos;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;var colors = require(&amp;apos;colors&amp;apos;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;var argv = require(&amp;apos;minimist&amp;apos;)(process.argv.slice(2),&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    string:[&amp;apos;src&amp;apos;,&amp;apos;dist&amp;apos;]&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;var destDir = argv.dist ||&amp;apos;activity&amp;apos;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;var srcCLI = argv.src;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;if(!srcCLI)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    console.log(&amp;apos;没有输入项目名称&amp;apos;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    process.exit();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;var name = srcCLI;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;colors.setTheme(&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    info: &amp;apos;cyan&amp;apos;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;var filesPath = fs.readdirSync(&amp;apos;./actSrc/&amp;apos;,(err)=&amp;gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    if(err)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        console.log(err);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;console.log(&amp;apos;=====================================================&amp;apos;.rainbow);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;console.log(`[info] `.info+`你当前监听发布环境是：`.green+`$&amp;#123;destDir&amp;#125;`.bgWhite.red+`目录下的`+`$&amp;#123;name&amp;#125;`.bgRed.white+&amp;apos;项目&amp;apos;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;var part = new RegExp(name);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;if(part.test(filesPath))&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    console.log(`[info] `.info+`输入的项目匹配成功，监听$&amp;#123;name&amp;#125;项目`.green);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    console.log(&amp;apos;=====================================================&amp;apos;.rainbow);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;else&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    console.log(`[info] `.info+`没有匹配到输入的项目，强制退出`.green);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    console.log(&amp;apos;=====================================================&amp;apos;.rainbow);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    process.exit();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;module.exports = &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    srcPath: &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        html: `actSrc/$&amp;#123;name&amp;#125;/**/*.html`,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        sass: `actSrc/$&amp;#123;name&amp;#125;/**/css/**/*.scss`,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        js: `actSrc/$&amp;#123;name&amp;#125;/**/js/**/*.js`,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        jsmin: `actSrc/$&amp;#123;name&amp;#125;/**/js/**/*.min.js`,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        imageJpg: `actSrc/$&amp;#123;name&amp;#125;/**/images/**/*.+(ico)`,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        imagePng: `actSrc/$&amp;#123;name&amp;#125;/**/images/**/*.+(png|jpg|jpeg)`,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        css: `actSrc/$&amp;#123;name&amp;#125;/**/css/**/*.css`,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        map: `$&amp;#123;destDir&amp;#125;/**/map`&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    destPath : `$&amp;#123;destDir&amp;#125;/$&amp;#123;name&amp;#125;/`,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    mkey:&amp;apos;mi6aDP5SGwJMKdrzdEc84IPTK-MJ8EtN&amp;apos;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    destDir:destDir,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    src:name&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -137,8 +131,6 @@
     </summary>
     
     
-      <category term="gulp" scheme="http://popfly.club/tags/gulp/"/>
-    
   </entry>
   
   <entry>
@@ -146,7 +138,7 @@
     <link href="http://popfly.club/posts/20160728/flexible.html"/>
     <id>http://popfly.club/posts/20160728/flexible.html</id>
     <published>2016-07-28T07:36:45.000Z</published>
-    <updated>2016-07-29T07:13:42.743Z</updated>
+    <updated>2017-01-05T12:20:12.360Z</updated>
     
     <content type="html">&lt;h3 id=&quot;一-需指定meta&quot;&gt;&lt;a href=&quot;#一-需指定meta&quot; class=&quot;headerlink&quot; title=&quot;一 需指定meta&quot;&gt;&lt;/a&gt;一 需指定meta&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;(设计图元素尺寸/100)rem;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no&amp;quot;&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -166,16 +158,14 @@
     </summary>
     
     
-      <category term="flexible" scheme="http://popfly.club/tags/flexible/"/>
-    
   </entry>
   
   <entry>
-    <title>css集合</title>
+    <title>css snippet</title>
     <link href="http://popfly.club/posts/20160526/cssSnippet1.html"/>
     <id>http://popfly.club/posts/20160526/cssSnippet1.html</id>
     <published>2016-05-26T03:01:40.000Z</published>
-    <updated>2016-11-28T09:28:33.351Z</updated>
+    <updated>2017-01-05T12:23:42.406Z</updated>
     
     <content type="html">&lt;h3 id=&quot;伪元素实现行级元素换行&quot;&gt;&lt;a href=&quot;#伪元素实现行级元素换行&quot; class=&quot;headerlink&quot; title=&quot;伪元素实现行级元素换行&quot;&gt;&lt;/a&gt;伪元素实现行级元素换行&lt;/h3&gt;&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;selector-class&quot;&gt;.inline-element&lt;/span&gt;&lt;span class=&quot;selector-pseudo&quot;&gt;::after&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;content&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;\A&quot;&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;white-space&lt;/span&gt;: pre;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; &lt;span class=&quot;selector-tag&quot;&gt;Unicode&lt;/span&gt; 字符是专门代表换行符的：0&lt;span class=&quot;selector-tag&quot;&gt;x000A&lt;/span&gt; 。 在 &lt;span class=&quot;selector-tag&quot;&gt;CSS&lt;/span&gt; 中，这个字符可以写作 &quot;\000&lt;span class=&quot;selector-tag&quot;&gt;A&lt;/span&gt;&quot;， 或简化为 &quot;\&lt;span class=&quot;selector-tag&quot;&gt;A&lt;/span&gt;&quot;。这里我们用它来作为 &lt;span class=&quot;selector-pseudo&quot;&gt;::after&lt;/span&gt; 伪元素的内容。也就是在元素末尾添加了一个换行符的意思。&lt;span class=&quot;selector-tag&quot;&gt;white-space&lt;/span&gt;: &lt;span class=&quot;selector-tag&quot;&gt;pre&lt;/span&gt;; 的作用是保留元素后面的空白符和换行符&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;ios-iframe滚动问题&quot;&gt;&lt;a href=&quot;#ios-iframe滚动问题&quot; class=&quot;headerlink&quot; title=&quot;ios iframe滚动问题&quot;&gt;&lt;/a&gt;ios iframe滚动问题&lt;/h3&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;div class=&quot;wrap&quot;&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&amp;lt;iframe scrolling=&quot;yes&quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;/div&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;.wrap&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	-webkit-overflow-scrolling: touch;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
@@ -187,16 +177,14 @@
     </summary>
     
     
-      <category term="CSS" scheme="http://popfly.club/tags/CSS/"/>
-    
   </entry>
   
   <entry>
-    <title>js集合(7)</title>
+    <title>js snippet(7)</title>
     <link href="http://popfly.club/posts/20160525/snippet7.html"/>
     <id>http://popfly.club/posts/20160525/snippet7.html</id>
     <published>2016-05-25T07:05:05.000Z</published>
-    <updated>2016-11-02T01:29:42.791Z</updated>
+    <updated>2017-01-05T12:24:34.582Z</updated>
     
     <content type="html">&lt;h3 id=&quot;中文转拼音&quot;&gt;&lt;a href=&quot;#中文转拼音&quot; class=&quot;headerlink&quot; title=&quot;中文转拼音&quot;&gt;&lt;/a&gt;中文转拼音&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;/**/~(function(){/**/
 //二分法汉字转拼音
@@ -257,16 +245,14 @@ var keyLen=key.length-1;
     </summary>
     
     
-      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
-    
   </entry>
   
   <entry>
-    <title>js集合(6)</title>
+    <title>js snippet(6)</title>
     <link href="http://popfly.club/posts/20160525/snippet6.html"/>
     <id>http://popfly.club/posts/20160525/snippet6.html</id>
     <published>2016-05-25T06:29:02.000Z</published>
-    <updated>2016-11-02T01:29:37.432Z</updated>
+    <updated>2017-01-05T12:24:28.198Z</updated>
     
     <content type="html">&lt;h3 id=&quot;图片懒加载&quot;&gt;&lt;a href=&quot;#图片懒加载&quot; class=&quot;headerlink&quot; title=&quot;图片懒加载&quot;&gt;&lt;/a&gt;图片懒加载&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;blank.gif&amp;quot; class=&amp;quot;lazy&amp;quot; data-src=&amp;quot;/images/full-size.jpg&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;152&amp;quot;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -354,16 +340,14 @@ var keyLen=key.length-1;
     </summary>
     
     
-      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
-    
   </entry>
   
   <entry>
-    <title>js集合(5)</title>
+    <title>js snippet(5)</title>
     <link href="http://popfly.club/posts/20160429/snippet4.html"/>
     <id>http://popfly.club/posts/20160429/snippet4.html</id>
     <published>2016-04-29T02:19:41.000Z</published>
-    <updated>2016-11-02T01:29:31.671Z</updated>
+    <updated>2017-01-05T12:24:24.783Z</updated>
     
     <content type="html">&lt;h3 id=&quot;数组去重&quot;&gt;&lt;a href=&quot;#数组去重&quot; class=&quot;headerlink&quot; title=&quot;数组去重&quot;&gt;&lt;/a&gt;数组去重&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function outRepeat(a){
         var hash=[],arr=[];
@@ -426,16 +410,14 @@ function outRepeat(a){
     </summary>
     
     
-      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
-    
   </entry>
   
   <entry>
-    <title>日期相关方法</title>
+    <title>时间</title>
     <link href="http://popfly.club/posts/20160411/date.html"/>
     <id>http://popfly.club/posts/20160411/date.html</id>
     <published>2016-04-11T10:03:36.000Z</published>
-    <updated>2017-01-04T02:06:23.156Z</updated>
+    <updated>2017-01-05T12:23:35.727Z</updated>
     
     <content type="html">&lt;h2 id=&quot;判断闰年&quot;&gt;&lt;a href=&quot;#判断闰年&quot; class=&quot;headerlink&quot; title=&quot;判断闰年&quot;&gt;&lt;/a&gt;判断闰年&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;/*&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; * 判断闰年&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; * @param  &amp;#123;Number&amp;#125; 年&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; * @return &amp;#123;Blooean&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt; */&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;function isLeapYear(year) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    return (year % 4 == 0 &amp;amp;&amp;amp; year % 100 != 0) || (year % 400 == 0)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;isLeapYear(2015) // false&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;isLeapYear(2016) // true&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -459,8 +441,6 @@ function outRepeat(a){
     </summary>
     
     
-      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
-    
   </entry>
   
   <entry>
@@ -468,7 +448,7 @@ function outRepeat(a){
     <link href="http://popfly.club/posts/20160411/shareJs.html"/>
     <id>http://popfly.club/posts/20160411/shareJs.html</id>
     <published>2016-04-11T08:38:38.000Z</published>
-    <updated>2016-08-16T10:07:21.966Z</updated>
+    <updated>2017-01-05T12:21:51.046Z</updated>
     
     <content type="html">&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;qzone:http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;title=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;desc=&amp;#123;&amp;#123;DESCRIPTION&amp;#125;&amp;#125;&amp;amp;summary=&amp;#123;&amp;#123;SUMMARY&amp;#125;&amp;#125;&amp;amp;site=&amp;#123;&amp;#123;SOURCE&amp;#125;&amp;#125;&amp;apos;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;qq:&amp;apos;http://connect.qq.com/widget/shareqq/index.html?url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;title=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;source=&amp;#123;&amp;#123;SOURCE&amp;#125;&amp;#125;&amp;amp;desc=&amp;#123;&amp;#123;DESCRIPTION&amp;#125;&amp;#125;&amp;apos;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;tencent: &amp;apos;http://share.v.t.qq.com/index.php?c=share&amp;amp;a=index&amp;amp;title=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;pic=&amp;#123;&amp;#123;IMAGE&amp;#125;&amp;#125;&amp;apos;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;weibo: &amp;apos;http://service.weibo.com/share/share.php?url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;title=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;pic=&amp;#123;&amp;#123;IMAGE&amp;#125;&amp;#125;&amp;apos;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;douban:&amp;apos;http://shuo.douban.com/!service/share?href=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;name=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;text=&amp;#123;&amp;#123;DESCRIPTION&amp;#125;&amp;#125;&amp;amp;image=&amp;#123;&amp;#123;IMAGE&amp;#125;&amp;#125;&amp;amp;starid=0&amp;amp;aid=0&amp;amp;style=11&amp;apos;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;diandian: &amp;apos;http://www.diandian.com/share?lo=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;ti=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;type=link&amp;apos;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;linkedin:&amp;apos;http://www.linkedin.com/shareArticle?mini=true&amp;amp;ro=true&amp;amp;title=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;summary=&amp;#123;&amp;#123;SUMMARY&amp;#125;&amp;#125;&amp;amp;source=&amp;#123;&amp;#123;SOURCE&amp;#125;&amp;#125;&amp;amp;armin=armin&amp;apos;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;facebook: &amp;apos;https://www.facebook.com/sharer/sharer.php?u=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;apos;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;twitter: &amp;apos;https://twitter.com/intent/tweet?text=&amp;#123;&amp;#123;TITLE&amp;#125;&amp;#125;&amp;amp;url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;amp;via=&amp;#123;&amp;#123;SITE_URL&amp;#125;&amp;#125;&amp;apos;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;google: &amp;apos;https://plus.google.com/share?url=&amp;#123;&amp;#123;URL&amp;#125;&amp;#125;&amp;apos;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 </content>
@@ -480,16 +460,14 @@ function outRepeat(a){
     </summary>
     
     
-      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
-    
   </entry>
   
   <entry>
-    <title>js集合(4)</title>
+    <title>js snippet(4)</title>
     <link href="http://popfly.club/posts/20160408/snippet3.html"/>
     <id>http://popfly.club/posts/20160408/snippet3.html</id>
     <published>2016-04-08T02:27:12.000Z</published>
-    <updated>2016-11-02T01:29:25.807Z</updated>
+    <updated>2017-01-05T12:24:18.038Z</updated>
     
     <content type="html">&lt;h3 id=&quot;自定义滚动条&quot;&gt;&lt;a href=&quot;#自定义滚动条&quot; class=&quot;headerlink&quot; title=&quot;自定义滚动条&quot;&gt;&lt;/a&gt;自定义滚动条&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;/**
 *
@@ -798,16 +776,14 @@ setInterval(timer,1000);
     </summary>
     
     
-      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
-    
   </entry>
   
   <entry>
-    <title>js集合(3)</title>
+    <title>js snippet(3)</title>
     <link href="http://popfly.club/posts/20160408/snippet2.html"/>
     <id>http://popfly.club/posts/20160408/snippet2.html</id>
     <published>2016-04-08T02:11:56.000Z</published>
-    <updated>2016-11-02T01:29:19.750Z</updated>
+    <updated>2017-01-05T12:24:13.390Z</updated>
     
     <content type="html">&lt;h3 id=&quot;网站变灰&quot;&gt;&lt;a href=&quot;#网站变灰&quot; class=&quot;headerlink&quot; title=&quot;网站变灰&quot;&gt;&lt;/a&gt;网站变灰&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
 &lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -1010,16 +986,14 @@ myURL.file;     // = &amp;apos;index.html&amp;apos;
     </summary>
     
     
-      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
-    
   </entry>
   
   <entry>
-    <title>js集合(2)</title>
+    <title>js snippet(2)</title>
     <link href="http://popfly.club/posts/20160408/snippet.html"/>
     <id>http://popfly.club/posts/20160408/snippet.html</id>
     <published>2016-04-08T01:55:22.000Z</published>
-    <updated>2016-11-02T01:29:07.695Z</updated>
+    <updated>2017-01-05T12:24:08.719Z</updated>
     
     <content type="html">&lt;h3 id=&quot;去除ie10输入框删除图标&quot;&gt;&lt;a href=&quot;#去除ie10输入框删除图标&quot; class=&quot;headerlink&quot; title=&quot;去除ie10输入框删除图标&quot;&gt;&lt;/a&gt;去除ie10输入框删除图标&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;input::-ms-clear,
 input::-ms-reveal {
@@ -1180,16 +1154,14 @@ display: none;
     </summary>
     
     
-      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
-    
   </entry>
   
   <entry>
-    <title>js集合(1)</title>
+    <title>js snippet(1)</title>
     <link href="http://popfly.club/posts/20160407/test.html"/>
     <id>http://popfly.club/posts/20160407/test.html</id>
     <published>2016-04-07T03:28:29.236Z</published>
-    <updated>2016-11-02T01:30:01.185Z</updated>
+    <updated>2017-01-05T12:23:17.214Z</updated>
     
     <content type="html">&lt;h3 id=&quot;去首尾空格&quot;&gt;&lt;a href=&quot;#去首尾空格&quot; class=&quot;headerlink&quot; title=&quot;去首尾空格&quot;&gt;&lt;/a&gt;去首尾空格&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;String.prototype.trim = function(){
     return this.replace(/^\s+|\s+$/g, &amp;apos;&amp;apos;);
@@ -1338,16 +1310,14 @@ div p{ position:relative;}/*实现IE文字不透明*/
     </summary>
     
     
-      <category term="前端资料" scheme="http://popfly.club/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
-    
   </entry>
   
   <entry>
-    <title>前端集合</title>
+    <title>前端</title>
     <link href="http://popfly.club/posts/20160407/hello-world.html"/>
     <id>http://popfly.club/posts/20160407/hello-world.html</id>
     <published>2016-04-07T03:28:29.000Z</published>
-    <updated>2016-04-18T09:31:48.001Z</updated>
+    <updated>2017-01-05T12:23:52.687Z</updated>
     
     <content type="html">&lt;h2 id=&quot;前端构建工具&quot;&gt;&lt;a href=&quot;#前端构建工具&quot; class=&quot;headerlink&quot; title=&quot;前端构建工具&quot;&gt;&lt;/a&gt;前端构建工具&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gulpjs.com.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gulp&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://fis.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fis&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/webpack/webpack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;webpack&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://i5ting.github.io/stuq-gulp/#1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gulp指南&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;预编译&quot;&gt;&lt;a href=&quot;#预编译&quot; class=&quot;headerlink&quot; title=&quot;预编译&quot;&gt;&lt;/a&gt;预编译&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.w3cplus.com/sassguide/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;sass&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.1024i.com/demo/less/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Less&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://babeljs.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BabelJs&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -1363,8 +1333,6 @@ div p{ position:relative;}/*实现IE文字不透明*/
     
     </summary>
     
-    
-      <category term="前端资料" scheme="http://popfly.club/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
     
   </entry>
   

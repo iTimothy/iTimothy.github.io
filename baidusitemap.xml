@@ -3,32 +3,13 @@
 
     
   <url>
-    <loc>http://popfly.club/posts/20161214/iOSProblem.html</loc>
-    <lastmod>2017-01-05T11:34:33.748Z</lastmod>
-    <data>
-        <display>
-        <title>iMessage加载url</title>
-        <pubTime>2016-12-14T04:37:46.000Z</pubTime>
-        
-        <tag>iOS 前端 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://popfly.club/posts/20161125/npm.html</loc>
-    <lastmod>2017-01-05T11:33:17.284Z</lastmod>
+    <lastmod>2017-01-05T12:32:37.783Z</lastmod>
     <data>
         <display>
         <title>npm error</title>
         <pubTime>2016-11-25T11:50:52.000Z</pubTime>
         
-        <tag>npm </tag>
-         
          
            
         </display>
@@ -37,102 +18,18 @@
 
     
   <url>
-    <loc>http://popfly.club/posts/20160816/snippet8.html</loc>
-    <lastmod>2017-01-04T02:06:53.044Z</lastmod>
+    <loc>http://popfly.club/posts/20161214/iOSProblem.html</loc>
+    <lastmod>2017-01-05T12:26:10.167Z</lastmod>
     <data>
         <display>
-        <title>js集合(8)</title>
-        <pubTime>2016-08-16T10:05:44.000Z</pubTime>
+        <title>iMessage加载url</title>
+        <pubTime>2016-12-14T04:37:46.000Z</pubTime>
         
-        <tag>javascript </tag>
-         
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://popfly.club/posts/20161206/iosUIView.html</loc>
-    <lastmod>2017-01-04T02:06:38.493Z</lastmod>
-    <data>
-        <display>
-        <title>ios 惯性滚动</title>
-        <pubTime>2016-12-06T08:27:53.000Z</pubTime>
-        
-        <tag>ios 前端 </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://popfly.club/posts/20160411/date.html</loc>
-    <lastmod>2017-01-04T02:06:23.156Z</lastmod>
-    <data>
-        <display>
-        <title>日期相关方法</title>
-        <pubTime>2016-04-11T10:03:36.000Z</pubTime>
-        
-        <tag>javascript </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://popfly.club/posts/20160526/cssSnippet1.html</loc>
-    <lastmod>2016-11-28T09:28:33.351Z</lastmod>
-    <data>
-        <display>
-        <title>css集合</title>
-        <pubTime>2016-05-26T03:01:40.000Z</pubTime>
-        
-        <tag>CSS </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://popfly.club/posts/20160804/gulp.html</loc>
-    <lastmod>2016-11-09T06:35:30.448Z</lastmod>
-    <data>
-        <display>
-        <title>gulp</title>
-        <pubTime>2016-08-04T02:33:00.000Z</pubTime>
-        
-        <tag>gulp </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://popfly.club/posts/20160407/test.html</loc>
-    <lastmod>2016-11-02T01:30:01.185Z</lastmod>
-    <data>
-        <display>
-        <title>js集合(1)</title>
-        <pubTime>2016-04-07T03:28:29.236Z</pubTime>
-        
-        <tag>前端资料 </tag>
-         
-         
-           
+             
+              <breadCrumb title="iOS 前端" url="http://popfly.club/categories/iOS-%E5%89%8D%E7%AB%AF/"/>
+          
         </display>
     </data>
     </url>
@@ -140,14 +37,12 @@
     
   <url>
     <loc>http://popfly.club/posts/20160525/snippet7.html</loc>
-    <lastmod>2016-11-02T01:29:42.791Z</lastmod>
+    <lastmod>2017-01-05T12:24:34.582Z</lastmod>
     <data>
         <display>
-        <title>js集合(7)</title>
+        <title>js snippet(7)</title>
         <pubTime>2016-05-25T07:05:05.000Z</pubTime>
         
-        <tag>javascript </tag>
-         
          
            
         </display>
@@ -157,14 +52,12 @@
     
   <url>
     <loc>http://popfly.club/posts/20160525/snippet6.html</loc>
-    <lastmod>2016-11-02T01:29:37.432Z</lastmod>
+    <lastmod>2017-01-05T12:24:28.198Z</lastmod>
     <data>
         <display>
-        <title>js集合(6)</title>
+        <title>js snippet(6)</title>
         <pubTime>2016-05-25T06:29:02.000Z</pubTime>
         
-        <tag>javascript </tag>
-         
          
            
         </display>
@@ -174,14 +67,12 @@
     
   <url>
     <loc>http://popfly.club/posts/20160429/snippet4.html</loc>
-    <lastmod>2016-11-02T01:29:31.671Z</lastmod>
+    <lastmod>2017-01-05T12:24:24.783Z</lastmod>
     <data>
         <display>
-        <title>js集合(5)</title>
+        <title>js snippet(5)</title>
         <pubTime>2016-04-29T02:19:41.000Z</pubTime>
         
-        <tag>javascript </tag>
-         
          
            
         </display>
@@ -191,14 +82,12 @@
     
   <url>
     <loc>http://popfly.club/posts/20160408/snippet3.html</loc>
-    <lastmod>2016-11-02T01:29:25.807Z</lastmod>
+    <lastmod>2017-01-05T12:24:18.038Z</lastmod>
     <data>
         <display>
-        <title>js集合(4)</title>
+        <title>js snippet(4)</title>
         <pubTime>2016-04-08T02:27:12.000Z</pubTime>
         
-        <tag>javascript </tag>
-         
          
            
         </display>
@@ -208,14 +97,12 @@
     
   <url>
     <loc>http://popfly.club/posts/20160408/snippet2.html</loc>
-    <lastmod>2016-11-02T01:29:19.750Z</lastmod>
+    <lastmod>2017-01-05T12:24:13.390Z</lastmod>
     <data>
         <display>
-        <title>js集合(3)</title>
+        <title>js snippet(3)</title>
         <pubTime>2016-04-08T02:11:56.000Z</pubTime>
         
-        <tag>javascript </tag>
-         
          
            
         </display>
@@ -225,48 +112,12 @@
     
   <url>
     <loc>http://popfly.club/posts/20160408/snippet.html</loc>
-    <lastmod>2016-11-02T01:29:07.695Z</lastmod>
+    <lastmod>2017-01-05T12:24:08.719Z</lastmod>
     <data>
         <display>
-        <title>js集合(2)</title>
+        <title>js snippet(2)</title>
         <pubTime>2016-04-08T01:55:22.000Z</pubTime>
         
-        <tag>javascript </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://popfly.club/posts/20160411/shareJs.html</loc>
-    <lastmod>2016-08-16T10:07:21.966Z</lastmod>
-    <data>
-        <display>
-        <title>分享代码</title>
-        <pubTime>2016-04-11T08:38:38.000Z</pubTime>
-        
-        <tag>javascript </tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://popfly.club/posts/20160728/flexible.html</loc>
-    <lastmod>2016-07-29T07:13:42.743Z</lastmod>
-    <data>
-        <display>
-        <title>移动端适配方案</title>
-        <pubTime>2016-07-28T07:36:45.000Z</pubTime>
-        
-        <tag>flexible </tag>
-         
          
            
         </display>
@@ -276,14 +127,132 @@
     
   <url>
     <loc>http://popfly.club/posts/20160407/hello-world.html</loc>
-    <lastmod>2016-04-18T09:31:48.001Z</lastmod>
+    <lastmod>2017-01-05T12:23:52.687Z</lastmod>
     <data>
         <display>
-        <title>前端集合</title>
+        <title>前端</title>
         <pubTime>2016-04-07T03:28:29.000Z</pubTime>
         
-        <tag>前端资料 </tag>
          
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://popfly.club/posts/20160526/cssSnippet1.html</loc>
+    <lastmod>2017-01-05T12:23:42.406Z</lastmod>
+    <data>
+        <display>
+        <title>css snippet</title>
+        <pubTime>2016-05-26T03:01:40.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://popfly.club/posts/20160411/date.html</loc>
+    <lastmod>2017-01-05T12:23:35.727Z</lastmod>
+    <data>
+        <display>
+        <title>时间</title>
+        <pubTime>2016-04-11T10:03:36.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://popfly.club/posts/20160407/test.html</loc>
+    <lastmod>2017-01-05T12:23:17.214Z</lastmod>
+    <data>
+        <display>
+        <title>js snippet(1)</title>
+        <pubTime>2016-04-07T03:28:29.236Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://popfly.club/posts/20160816/snippet8.html</loc>
+    <lastmod>2017-01-05T12:23:15.672Z</lastmod>
+    <data>
+        <display>
+        <title>js snippet(8)</title>
+        <pubTime>2016-08-16T10:05:44.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://popfly.club/posts/20160411/shareJs.html</loc>
+    <lastmod>2017-01-05T12:21:51.046Z</lastmod>
+    <data>
+        <display>
+        <title>分享代码</title>
+        <pubTime>2016-04-11T08:38:38.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://popfly.club/posts/20161206/iosUIView.html</loc>
+    <lastmod>2017-01-05T12:21:44.751Z</lastmod>
+    <data>
+        <display>
+        <title>ios 惯性滚动</title>
+        <pubTime>2016-12-06T08:27:53.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://popfly.club/posts/20160804/gulp.html</loc>
+    <lastmod>2017-01-05T12:21:36.726Z</lastmod>
+    <data>
+        <display>
+        <title>gulp</title>
+        <pubTime>2016-08-04T02:33:00.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://popfly.club/posts/20160728/flexible.html</loc>
+    <lastmod>2017-01-05T12:20:12.360Z</lastmod>
+    <data>
+        <display>
+        <title>移动端适配方案</title>
+        <pubTime>2016-07-28T07:36:45.000Z</pubTime>
+        
          
            
         </display>
