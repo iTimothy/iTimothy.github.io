@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-04T02:07:31.588Z</updated>
+  <updated>2017-01-05T11:34:33.748Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="http://yoursite.com/posts/20161214/iOSProblem.html"/>
     <id>http://yoursite.com/posts/20161214/iOSProblem.html</id>
     <published>2016-12-14T04:37:46.000Z</published>
-    <updated>2017-01-04T02:07:31.588Z</updated>
+    <updated>2017-01-05T11:34:33.748Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;iMessage加载url时设置预览图&quot;&gt;&lt;a href=&quot;#iMessage加载url时设置预览图&quot; class=&quot;headerlink&quot; title=&quot;iMessage加载url时设置预览图&quot;&gt;&lt;/a&gt;iMessage加载url时设置预览图&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;img/iMessage.png&quot; alt=&quot;iMessage.png&quot;&gt;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://app.kuaikuaizuche.com/image/logo.png&amp;quot;/&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    <content type="html">&lt;h3 id=&quot;iMessage加载url时设置预览图&quot;&gt;&lt;a href=&quot;#iMessage加载url时设置预览图&quot; class=&quot;headerlink&quot; title=&quot;iMessage加载url时设置预览图&quot;&gt;&lt;/a&gt;iMessage加载url时设置预览图&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;images/iMessage.png&quot; alt=&quot;iMessage.png&quot;&gt;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&amp;lt;meta property=&amp;quot;og:image&amp;quot; content=&amp;quot;https://图片地址&amp;quot;/&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -72,16 +72,16 @@
     <link href="http://yoursite.com/posts/20161125/npm.html"/>
     <id>http://yoursite.com/posts/20161125/npm.html</id>
     <published>2016-11-25T11:50:52.000Z</published>
-    <updated>2016-11-25T12:01:35.508Z</updated>
+    <updated>2017-01-05T11:33:17.284Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;img src=&quot;img/npm-error.png&quot; alt=&quot;npm error&quot;&gt;    &lt;/p&gt;
-&lt;p&gt;方法一、 package.json中添加version属性&lt;br&gt;方法二、修改npm_prompt.lua文件&lt;br&gt;&lt;img src=&quot;img/npm-fix.png&quot; alt=&quot;npm fix&quot;&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;images/npm-error.png&quot; alt=&quot;npm error&quot;&gt;    &lt;/p&gt;
+&lt;p&gt;方法一、 package.json中添加version属性&lt;br&gt;方法二、修改npm_prompt.lua文件&lt;br&gt;&lt;img src=&quot;images/npm-fix.png&quot; alt=&quot;npm fix&quot;&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;img/npm-error.png&quot; alt=&quot;npm error&quot;&gt;    &lt;/p&gt;
-&lt;p&gt;方法一、 package.json中添加version属性&lt;br&gt;方法二、修改npm_prompt.lua文件&lt;br&gt;&lt;img src=&quot;img/npm-fix
+      &lt;p&gt;&lt;img src=&quot;images/npm-error.png&quot; alt=&quot;npm error&quot;&gt;    &lt;/p&gt;
+&lt;p&gt;方法一、 package.json中添加version属性&lt;br&gt;方法二、修改npm_prompt.lua文件&lt;br&gt;&lt;img src=&quot;images/n
     
     </summary>
     
