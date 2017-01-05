@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>blog</title>
+  <title>yw</title>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://popfly.club/"/>
   <updated>2017-01-05T11:34:33.748Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://popfly.club/</id>
   
   <author>
     <name>yw</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>iMessage加载url</title>
-    <link href="http://yoursite.com/posts/20161214/iOSProblem.html"/>
-    <id>http://yoursite.com/posts/20161214/iOSProblem.html</id>
+    <link href="http://popfly.club/posts/20161214/iOSProblem.html"/>
+    <id>http://popfly.club/posts/20161214/iOSProblem.html</id>
     <published>2016-12-14T04:37:46.000Z</published>
     <updated>2017-01-05T11:34:33.748Z</updated>
     
@@ -32,14 +32,14 @@
     </summary>
     
     
-      <category term="iOS 前端" scheme="http://yoursite.com/tags/iOS-%E5%89%8D%E7%AB%AF/"/>
+      <category term="iOS 前端" scheme="http://popfly.club/tags/iOS-%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>ios 惯性滚动</title>
-    <link href="http://yoursite.com/posts/20161206/iosUIView.html"/>
-    <id>http://yoursite.com/posts/20161206/iosUIView.html</id>
+    <link href="http://popfly.club/posts/20161206/iosUIView.html"/>
+    <id>http://popfly.club/posts/20161206/iosUIView.html</id>
     <published>2016-12-06T08:27:53.000Z</published>
     <updated>2017-01-04T02:06:38.493Z</updated>
     
@@ -63,14 +63,14 @@
     </summary>
     
     
-      <category term="ios 前端" scheme="http://yoursite.com/tags/ios-%E5%89%8D%E7%AB%AF/"/>
+      <category term="ios 前端" scheme="http://popfly.club/tags/ios-%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>npm error</title>
-    <link href="http://yoursite.com/posts/20161125/npm.html"/>
-    <id>http://yoursite.com/posts/20161125/npm.html</id>
+    <link href="http://popfly.club/posts/20161125/npm.html"/>
+    <id>http://popfly.club/posts/20161125/npm.html</id>
     <published>2016-11-25T11:50:52.000Z</published>
     <updated>2017-01-05T11:33:17.284Z</updated>
     
@@ -86,14 +86,14 @@
     </summary>
     
     
-      <category term="npm" scheme="http://yoursite.com/tags/npm/"/>
+      <category term="npm" scheme="http://popfly.club/tags/npm/"/>
     
   </entry>
   
   <entry>
     <title>js集合(8)</title>
-    <link href="http://yoursite.com/posts/20160816/snippet8.html"/>
-    <id>http://yoursite.com/posts/20160816/snippet8.html</id>
+    <link href="http://popfly.club/posts/20160816/snippet8.html"/>
+    <id>http://popfly.club/posts/20160816/snippet8.html</id>
     <published>2016-08-16T10:05:44.000Z</published>
     <updated>2017-01-04T02:06:53.044Z</updated>
     
@@ -115,14 +115,14 @@
     </summary>
     
     
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
     
   </entry>
   
   <entry>
     <title>gulp</title>
-    <link href="http://yoursite.com/posts/20160804/gulp.html"/>
-    <id>http://yoursite.com/posts/20160804/gulp.html</id>
+    <link href="http://popfly.club/posts/20160804/gulp.html"/>
+    <id>http://popfly.club/posts/20160804/gulp.html</id>
     <published>2016-08-04T02:33:00.000Z</published>
     <updated>2016-11-09T06:35:30.448Z</updated>
     
@@ -137,14 +137,14 @@
     </summary>
     
     
-      <category term="gulp" scheme="http://yoursite.com/tags/gulp/"/>
+      <category term="gulp" scheme="http://popfly.club/tags/gulp/"/>
     
   </entry>
   
   <entry>
     <title>移动端适配方案</title>
-    <link href="http://yoursite.com/posts/20160728/flexible.html"/>
-    <id>http://yoursite.com/posts/20160728/flexible.html</id>
+    <link href="http://popfly.club/posts/20160728/flexible.html"/>
+    <id>http://popfly.club/posts/20160728/flexible.html</id>
     <published>2016-07-28T07:36:45.000Z</published>
     <updated>2016-07-29T07:13:42.743Z</updated>
     
@@ -166,14 +166,14 @@
     </summary>
     
     
-      <category term="flexible" scheme="http://yoursite.com/tags/flexible/"/>
+      <category term="flexible" scheme="http://popfly.club/tags/flexible/"/>
     
   </entry>
   
   <entry>
     <title>css集合</title>
-    <link href="http://yoursite.com/posts/20160526/cssSnippet1.html"/>
-    <id>http://yoursite.com/posts/20160526/cssSnippet1.html</id>
+    <link href="http://popfly.club/posts/20160526/cssSnippet1.html"/>
+    <id>http://popfly.club/posts/20160526/cssSnippet1.html</id>
     <published>2016-05-26T03:01:40.000Z</published>
     <updated>2016-11-28T09:28:33.351Z</updated>
     
@@ -187,14 +187,14 @@
     </summary>
     
     
-      <category term="CSS" scheme="http://yoursite.com/tags/CSS/"/>
+      <category term="CSS" scheme="http://popfly.club/tags/CSS/"/>
     
   </entry>
   
   <entry>
     <title>js集合(7)</title>
-    <link href="http://yoursite.com/posts/20160525/snippet7.html"/>
-    <id>http://yoursite.com/posts/20160525/snippet7.html</id>
+    <link href="http://popfly.club/posts/20160525/snippet7.html"/>
+    <id>http://popfly.club/posts/20160525/snippet7.html</id>
     <published>2016-05-25T07:05:05.000Z</published>
     <updated>2016-11-02T01:29:42.791Z</updated>
     
@@ -257,14 +257,14 @@ var keyLen=key.length-1;
     </summary>
     
     
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
     
   </entry>
   
   <entry>
     <title>js集合(6)</title>
-    <link href="http://yoursite.com/posts/20160525/snippet6.html"/>
-    <id>http://yoursite.com/posts/20160525/snippet6.html</id>
+    <link href="http://popfly.club/posts/20160525/snippet6.html"/>
+    <id>http://popfly.club/posts/20160525/snippet6.html</id>
     <published>2016-05-25T06:29:02.000Z</published>
     <updated>2016-11-02T01:29:37.432Z</updated>
     
@@ -354,14 +354,14 @@ var keyLen=key.length-1;
     </summary>
     
     
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
     
   </entry>
   
   <entry>
     <title>js集合(5)</title>
-    <link href="http://yoursite.com/posts/20160429/snippet4.html"/>
-    <id>http://yoursite.com/posts/20160429/snippet4.html</id>
+    <link href="http://popfly.club/posts/20160429/snippet4.html"/>
+    <id>http://popfly.club/posts/20160429/snippet4.html</id>
     <published>2016-04-29T02:19:41.000Z</published>
     <updated>2016-11-02T01:29:31.671Z</updated>
     
@@ -426,14 +426,14 @@ function outRepeat(a){
     </summary>
     
     
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
     
   </entry>
   
   <entry>
     <title>日期相关方法</title>
-    <link href="http://yoursite.com/posts/20160411/date.html"/>
-    <id>http://yoursite.com/posts/20160411/date.html</id>
+    <link href="http://popfly.club/posts/20160411/date.html"/>
+    <id>http://popfly.club/posts/20160411/date.html</id>
     <published>2016-04-11T10:03:36.000Z</published>
     <updated>2017-01-04T02:06:23.156Z</updated>
     
@@ -459,14 +459,14 @@ function outRepeat(a){
     </summary>
     
     
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
     
   </entry>
   
   <entry>
     <title>分享代码</title>
-    <link href="http://yoursite.com/posts/20160411/shareJs.html"/>
-    <id>http://yoursite.com/posts/20160411/shareJs.html</id>
+    <link href="http://popfly.club/posts/20160411/shareJs.html"/>
+    <id>http://popfly.club/posts/20160411/shareJs.html</id>
     <published>2016-04-11T08:38:38.000Z</published>
     <updated>2016-08-16T10:07:21.966Z</updated>
     
@@ -480,14 +480,14 @@ function outRepeat(a){
     </summary>
     
     
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
     
   </entry>
   
   <entry>
     <title>js集合(4)</title>
-    <link href="http://yoursite.com/posts/20160408/snippet3.html"/>
-    <id>http://yoursite.com/posts/20160408/snippet3.html</id>
+    <link href="http://popfly.club/posts/20160408/snippet3.html"/>
+    <id>http://popfly.club/posts/20160408/snippet3.html</id>
     <published>2016-04-08T02:27:12.000Z</published>
     <updated>2016-11-02T01:29:25.807Z</updated>
     
@@ -798,14 +798,14 @@ setInterval(timer,1000);
     </summary>
     
     
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
     
   </entry>
   
   <entry>
     <title>js集合(3)</title>
-    <link href="http://yoursite.com/posts/20160408/snippet2.html"/>
-    <id>http://yoursite.com/posts/20160408/snippet2.html</id>
+    <link href="http://popfly.club/posts/20160408/snippet2.html"/>
+    <id>http://popfly.club/posts/20160408/snippet2.html</id>
     <published>2016-04-08T02:11:56.000Z</published>
     <updated>2016-11-02T01:29:19.750Z</updated>
     
@@ -1010,14 +1010,14 @@ myURL.file;     // = &amp;apos;index.html&amp;apos;
     </summary>
     
     
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
     
   </entry>
   
   <entry>
     <title>js集合(2)</title>
-    <link href="http://yoursite.com/posts/20160408/snippet.html"/>
-    <id>http://yoursite.com/posts/20160408/snippet.html</id>
+    <link href="http://popfly.club/posts/20160408/snippet.html"/>
+    <id>http://popfly.club/posts/20160408/snippet.html</id>
     <published>2016-04-08T01:55:22.000Z</published>
     <updated>2016-11-02T01:29:07.695Z</updated>
     
@@ -1180,14 +1180,14 @@ display: none;
     </summary>
     
     
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
     
   </entry>
   
   <entry>
     <title>js集合(1)</title>
-    <link href="http://yoursite.com/posts/20160407/test.html"/>
-    <id>http://yoursite.com/posts/20160407/test.html</id>
+    <link href="http://popfly.club/posts/20160407/test.html"/>
+    <id>http://popfly.club/posts/20160407/test.html</id>
     <published>2016-04-07T03:28:29.236Z</published>
     <updated>2016-11-02T01:30:01.185Z</updated>
     
@@ -1338,14 +1338,14 @@ div p{ position:relative;}/*实现IE文字不透明*/
     </summary>
     
     
-      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+      <category term="前端资料" scheme="http://popfly.club/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
     
   </entry>
   
   <entry>
     <title>前端集合</title>
-    <link href="http://yoursite.com/posts/20160407/hello-world.html"/>
-    <id>http://yoursite.com/posts/20160407/hello-world.html</id>
+    <link href="http://popfly.club/posts/20160407/hello-world.html"/>
+    <id>http://popfly.club/posts/20160407/hello-world.html</id>
     <published>2016-04-07T03:28:29.000Z</published>
     <updated>2016-04-18T09:31:48.001Z</updated>
     
@@ -1364,7 +1364,7 @@ div p{ position:relative;}/*实现IE文字不透明*/
     </summary>
     
     
-      <category term="前端资料" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
+      <category term="前端资料" scheme="http://popfly.club/tags/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%96%99/"/>
     
   </entry>
   
