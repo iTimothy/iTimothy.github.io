@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://popfly.club/"/>
-  <updated>2017-02-09T06:27:29.162Z</updated>
+  <updated>2017-03-31T03:36:20.184Z</updated>
   <id>http://popfly.club/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSSOM(CSS Object Model View)</title>
+    <link href="http://popfly.club/posts/20170331/cssom.html"/>
+    <id>http://popfly.club/posts/20170331/cssom.html</id>
+    <published>2017-03-31T03:27:02.000Z</published>
+    <updated>2017-03-31T03:36:20.184Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;elementFromPoint&quot;&gt;&lt;a href=&quot;#elementFromPoint&quot; class=&quot;headerlink&quot; title=&quot;elementFromPoint&quot;&gt;&lt;/a&gt;elementFromPoint&lt;/h3&gt;&lt;p&gt;返回给定坐标处所在的元素&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.elementFromPoint(x,y)&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;getBoundingClientRect&quot;&gt;&lt;a href=&quot;#getBoundingClientRect&quot; class=&quot;headerlink&quot; title=&quot;getBoundingClientRect&quot;&gt;&lt;/a&gt;getBoundingClientRect&lt;/h3&gt;&lt;p&gt;获取矩形元素的界线，返回一个对象&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;element.getBoundingClientRect();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	top,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	left,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	bottom,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	right&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;getClientRects&quot;&gt;&lt;a href=&quot;#getClientRects&quot; class=&quot;headerlink&quot; title=&quot;getClientRects&quot;&gt;&lt;/a&gt;getClientRects&lt;/h3&gt;&lt;p&gt;返回元素(只针对inline box)的数个矩形区域，返回的结果是对象列表,只针对a, span, em这类标签&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;element.getClientRects();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; [&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	top,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	left,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	bottom,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	right&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;]&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;scrollIntoView&quot;&gt;&lt;a href=&quot;#scrollIntoView&quot; class=&quot;headerlink&quot; title=&quot;scrollIntoView&quot;&gt;&lt;/a&gt;scrollIntoView&lt;/h3&gt;&lt;p&gt;使元素滚动到可视区域&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;element.scrollIntoView();&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;elementFromPoint&quot;&gt;&lt;a href=&quot;#elementFromPoint&quot; class=&quot;headerlink&quot; title=&quot;elementFromPoint&quot;&gt;&lt;/a&gt;elementFromPoint&lt;/h3&gt;&lt;p&gt;返回给定坐标处所在的元素&lt;/
+    
+    </summary>
+    
+    
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>module</title>

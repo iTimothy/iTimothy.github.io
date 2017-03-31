@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="javascript," />
 
 
 
@@ -86,28 +86,28 @@
 
 
 
-<meta name="description" content="去除ie10输入框删除图标input::-ms-clear,
-input::-ms-reveal {
-display: none;
-}
-图片预加载">
+<meta name="description" content="elementFromPoint返回给定坐标处所在的元素
+1document.elementFromPoint(x,y)
+getBoundingClientRect获取矩形元素的界线，返回一个对象
+1234567element.getBoundingClientRect();return &amp;#123;	top,	left,	bottom,	right&amp;#125;
+getClientRects返回元">
 <meta property="og:type" content="article">
-<meta property="og:title" content="js snippet(2)">
-<meta property="og:url" content="http://popfly.club/posts/20160408/snippet.html">
+<meta property="og:title" content="CSSOM(CSS Object Model View)">
+<meta property="og:url" content="http://popfly.club/posts/20170331/cssom.html">
 <meta property="og:site_name" content="yw">
-<meta property="og:description" content="去除ie10输入框删除图标input::-ms-clear,
-input::-ms-reveal {
-display: none;
-}
-图片预加载">
-<meta property="og:updated_time" content="2017-01-05T12:24:08.719Z">
+<meta property="og:description" content="elementFromPoint返回给定坐标处所在的元素
+1document.elementFromPoint(x,y)
+getBoundingClientRect获取矩形元素的界线，返回一个对象
+1234567element.getBoundingClientRect();return &amp;#123;	top,	left,	bottom,	right&amp;#125;
+getClientRects返回元">
+<meta property="og:updated_time" content="2017-03-31T03:36:20.184Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="js snippet(2)">
-<meta name="twitter:description" content="去除ie10输入框删除图标input::-ms-clear,
-input::-ms-reveal {
-display: none;
-}
-图片预加载">
+<meta name="twitter:title" content="CSSOM(CSS Object Model View)">
+<meta name="twitter:description" content="elementFromPoint返回给定坐标处所在的元素
+1document.elementFromPoint(x,y)
+getBoundingClientRect获取矩形元素的界线，返回一个对象
+1234567element.getBoundingClientRect();return &amp;#123;	top,	left,	bottom,	right&amp;#125;
+getClientRects返回元">
 
 
 
@@ -135,13 +135,13 @@ display: none;
 
 
 
-  <link rel="canonical" href="http://popfly.club/posts/20160408/snippet.html"/>
+  <link rel="canonical" href="http://popfly.club/posts/20170331/cssom.html"/>
 
 
 
 
 
-  <title> js snippet(2) | yw </title>
+  <title> CSSOM(CSS Object Model View) | yw </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
@@ -243,8 +243,8 @@ display: none;
   
   
 
-  <article class="post post-type-javascript " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20160408/snippet.html">
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20170331/cssom.html">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="yw">
@@ -268,7 +268,7 @@ display: none;
             
             
               
-                js snippet(2)
+                CSSOM(CSS Object Model View)
               
             
           </h1>
@@ -283,8 +283,8 @@ display: none;
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-04-08T09:55:22+08:00">
-                2016-04-08
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-31T11:27:02+08:00">
+                2017-03-31
               </time>
             
 
@@ -302,8 +302,8 @@ display: none;
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/posts/20160408/snippet.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/20160408/snippet.html" itemprop="commentCount"></span>
+                <a href="/posts/20170331/cssom.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/20170331/cssom.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -329,153 +329,14 @@ display: none;
       
 
       
-        <h3 id="去除ie10输入框删除图标"><a href="#去除ie10输入框删除图标" class="headerlink" title="去除ie10输入框删除图标"></a>去除ie10输入框删除图标</h3><pre><code>input::-ms-clear,
-input::-ms-reveal {
-display: none;
-}
-</code></pre><h3 id="图片预加载"><a href="#图片预加载" class="headerlink" title="图片预加载"></a>图片预加载</h3><a id="more"></a>
-<pre><code>(function () {
-function isArray(obj) {
-    return Object.prototype.toString.call(obj) === &apos;[object Array]&apos;;
-}
-/*
- * @param imgList 要加载的图片地址列表，[&apos;aa/asd.png&apos;,&apos;aa/xxx.png&apos;]
- * @param callback 每成功加载一个图片之后的回调，并传入“已加载的图片总数/要加载的图片总数”表示进度
- * @param timeout 每个图片加载的超时时间，默认为5s
- */
-var loader = function (imgList, callback, timeout) {
-    timeout = timeout || 5000;
-    imgList = isArray(imgList) &amp; imgList || [];
-    callback = typeof(callback) === &apos;function&apos; &amp; callback;
-
-    var total = imgList.length,
-        loaded = 0,
-        imgages = [],
-        _on = function () {
-            loaded  total));
-        };
-
-    if (!total) {
-        return callback &amp; callback(1);
-    }
-
-    for (var i = 0; i ) {
-        imgages[i] = new Image();
-        imgages[i].onload = imgages[i].onerror = _on;
-        imgages[i].src = imgList[i];
-    }
-
-    /**
-     * 如果timeout * total时间范围内，仍有图片未加载出来（判断条件是loaded */
-    setTimeout(function () {
-        loaded  total));
-    }, timeout * total);
-
-};
-
-    &quot;function&quot; === typeof define &amp; define.cmd ? define(function () {
-        return loader
-    }) : window.imgLoader = loader;
-})();
-</code></pre><h3 id="常用正则"><a href="#常用正则" class="headerlink" title="常用正则"></a>常用正则</h3><pre><code>//正整数
-/^[0-9]*[1-9][0-9]*$/;
-//负整数
-/^-[0-9]*[1-9][0-9]*$/;
-//正浮点数
-/^(([0-9]+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*))$/;
-//负浮点数
-/^(-(([0-9]+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*)))$/;
-//浮点数
-/^(-?\d+)(\.\d+)?$/;
-//email地址
-/^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$/;
-//url地址
-/^[a-zA-z]+://(\w+(-\w+)*)(\.(\w+(-\w+)*))*(\?\S*)?$/;
-或：^http:\/\/[A-Za-z0-9]+\.[A-Za-z0-9]+[\/=\?%\-&amp;_~`@[\]\&apos;:+!]*([^&lt;&gt;\&quot;\&quot;])*$
-//年/月/日（年-月-日、年.月.日）
-/^(19|20)\d\d[-/.](0[1-9]|1[012])[-/.](0[1-9]|[12][0-9]|3[01])$/;
-//匹配中文字符
-/[\u4e00-\u9fa5]/;
-//匹配帐号是否合法(字母开头，允许5-10字节，允许字母数字下划线)
-/^[a-zA-Z][a-zA-Z0-9_]{4,9}$/;
-//匹配空白行的正则表达式
-/\n\s*\r/;
-//匹配中国邮政编码
-/[1-9]\d{5}(?!\d)/;
-//匹配身份证
-/\d{15}|\d{18}/;
-//匹配国内电话号码
-/(\d{3}-|\d{4}-)?(\d{8}|\d{7})?/;
-//匹配IP地址
-/((2[0-4]\d|25[0-5]|[01]?\d\d?)\.){3}(2[0-4]\d|25[0-5]|[01]?\d\d?)/;
-//匹配首尾空白字符的正则表达式
-/^\s*|\s*$/;
-//匹配HTML标记的正则表达式
-&lt;(\S*?)[^&gt;]*&gt;.*?|&lt;.*?/&gt;;
-//sql 语句
-^(select|drop|delete|create|update|insert).*$
-//提取信息中的网络链接
-(h|H)(r|R)(e|E)(f|F)*=*(&apos;|&quot;)?(\w|\\|\/|\.)+(&apos;|&quot;|*|&gt;)?
-//提取信息中的邮件地址
-\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*
-//提取信息中的图片链接
-(s|S)(r|R)(c|C)*=*(&apos;|&quot;)?(\w|\\|\/|\.)+(&apos;|&quot;|*|&gt;)?
-//提取信息中的 IP 地址
-(\d+)\.(\d+)\.(\d+)\.(\d+)
-//取信息中的中国手机号码
-(86)*0*13\d{9}
-//提取信息中的中国邮政编码
-[1-9]{1}(\d+){5}
-//提取信息中的浮点数（即小数）
-(-?\d*)\.?\d+
-//提取信息中的任何数字
-(-?\d*)(\.\d+)?
-//电话区号
-^0\d{2,3}$
-//腾讯 QQ 号
-^[1-9]*[1-9][0-9]*$
-//帐号（字母开头，允许 5-16 字节，允许字母数字下划线）
-^[a-zA-Z][a-zA-Z0-9_]{4,15}$
-//中文、英文、数字及下划线
-^[\u4e00-\u9fa5_a-zA-Z0-9]+$
-</code></pre><h3 id="滚动条修改"><a href="#滚动条修改" class="headerlink" title="滚动条修改"></a>滚动条修改</h3><pre><code>::-webkit-scrollbar{width:14px;}
-::-webkit-scrollbar-track{background-color:#bee1eb;}
-::-webkit-scrollbar-thumb{background-color:#00aff0;}
-::-webkit-scrollbar-thumb:hover {background-color:#9c3}
-::-webkit-scrollbar-thumb:active {background-color:#00aff0}
-</code></pre><h3 id="常用分享"><a href="#常用分享" class="headerlink" title="常用分享"></a>常用分享</h3><pre><code>tools.share = function(name){
-var list ={
-    //微信
-    &apos;wechat&apos;   : function(selector){
-                    $(selector).append(&apos;&lt;img src=&quot;http://qr.liantu.com/api.php?text=&apos;+encodeURIComponent(window.location.href)+&apos;&quot; /&gt;&apos;).show();//在线生成二维码
-                 },
-    //新浪微博
-    &apos;sina&apos;     : &apos;http://service.weibo.com/share/share.php?title=__shareTitle__&amp;url=__shareUrl__&amp;language=zh_cn&apos;,
-    //脸书
-    &apos;facebook&apos;: &apos;http://www.facebook.com/sharer.php?u=__shareUrl__&amp;t=__shareTitle__&apos;,
-    //推特
-    &apos;twitter&apos;  : &apos;http://twitter.com/?status=__shareUrl__%20-%20__shareTitle__&apos;,
-    //pin
-    &apos;pinterest&apos;: &apos;http://pinterest.com/pin/create/button/?url=__shareUrl__&amp;media=__shareTitle__&apos;
-
-    };
-    if(typeof(list[name]) == &apos;undefined&apos;)
-    {
-        alert(&apos;暂未开放&apos;);
-        return;
-    }
-    else if(typeof(list[name]) == &apos;function&apos;)
-    {
-        list[name](arguments[1]);
-    }
-    else if(typeof(list[name]) == &apos;string&apos;)
-    {
-        var url = list[name].replace(&apos;__shareUrl__&apos;,encodeURIComponent(window.location.href)).replace(&apos;__shareTitle__&apos;,encodeURIComponent(document.title));
-        window.open(url,&quot;Both&quot;,&quot;width=850,height=520,menubar=0,scrollbars=1,resizable=1,status=1,titlebar=0,toolbar=0,location=1&quot;);
-    }
-};
-e.g.：tools.share(&apos;sina&apos;);
-</code></pre>
+        <h3 id="elementFromPoint"><a href="#elementFromPoint" class="headerlink" title="elementFromPoint"></a>elementFromPoint</h3><p>返回给定坐标处所在的元素</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">document</span>.elementFromPoint(x,y)</div></pre></td></tr></table></figure>
+<h3 id="getBoundingClientRect"><a href="#getBoundingClientRect" class="headerlink" title="getBoundingClientRect"></a>getBoundingClientRect</h3><p>获取矩形元素的界线，返回一个对象</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">element.getBoundingClientRect();</div><div class="line"><span class="keyword">return</span> &#123;</div><div class="line">	top,</div><div class="line">	left,</div><div class="line">	bottom,</div><div class="line">	right</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="getClientRects"><a href="#getClientRects" class="headerlink" title="getClientRects"></a>getClientRects</h3><p>返回元素(只针对inline box)的数个矩形区域，返回的结果是对象列表,只针对a, span, em这类标签</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">element.getClientRects();</div><div class="line"><span class="keyword">return</span> [</div><div class="line">  &#123;</div><div class="line">	top,</div><div class="line">	left,</div><div class="line">	bottom,</div><div class="line">	right</div><div class="line">  &#125;</div><div class="line">]</div></pre></td></tr></table></figure>
+<h3 id="scrollIntoView"><a href="#scrollIntoView" class="headerlink" title="scrollIntoView"></a>scrollIntoView</h3><p>使元素滚动到可视区域</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">element.scrollIntoView();</div></pre></td></tr></table></figure>
       
     </div>
 
@@ -496,13 +357,19 @@ e.g.：tools.share(&apos;sina&apos;);
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/javascript/" rel="tag"># javascript</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/20160407/test.html" rel="next" title="js snippet(1)">
-                <i class="fa fa-chevron-left"></i> js snippet(1)
+              <a href="/posts/20170209/module.html" rel="next" title="module">
+                <i class="fa fa-chevron-left"></i> module
               </a>
             
           </div>
@@ -510,10 +377,6 @@ e.g.：tools.share(&apos;sina&apos;);
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/posts/20160408/snippet2.html" rel="prev" title="js snippet(3)">
-                js snippet(3) <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -539,8 +402,8 @@ e.g.：tools.share(&apos;sina&apos;);
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="posts/20160408/snippet.html"
-           data-title="js snippet(2)" data-url="http://popfly.club/posts/20160408/snippet.html">
+      <div class="ds-thread" data-thread-key="posts/20170331/cssom.html"
+           data-title="CSSOM(CSS Object Model View)" data-url="http://popfly.club/posts/20170331/cssom.html">
       </div>
     
   </div>
@@ -647,7 +510,7 @@ e.g.：tools.share(&apos;sina&apos;);
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#去除ie10输入框删除图标"><span class="nav-number">1.</span> <span class="nav-text">去除ie10输入框删除图标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图片预加载"><span class="nav-number">2.</span> <span class="nav-text">图片预加载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用正则"><span class="nav-number">3.</span> <span class="nav-text">常用正则</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#滚动条修改"><span class="nav-number">4.</span> <span class="nav-text">滚动条修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用分享"><span class="nav-number">5.</span> <span class="nav-text">常用分享</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#elementFromPoint"><span class="nav-number">1.</span> <span class="nav-text">elementFromPoint</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#getBoundingClientRect"><span class="nav-number">2.</span> <span class="nav-text">getBoundingClientRect</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#getClientRects"><span class="nav-number">3.</span> <span class="nav-text">getClientRects</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#scrollIntoView"><span class="nav-number">4.</span> <span class="nav-text">scrollIntoView</span></a></li></ol></div>
             
 
           </div>
