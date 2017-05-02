@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://popfly.club/"/>
-  <updated>2017-03-31T03:36:20.184Z</updated>
+  <updated>2017-05-02T03:08:06.691Z</updated>
   <id>http://popfly.club/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>https</title>
+    <link href="http://popfly.club/posts/20170502/https.html"/>
+    <id>http://popfly.club/posts/20170502/https.html</id>
+    <published>2017-05-02T03:05:13.000Z</published>
+    <updated>2017-05-02T03:08:06.691Z</updated>
+    
+    <content type="html">&lt;p&gt;页面请求头加入 Strict-Transport-Security，浏览器会默认采用https方式访问，提高网站速度。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;页面请求头加入 Strict-Transport-Security，浏览器会默认采用https方式访问，提高网站速度。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="web" scheme="http://popfly.club/tags/web/"/>
+    
+  </entry>
   
   <entry>
     <title>CSSOM(CSS Object Model View)</title>

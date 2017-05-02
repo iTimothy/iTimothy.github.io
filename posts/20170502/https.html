@@ -68,12 +68,10 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="javascript," />
+  <meta name="keywords" content="web," />
 
 
 
-
-  
 
 
   <link rel="alternate" href="/atom.xml" title="yw" type="application/atom+xml" />
@@ -88,28 +86,16 @@
 
 
 
-<meta name="description" content="elementFromPoint返回给定坐标处所在的元素
-1document.elementFromPoint(x,y)
-getBoundingClientRect获取矩形元素的界线，返回一个对象
-1234567element.getBoundingClientRect();return &amp;#123;	top,	left,	bottom,	right&amp;#125;
-getClientRects返回元">
+<meta name="description" content="页面请求头加入 Strict-Transport-Security，浏览器会默认采用https方式访问，提高网站速度。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CSSOM(CSS Object Model View)">
-<meta property="og:url" content="http://popfly.club/posts/20170331/cssom.html">
+<meta property="og:title" content="https">
+<meta property="og:url" content="http://popfly.club/posts/20170502/https.html">
 <meta property="og:site_name" content="yw">
-<meta property="og:description" content="elementFromPoint返回给定坐标处所在的元素
-1document.elementFromPoint(x,y)
-getBoundingClientRect获取矩形元素的界线，返回一个对象
-1234567element.getBoundingClientRect();return &amp;#123;	top,	left,	bottom,	right&amp;#125;
-getClientRects返回元">
-<meta property="og:updated_time" content="2017-03-31T03:36:20.184Z">
+<meta property="og:description" content="页面请求头加入 Strict-Transport-Security，浏览器会默认采用https方式访问，提高网站速度。">
+<meta property="og:updated_time" content="2017-05-02T03:08:06.691Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CSSOM(CSS Object Model View)">
-<meta name="twitter:description" content="elementFromPoint返回给定坐标处所在的元素
-1document.elementFromPoint(x,y)
-getBoundingClientRect获取矩形元素的界线，返回一个对象
-1234567element.getBoundingClientRect();return &amp;#123;	top,	left,	bottom,	right&amp;#125;
-getClientRects返回元">
+<meta name="twitter:title" content="https">
+<meta name="twitter:description" content="页面请求头加入 Strict-Transport-Security，浏览器会默认采用https方式访问，提高网站速度。">
 
 
 
@@ -137,13 +123,13 @@ getClientRects返回元">
 
 
 
-  <link rel="canonical" href="http://popfly.club/posts/20170331/cssom.html"/>
+  <link rel="canonical" href="http://popfly.club/posts/20170502/https.html"/>
 
 
 
 
 
-  <title> CSSOM(CSS Object Model View) | yw </title>
+  <title> https | yw </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
@@ -246,7 +232,7 @@ getClientRects返回元">
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20170331/cssom.html">
+  <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20170502/https.html">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="yw">
@@ -270,7 +256,7 @@ getClientRects返回元">
             
             
               
-                CSSOM(CSS Object Model View)
+                https
               
             
           </h1>
@@ -285,8 +271,8 @@ getClientRects返回元">
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-31T11:27:02+08:00">
-                2017-03-31
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-02T11:05:13+08:00">
+                2017-05-02
               </time>
             
 
@@ -304,8 +290,8 @@ getClientRects返回元">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/posts/20170331/cssom.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/20170331/cssom.html" itemprop="commentCount"></span>
+                <a href="/posts/20170502/https.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/20170502/https.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -331,14 +317,8 @@ getClientRects返回元">
       
 
       
-        <h3 id="elementFromPoint"><a href="#elementFromPoint" class="headerlink" title="elementFromPoint"></a>elementFromPoint</h3><p>返回给定坐标处所在的元素</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">document</span>.elementFromPoint(x,y)</div></pre></td></tr></table></figure>
-<h3 id="getBoundingClientRect"><a href="#getBoundingClientRect" class="headerlink" title="getBoundingClientRect"></a>getBoundingClientRect</h3><p>获取矩形元素的界线，返回一个对象</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">element.getBoundingClientRect();</div><div class="line"><span class="keyword">return</span> &#123;</div><div class="line">	top,</div><div class="line">	left,</div><div class="line">	bottom,</div><div class="line">	right</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="getClientRects"><a href="#getClientRects" class="headerlink" title="getClientRects"></a>getClientRects</h3><p>返回元素(只针对inline box)的数个矩形区域，返回的结果是对象列表,只针对a, span, em这类标签</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">element.getClientRects();</div><div class="line"><span class="keyword">return</span> [</div><div class="line">  &#123;</div><div class="line">	top,</div><div class="line">	left,</div><div class="line">	bottom,</div><div class="line">	right</div><div class="line">  &#125;</div><div class="line">]</div></pre></td></tr></table></figure>
-<h3 id="scrollIntoView"><a href="#scrollIntoView" class="headerlink" title="scrollIntoView"></a>scrollIntoView</h3><p>使元素滚动到可视区域</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">element.scrollIntoView();</div></pre></td></tr></table></figure>
+        <p>页面请求头加入 Strict-Transport-Security，浏览器会默认采用https方式访问，提高网站速度。</p>
+
       
     </div>
 
@@ -361,7 +341,7 @@ getClientRects返回元">
       
         <div class="post-tags">
           
-            <a href="/tags/javascript/" rel="tag"># javascript</a>
+            <a href="/tags/web/" rel="tag"># web</a>
           
         </div>
       
@@ -370,8 +350,8 @@ getClientRects返回元">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/20170209/module.html" rel="next" title="module">
-                <i class="fa fa-chevron-left"></i> module
+              <a href="/posts/20170331/cssom.html" rel="next" title="CSSOM(CSS Object Model View)">
+                <i class="fa fa-chevron-left"></i> CSSOM(CSS Object Model View)
               </a>
             
           </div>
@@ -379,10 +359,6 @@ getClientRects返回元">
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/posts/20170502/https.html" rel="prev" title="https">
-                https <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -408,8 +384,8 @@ getClientRects返回元">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="posts/20170331/cssom.html"
-           data-title="CSSOM(CSS Object Model View)" data-url="http://popfly.club/posts/20170331/cssom.html">
+      <div class="ds-thread" data-thread-key="posts/20170502/https.html"
+           data-title="https" data-url="http://popfly.club/posts/20170502/https.html">
       </div>
     
   </div>
@@ -433,17 +409,8 @@ getClientRects返回元">
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Table of Contents
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            Overview
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/author.jpg"
@@ -506,22 +473,6 @@ getClientRects返回元">
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#elementFromPoint"><span class="nav-number">1.</span> <span class="nav-text">elementFromPoint</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#getBoundingClientRect"><span class="nav-number">2.</span> <span class="nav-text">getBoundingClientRect</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#getClientRects"><span class="nav-number">3.</span> <span class="nav-text">getClientRects</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#scrollIntoView"><span class="nav-number">4.</span> <span class="nav-text">scrollIntoView</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
     </div>
