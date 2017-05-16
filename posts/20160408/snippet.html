@@ -89,8 +89,7 @@
 <meta name="description" content="去除ie10输入框删除图标input::-ms-clear,
 input::-ms-reveal {
 display: none;
-}
-图片预加载">
+}">
 <meta property="og:type" content="article">
 <meta property="og:title" content="js snippet(2)">
 <meta property="og:url" content="http://popfly.club/posts/20160408/snippet.html">
@@ -98,16 +97,14 @@ display: none;
 <meta property="og:description" content="去除ie10输入框删除图标input::-ms-clear,
 input::-ms-reveal {
 display: none;
-}
-图片预加载">
-<meta property="og:updated_time" content="2017-01-05T12:24:08.719Z">
+}">
+<meta property="og:updated_time" content="2017-05-16T06:56:54.759Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="js snippet(2)">
 <meta name="twitter:description" content="去除ie10输入框删除图标input::-ms-clear,
 input::-ms-reveal {
 display: none;
-}
-图片预加载">
+}">
 
 
 
@@ -333,51 +330,8 @@ display: none;
 input::-ms-reveal {
 display: none;
 }
-</code></pre><h3 id="图片预加载"><a href="#图片预加载" class="headerlink" title="图片预加载"></a>图片预加载</h3><a id="more"></a>
-<pre><code>(function () {
-function isArray(obj) {
-    return Object.prototype.toString.call(obj) === &apos;[object Array]&apos;;
-}
-/*
- * @param imgList 要加载的图片地址列表，[&apos;aa/asd.png&apos;,&apos;aa/xxx.png&apos;]
- * @param callback 每成功加载一个图片之后的回调，并传入“已加载的图片总数/要加载的图片总数”表示进度
- * @param timeout 每个图片加载的超时时间，默认为5s
- */
-var loader = function (imgList, callback, timeout) {
-    timeout = timeout || 5000;
-    imgList = isArray(imgList) &amp; imgList || [];
-    callback = typeof(callback) === &apos;function&apos; &amp; callback;
-
-    var total = imgList.length,
-        loaded = 0,
-        imgages = [],
-        _on = function () {
-            loaded  total));
-        };
-
-    if (!total) {
-        return callback &amp; callback(1);
-    }
-
-    for (var i = 0; i ) {
-        imgages[i] = new Image();
-        imgages[i].onload = imgages[i].onerror = _on;
-        imgages[i].src = imgList[i];
-    }
-
-    /**
-     * 如果timeout * total时间范围内，仍有图片未加载出来（判断条件是loaded */
-    setTimeout(function () {
-        loaded  total));
-    }, timeout * total);
-
-};
-
-    &quot;function&quot; === typeof define &amp; define.cmd ? define(function () {
-        return loader
-    }) : window.imgLoader = loader;
-})();
-</code></pre><h3 id="常用正则"><a href="#常用正则" class="headerlink" title="常用正则"></a>常用正则</h3><pre><code>//正整数
+</code></pre><a id="more"></a>
+<h3 id="常用正则"><a href="#常用正则" class="headerlink" title="常用正则"></a>常用正则</h3><pre><code>//正整数
 /^[0-9]*[1-9][0-9]*$/;
 //负整数
 /^-[0-9]*[1-9][0-9]*$/;
@@ -647,7 +601,7 @@ e.g.：tools.share(&apos;sina&apos;);
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#去除ie10输入框删除图标"><span class="nav-number">1.</span> <span class="nav-text">去除ie10输入框删除图标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图片预加载"><span class="nav-number">2.</span> <span class="nav-text">图片预加载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用正则"><span class="nav-number">3.</span> <span class="nav-text">常用正则</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#滚动条修改"><span class="nav-number">4.</span> <span class="nav-text">滚动条修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用分享"><span class="nav-number">5.</span> <span class="nav-text">常用分享</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#去除ie10输入框删除图标"><span class="nav-number">1.</span> <span class="nav-text">去除ie10输入框删除图标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用正则"><span class="nav-number">2.</span> <span class="nav-text">常用正则</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#滚动条修改"><span class="nav-number">3.</span> <span class="nav-text">滚动条修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用分享"><span class="nav-number">4.</span> <span class="nav-text">常用分享</span></a></li></ol></div>
             
 
           </div>

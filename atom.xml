@@ -1066,57 +1066,14 @@ myURL.file;     // = &amp;apos;index.html&amp;apos;
     <link href="http://popfly.club/posts/20160408/snippet.html"/>
     <id>http://popfly.club/posts/20160408/snippet.html</id>
     <published>2016-04-08T01:55:22.000Z</published>
-    <updated>2017-01-05T12:24:08.719Z</updated>
+    <updated>2017-05-16T06:56:54.759Z</updated>
     
     <content type="html">&lt;h3 id=&quot;去除ie10输入框删除图标&quot;&gt;&lt;a href=&quot;#去除ie10输入框删除图标&quot; class=&quot;headerlink&quot; title=&quot;去除ie10输入框删除图标&quot;&gt;&lt;/a&gt;去除ie10输入框删除图标&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;input::-ms-clear,
 input::-ms-reveal {
 display: none;
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;图片预加载&quot;&gt;&lt;a href=&quot;#图片预加载&quot; class=&quot;headerlink&quot; title=&quot;图片预加载&quot;&gt;&lt;/a&gt;图片预加载&lt;/h3&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;pre&gt;&lt;code&gt;(function () {
-function isArray(obj) {
-    return Object.prototype.toString.call(obj) === &amp;apos;[object Array]&amp;apos;;
-}
-/*
- * @param imgList 要加载的图片地址列表，[&amp;apos;aa/asd.png&amp;apos;,&amp;apos;aa/xxx.png&amp;apos;]
- * @param callback 每成功加载一个图片之后的回调，并传入“已加载的图片总数/要加载的图片总数”表示进度
- * @param timeout 每个图片加载的超时时间，默认为5s
- */
-var loader = function (imgList, callback, timeout) {
-    timeout = timeout || 5000;
-    imgList = isArray(imgList) &amp;amp; imgList || [];
-    callback = typeof(callback) === &amp;apos;function&amp;apos; &amp;amp; callback;
-
-    var total = imgList.length,
-        loaded = 0,
-        imgages = [],
-        _on = function () {
-            loaded  total));
-        };
-
-    if (!total) {
-        return callback &amp;amp; callback(1);
-    }
-
-    for (var i = 0; i ) {
-        imgages[i] = new Image();
-        imgages[i].onload = imgages[i].onerror = _on;
-        imgages[i].src = imgList[i];
-    }
-
-    /**
-     * 如果timeout * total时间范围内，仍有图片未加载出来（判断条件是loaded */
-    setTimeout(function () {
-        loaded  total));
-    }, timeout * total);
-
-};
-
-    &amp;quot;function&amp;quot; === typeof define &amp;amp; define.cmd ? define(function () {
-        return loader
-    }) : window.imgLoader = loader;
-})();
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;常用正则&quot;&gt;&lt;a href=&quot;#常用正则&quot; class=&quot;headerlink&quot; title=&quot;常用正则&quot;&gt;&lt;/a&gt;常用正则&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;//正整数
+&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;常用正则&quot;&gt;&lt;a href=&quot;#常用正则&quot; class=&quot;headerlink&quot; title=&quot;常用正则&quot;&gt;&lt;/a&gt;常用正则&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;//正整数
 /^[0-9]*[1-9][0-9]*$/;
 //负整数
 /^-[0-9]*[1-9][0-9]*$/;
@@ -1222,7 +1179,7 @@ e.g.：tools.share(&amp;apos;sina&amp;apos;);
 input::-ms-reveal {
 display: none;
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;图片预加载&quot;&gt;&lt;a href=&quot;#图片预加载&quot; class=&quot;headerlink&quot; title=&quot;图片预加载&quot;&gt;&lt;/a&gt;图片预加载&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
