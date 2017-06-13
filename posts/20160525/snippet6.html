@@ -86,16 +86,16 @@
 
 
 
-<meta name="description" content="图片懒加载&amp;lt;img src=&amp;quot;blank.gif&amp;quot; class=&amp;quot;lazy&amp;quot; data-src=&amp;quot;/images/full-size.jpg&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;152&amp;quot;&amp;gt;">
+<meta name="description" content="异步js加载器1234567891011121314151617181920212223242526272829303132333435363738var Loader = function () &amp;#123; &amp;#125;Loader.prototype = &amp;#123;    require: function (scripts, callback) &amp;#123;        this.lo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="js snippet(6)">
 <meta property="og:url" content="http://popfly.club/posts/20160525/snippet6.html">
 <meta property="og:site_name" content="yw">
-<meta property="og:description" content="图片懒加载&amp;lt;img src=&amp;quot;blank.gif&amp;quot; class=&amp;quot;lazy&amp;quot; data-src=&amp;quot;/images/full-size.jpg&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;152&amp;quot;&amp;gt;">
-<meta property="og:updated_time" content="2017-01-05T12:24:28.198Z">
+<meta property="og:description" content="异步js加载器1234567891011121314151617181920212223242526272829303132333435363738var Loader = function () &amp;#123; &amp;#125;Loader.prototype = &amp;#123;    require: function (scripts, callback) &amp;#123;        this.lo">
+<meta property="og:updated_time" content="2017-06-13T02:34:49.249Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="js snippet(6)">
-<meta name="twitter:description" content="图片懒加载&amp;lt;img src=&amp;quot;blank.gif&amp;quot; class=&amp;quot;lazy&amp;quot; data-src=&amp;quot;/images/full-size.jpg&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;152&amp;quot;&amp;gt;">
+<meta name="twitter:description" content="异步js加载器1234567891011121314151617181920212223242526272829303132333435363738var Loader = function () &amp;#123; &amp;#125;Loader.prototype = &amp;#123;    require: function (scripts, callback) &amp;#123;        this.lo">
 
 
 
@@ -317,82 +317,7 @@
       
 
       
-        <h3 id="图片懒加载"><a href="#图片懒加载" class="headerlink" title="图片懒加载"></a>图片懒加载</h3><pre><code>&lt;img src=&quot;blank.gif&quot; class=&quot;lazy&quot; data-src=&quot;/images/full-size.jpg&quot; width=&quot;240&quot; height=&quot;152&quot;&gt;
-</code></pre><a id="more"></a>
-<pre><code>!function(window){
-  var $q = function(q, res){
-        if (document.querySelectorAll) {
-          res = document.querySelectorAll(q);
-        } else {
-          var d=document
-            , a=d.styleSheets[0] || d.createStyleSheet();
-          a.addRule(q,&apos;f:b&apos;);
-          for(var l=d.all,b=0,c=[],f=l.length;b&lt;f;b++)
-            l[b].currentStyle.f &amp;&amp; c.push(l[b]);
-
-          a.removeRule(0);
-          res = c;
-        }
-        return res;
-      }
-    , addEventListener = function(evt, fn){
-        window.addEventListener
-          ? this.addEventListener(evt, fn, false)
-          : (window.attachEvent)
-            ? this.attachEvent(&apos;on&apos; + evt, fn)
-            : this[&apos;on&apos; + evt] = fn;
-      }
-    , _has = function(obj, key) {
-        return Object.prototype.hasOwnProperty.call(obj, key);
-      }
-    ;
-
-  function loadImage (el, fn) {
-    var img = new Image()
-      , src = el.getAttribute(&apos;data-src&apos;);
-    img.onload = function() {
-      if (!! el.parent)
-        el.parent.replaceChild(img, el)
-      else
-        el.src = src;
-
-      fn? fn() : null;
-    }
-    img.src = src;
-  }
-
-  function elementInViewport(el) {
-    var rect = el.getBoundingClientRect()
-
-    return (
-       rect.top    &gt;= 0
-    &amp;&amp; rect.left   &gt;= 0
-    &amp;&amp; rect.top &lt;= (window.innerHeight || document.documentElement.clientHeight)
-    )
-  }
-
-    var images = new Array()
-      , query = $q(&apos;img.lazy&apos;)
-      , processScroll = function(){
-          for (var i = 0; i &lt; images.length; i++) {
-            if (elementInViewport(images[i])) {
-              loadImage(images[i], function () {
-                images.splice(i, i);
-              });
-            }
-          };
-        }
-      ;
-    // Array.prototype.slice.call is not callable under our lovely IE8
-    for (var i = 0; i &lt; query.length; i++) {
-      images.push(query[i]);
-    };
-
-    processScroll();
-    addEventListener(&apos;scroll&apos;,processScroll);
-
-}(this);​
-</code></pre><h3 id="异步js加载器"><a href="#异步js加载器" class="headerlink" title="异步js加载器"></a>异步js加载器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div></pre></td><td class="code"><pre><div class="line">var Loader = function () &#123; &#125;</div><div class="line">Loader.prototype = &#123;</div><div class="line">    require: function (scripts, callback) &#123;</div><div class="line">        this.loadCount      = 0;</div><div class="line">        this.totalRequired  = scripts.length;</div><div class="line">        this.callback       = callback;</div><div class="line"></div><div class="line">        for (var i = 0; i &lt; scripts.length; i++) &#123;</div><div class="line">            this.writeScript(scripts[i]);</div><div class="line">        &#125;</div><div class="line">    &#125;,</div><div class="line">    loaded: function (evt) &#123;</div><div class="line">        this.loadCount++;</div><div class="line"></div><div class="line">        if (this.loadCount == this.totalRequired &amp;&amp; typeof this.callback == &apos;function&apos;) this.callback.call();</div><div class="line">    &#125;,</div><div class="line">    writeScript: function (src) &#123;</div><div class="line">        var self = this;</div><div class="line">        var s = document.createElement(&apos;script&apos;);</div><div class="line">        s.type = &quot;text/javascript&quot;;</div><div class="line">        s.async = true;</div><div class="line">        s.src = src;</div><div class="line">        s.addEventListener(&apos;load&apos;, function (e) &#123; self.loaded(e); &#125;, false);</div><div class="line">        var head = document.getElementsByTagName(&apos;head&apos;)[0];</div><div class="line">        head.appendChild(s);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">e.g.--------</div><div class="line"></div><div class="line">var l = new Loader();</div><div class="line">l.require([</div><div class="line">    &quot;example-script-1.js&quot;,</div><div class="line">    &quot;example-script-2.js&quot;],</div><div class="line">    function() &#123;</div><div class="line">        // Callback</div><div class="line">        console.log(&apos;All Scripts Loaded&apos;);</div><div class="line">    &#125;);</div></pre></td></tr></table></figure>
+        <h3 id="异步js加载器"><a href="#异步js加载器" class="headerlink" title="异步js加载器"></a>异步js加载器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div></pre></td><td class="code"><pre><div class="line">var Loader = function () &#123; &#125;</div><div class="line">Loader.prototype = &#123;</div><div class="line">    require: function (scripts, callback) &#123;</div><div class="line">        this.loadCount      = 0;</div><div class="line">        this.totalRequired  = scripts.length;</div><div class="line">        this.callback       = callback;</div><div class="line"></div><div class="line">        for (var i = 0; i &lt; scripts.length; i++) &#123;</div><div class="line">            this.writeScript(scripts[i]);</div><div class="line">        &#125;</div><div class="line">    &#125;,</div><div class="line">    loaded: function (evt) &#123;</div><div class="line">        this.loadCount++;</div><div class="line"></div><div class="line">        if (this.loadCount == this.totalRequired &amp;&amp; typeof this.callback == &apos;function&apos;) this.callback.call();</div><div class="line">    &#125;,</div><div class="line">    writeScript: function (src) &#123;</div><div class="line">        var self = this;</div><div class="line">        var s = document.createElement(&apos;script&apos;);</div><div class="line">        s.type = &quot;text/javascript&quot;;</div><div class="line">        s.async = true;</div><div class="line">        s.src = src;</div><div class="line">        s.addEventListener(&apos;load&apos;, function (e) &#123; self.loaded(e); &#125;, false);</div><div class="line">        var head = document.getElementsByTagName(&apos;head&apos;)[0];</div><div class="line">        head.appendChild(s);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">e.g.--------</div><div class="line"></div><div class="line">var l = new Loader();</div><div class="line">l.require([</div><div class="line">    &quot;example-script-1.js&quot;,</div><div class="line">    &quot;example-script-2.js&quot;],</div><div class="line">    function() &#123;</div><div class="line">        // Callback</div><div class="line">        console.log(&apos;All Scripts Loaded&apos;);</div><div class="line">    &#125;);</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -505,7 +430,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">20</span>
+                <span class="site-state-item-count">22</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -523,7 +448,7 @@
           
             <div class="site-state-item site-state-tags">
               
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">tags</span>
               
             </div>
@@ -565,7 +490,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#图片懒加载"><span class="nav-number">1.</span> <span class="nav-text">图片懒加载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#异步js加载器"><span class="nav-number">2.</span> <span class="nav-text">异步js加载器</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#异步js加载器"><span class="nav-number">1.</span> <span class="nav-text">异步js加载器</span></a></li></ol></div>
             
 
           </div>

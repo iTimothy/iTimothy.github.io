@@ -229,6 +229,271 @@
   
   
 
+  <article class="post post-type-flexible " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20160728/flexible.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="yw">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/author.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="yw">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="yw" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/posts/20160728/flexible.html" itemprop="url">
+                  移动端适配方案
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-07-28T15:36:45+08:00">
+                2016-07-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/20160728/flexible.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/20160728/flexible.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="一-需指定meta"><a href="#一-需指定meta" class="headerlink" title="一 需指定meta"></a>一 需指定meta</h3><blockquote>
+<p>(设计图元素尺寸/100)rem;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no&quot;&gt;</div></pre></td></tr></table></figure></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&quot;use strict&quot;;(function()&#123;var c;var b=window.document;function a()&#123;var g=navigator.userAgent;var f=g.match(/iphone/i);var j=screen.width&gt;0?window.innerWidth&gt;=screen.width||window.innerWidth==0?screen.width:window.innerWidth:window.innerWidth,d,k;if(window.devicePixelRatio)&#123;d=window.devicePixelRatio&#125;else&#123;d=f?j&gt;818?3:j&gt;480?2:1:1&#125;if(f)&#123;j=screen.width&#125;k=j&gt;1080?144:j/7.5;k=k&gt;32?k:32;window.screenWidth_=j;if(/Android|webOS|iPhone|iPod|BlackBerry|NOKIA|Lumia|ipad/i.test(g))&#123;b.getElementsByTagName(&quot;html&quot;)[0].dataset.dpr=d;b.getElementsByTagName(&quot;html&quot;)[0].style.fontSize=k+&quot;px&quot;&#125;else&#123;b.getElementsByTagName(&quot;html&quot;)[0].dataset.dpr=&quot;0&quot;;b.getElementsByTagName(&quot;html&quot;)[0].style.fontSize=&quot;100px&quot;&#125;&#125;a();window.addEventListener(&quot;resize&quot;,function()&#123;if(c)&#123;clearTimeout(c)&#125;c=setTimeout(a,300)&#125;,false);window.addEventListener(&quot;pageshow&quot;,function(d)&#123;if(d.persisted)&#123;if(c)&#123;clearTimeout(c)&#125;c=setTimeout(a,300)&#125;&#125;,false)&#125;)();</div></pre></td></tr></table></figure>
+<h3 id="二-不需指定meta-自动进行缩放。"><a href="#二-不需指定meta-自动进行缩放。" class="headerlink" title="二 不需指定meta,自动进行缩放。"></a>二 不需指定meta,自动进行缩放。</h3><blockquote>
+<p>(设计图元素尺寸/75)rem;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">!function(a,b)&#123;function c()&#123;var b=f.getBoundingClientRect().width;b/i&gt;540&amp;&amp;(b=540*i);var c=b/10;f.style.fontSize=c+&quot;px&quot;,k.rem=a.rem=c&#125;var d,e=a.document,f=e.documentElement,g=e.querySelector(&apos;meta[name=&quot;viewport&quot;]&apos;),h=e.querySelector(&apos;meta[name=&quot;flexible&quot;]&apos;),i=0,j=0,k=b.flexible||(b.flexible=&#123;&#125;);if(g)&#123;console.warn(&quot;将根据已有的meta标签来设置缩放比例&quot;);var l=g.getAttribute(&quot;content&quot;).match(/initial\-scale=([\d\.]+)/);l&amp;&amp;(j=parseFloat(l[1]),i=parseInt(1/j))&#125;else if(h)&#123;var m=h.getAttribute(&quot;content&quot;);if(m)&#123;var n=m.match(/initial\-dpr=([\d\.]+)/),o=m.match(/maximum\-dpr=([\d\.]+)/);n&amp;&amp;(i=parseFloat(n[1]),j=parseFloat((1/i).toFixed(2))),o&amp;&amp;(i=parseFloat(o[1]),j=parseFloat((1/i).toFixed(2)))&#125;&#125;if(!i&amp;&amp;!j)&#123;var p=a.navigator.userAgent,q=(!!p.match(/android/gi),!!p.match(/iphone/gi)),r=q&amp;&amp;!!p.match(/OS 9_3/),s=a.devicePixelRatio;i=q&amp;&amp;!r?s&gt;=3&amp;&amp;(!i||i&gt;=3)?3:s&gt;=2&amp;&amp;(!i||i&gt;=2)?2:1:1,j=1/i&#125;if(f.setAttribute(&quot;data-dpr&quot;,i),!g)if(g=e.createElement(&quot;meta&quot;),g.setAttribute(&quot;name&quot;,&quot;viewport&quot;),g.setAttribute(&quot;content&quot;,&quot;initial-scale=&quot;+j+&quot;, maximum-scale=&quot;+j+&quot;, minimum-scale=&quot;+j+&quot;, user-scalable=no&quot;),f.firstElementChild)f.firstElementChild.appendChild(g);else&#123;var t=e.createElement(&quot;div&quot;);t.appendChild(g),e.write(t.innerHTML)&#125;a.addEventListener(&quot;resize&quot;,function()&#123;clearTimeout(d),d=setTimeout(c,300)&#125;,!1),a.addEventListener(&quot;pageshow&quot;,function(a)&#123;a.persisted&amp;&amp;(clearTimeout(d),d=setTimeout(c,300))&#125;,!1),&quot;complete&quot;===e.readyState?e.body.style.fontSize=12*i+&quot;px&quot;:e.addEventListener(&quot;DOMContentLoaded&quot;,function()&#123;e.body.style.fontSize=12*i+&quot;px&quot;&#125;,!1),c(),k.dpr=a.dpr=i,k.refreshRem=c,k.rem2px=function(a)&#123;var b=parseFloat(a)*this.rem;return&quot;string&quot;==typeof a&amp;&amp;a.match(/rem$/)&amp;&amp;(b+=&quot;px&quot;),b&#125;,k.px2rem=function(a)&#123;var b=parseFloat(a)/this.rem;return&quot;string&quot;==typeof a&amp;&amp;a.match(/px$/)&amp;&amp;(b+=&quot;rem&quot;),b&#125;&#125;(window,window.lib||(window.lib=&#123;&#125;));</div></pre></td></tr></table></figure></p>
+</blockquote>
+<h3 id="三"><a href="#三" class="headerlink" title="三"></a>三</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">var t = Math.min(640, window.innerWidth, document.documentElement.clientWidth);</div><div class="line">document.documentElement.style.fontSize = t / 7.5 + &quot;px&quot;</div></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-CSS " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20160526/cssSnippet1.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="yw">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/author.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="yw">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="yw" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/posts/20160526/cssSnippet1.html" itemprop="url">
+                  css snippet
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-05-26T11:01:40+08:00">
+                2016-05-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/20160526/cssSnippet1.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/20160526/cssSnippet1.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="伪元素实现行级元素换行"><a href="#伪元素实现行级元素换行" class="headerlink" title="伪元素实现行级元素换行"></a>伪元素实现行级元素换行</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.inline-element</span><span class="selector-pseudo">::after</span>&#123;</div><div class="line">    <span class="attribute">content</span>: <span class="string">"\A"</span>;</div><div class="line">    <span class="attribute">white-space</span>: pre;</div><div class="line">&#125;</div><div class="line"> <span class="selector-tag">Unicode</span> 字符是专门代表换行符的：0<span class="selector-tag">x000A</span> 。 在 <span class="selector-tag">CSS</span> 中，这个字符可以写作 "\000<span class="selector-tag">A</span>"， 或简化为 "\<span class="selector-tag">A</span>"。这里我们用它来作为 <span class="selector-pseudo">::after</span> 伪元素的内容。也就是在元素末尾添加了一个换行符的意思。<span class="selector-tag">white-space</span>: <span class="selector-tag">pre</span>; 的作用是保留元素后面的空白符和换行符</div></pre></td></tr></table></figure>
+<h3 id="ios-iframe滚动问题"><a href="#ios-iframe滚动问题" class="headerlink" title="ios iframe滚动问题"></a>ios iframe滚动问题</h3><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&lt;div class="wrap"&gt;</div><div class="line">	&lt;iframe scrolling="yes"&gt;&lt;/iframe&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">.wrap&#123;</div><div class="line">	-webkit-overflow-scrolling: touch;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
   <article class="post post-type-javascript " itemscope itemtype="http://schema.org/Article">
   <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20160525/snippet7.html">
 
@@ -458,15 +723,10 @@ var keyLen=key.length-1;
 
       
         
-          <h3 id="图片懒加载"><a href="#图片懒加载" class="headerlink" title="图片懒加载"></a>图片懒加载</h3><pre><code>&lt;img src=&quot;blank.gif&quot; class=&quot;lazy&quot; data-src=&quot;/images/full-size.jpg&quot; width=&quot;240&quot; height=&quot;152&quot;&gt;
-</code></pre>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/posts/20160525/snippet6.html#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
+          
+            <h3 id="异步js加载器"><a href="#异步js加载器" class="headerlink" title="异步js加载器"></a>异步js加载器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div></pre></td><td class="code"><pre><div class="line">var Loader = function () &#123; &#125;</div><div class="line">Loader.prototype = &#123;</div><div class="line">    require: function (scripts, callback) &#123;</div><div class="line">        this.loadCount      = 0;</div><div class="line">        this.totalRequired  = scripts.length;</div><div class="line">        this.callback       = callback;</div><div class="line"></div><div class="line">        for (var i = 0; i &lt; scripts.length; i++) &#123;</div><div class="line">            this.writeScript(scripts[i]);</div><div class="line">        &#125;</div><div class="line">    &#125;,</div><div class="line">    loaded: function (evt) &#123;</div><div class="line">        this.loadCount++;</div><div class="line"></div><div class="line">        if (this.loadCount == this.totalRequired &amp;&amp; typeof this.callback == &apos;function&apos;) this.callback.call();</div><div class="line">    &#125;,</div><div class="line">    writeScript: function (src) &#123;</div><div class="line">        var self = this;</div><div class="line">        var s = document.createElement(&apos;script&apos;);</div><div class="line">        s.type = &quot;text/javascript&quot;;</div><div class="line">        s.async = true;</div><div class="line">        s.src = src;</div><div class="line">        s.addEventListener(&apos;load&apos;, function (e) &#123; self.loaded(e); &#125;, false);</div><div class="line">        var head = document.getElementsByTagName(&apos;head&apos;)[0];</div><div class="line">        head.appendChild(s);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line">e.g.--------</div><div class="line"></div><div class="line">var l = new Loader();</div><div class="line">l.require([</div><div class="line">    &quot;example-script-1.js&quot;,</div><div class="line">    &quot;example-script-2.js&quot;],</div><div class="line">    function() &#123;</div><div class="line">        // Callback</div><div class="line">        console.log(&apos;All Scripts Loaded&apos;);</div><div class="line">    &#125;);</div></pre></td></tr></table></figure>
+
+          
         
       
     </div>
@@ -1310,285 +1570,11 @@ display: none;
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-前端资料 " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20160407/test.html">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="yw">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/author.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/posts/20160407/test.html" itemprop="url">
-                  js snippet(1)
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-04-07T11:28:29+08:00">
-                2016-04-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/posts/20160407/test.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/20160407/test.html" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h3 id="去首尾空格"><a href="#去首尾空格" class="headerlink" title="去首尾空格"></a>去首尾空格</h3><pre><code>String.prototype.trim = function(){
-    return this.replace(/^\s+|\s+$/g, &apos;&apos;);
-}
-</code></pre><h3 id="不响应事件"><a href="#不响应事件" class="headerlink" title="不响应事件"></a>不响应事件</h3><pre><code>{pointer-events:none}
-</code></pre><h3 id="判断某个对象是否有指定的Class"><a href="#判断某个对象是否有指定的Class" class="headerlink" title="判断某个对象是否有指定的Class"></a>判断某个对象是否有指定的Class</h3><pre><code>function hasClass(ele,cls) {
-    return ele.className.match(new RegExp(&apos;(\\s|^)&apos;+cls+&apos;(\\s|$)&apos;));
-}
-</code></pre>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/posts/20160407/test.html#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-前端资料 " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20160407/hello-world.html">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="yw">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/author.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/posts/20160407/hello-world.html" itemprop="url">
-                  前端
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-04-07T11:28:29+08:00">
-                2016-04-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/posts/20160407/hello-world.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/20160407/hello-world.html" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="前端构建工具"><a href="#前端构建工具" class="headerlink" title="前端构建工具"></a>前端构建工具</h2><p><a href="http://www.gulpjs.com.cn/">Gulp</a> <i class="s15"></i> <a href="http://fis.baidu.com/">Fis</a> <i class="s15"></i> <a href="https://github.com/webpack/webpack">webpack</a> <i class="s15"></i> <a href="http://i5ting.github.io/stuq-gulp/#1">Gulp指南</a></p>
-<h2 id="预编译"><a href="#预编译" class="headerlink" title="预编译"></a>预编译</h2><p><a href="http://www.w3cplus.com/sassguide/">sass</a> <i class="s15"></i> <a href="http://www.1024i.com/demo/less/">Less</a> <i class="s15"></i> <a href="https://babeljs.io/">BabelJs</a><br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/posts/20160407/hello-world.html#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1631,7 +1617,7 @@ display: none;
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">20</span>
+                <span class="site-state-item-count">22</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
@@ -1649,7 +1635,7 @@ display: none;
           
             <div class="site-state-item site-state-tags">
               
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">tags</span>
               
             </div>

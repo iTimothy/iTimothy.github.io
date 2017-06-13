@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://popfly.club/"/>
-  <updated>2017-05-02T03:08:06.691Z</updated>
+  <updated>2017-06-13T02:38:00.025Z</updated>
   <id>http://popfly.club/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>js</title>
+    <link href="http://popfly.club/posts/20170613/snippet9.html"/>
+    <id>http://popfly.club/posts/20170613/snippet9.html</id>
+    <published>2017-06-13T02:35:53.000Z</published>
+    <updated>2017-06-13T02:38:00.025Z</updated>
+    
+    <content type="html">&lt;h3 id=&quot;图片懒加载&quot;&gt;&lt;a href=&quot;#图片懒加载&quot; class=&quot;headerlink&quot; title=&quot;图片懒加载&quot;&gt;&lt;/a&gt;图片懒加载&lt;/h3&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;20&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;21&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;22&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;23&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;24&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;25&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;26&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;27&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;28&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;29&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;30&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;31&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;32&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;33&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;34&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;35&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;36&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;37&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;38&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;39&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;40&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;41&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;42&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;43&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;44&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;45&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;46&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;47&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;48&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;49&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;50&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;51&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;52&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;53&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;54&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;55&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;56&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;57&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;58&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;59&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;60&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;61&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;62&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;63&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;64&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;65&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;66&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;67&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;68&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;69&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;70&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;71&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;72&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; isInViewport = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;el&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; rect = el.getBoundingClientRect();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; rect.bottom &amp;gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &amp;amp;&amp;amp;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	        rect.right &amp;gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &amp;amp;&amp;amp;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	        rect.left &amp;lt; (&lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.innerWidth || &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;. documentElement.clientWidth) &amp;amp;&amp;amp;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	        rect.top &amp;lt; (&lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.innerHeight || &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;. documentElement.clientHeight);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; getByClassName = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;classNames&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	  &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.querySelectorAll(&lt;span class=&quot;string&quot;&gt;&quot;.&quot;&lt;/span&gt; + classNames.replace(&lt;span class=&quot;regexp&quot;&gt;/\s+/&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;.&quot;&lt;/span&gt;));&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (!&lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.getElementsByClassName)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	  &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.getElementsByClassName = getByClassName;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; lazyload = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (!(&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;instanceof&lt;/span&gt; lazyload)) &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; lazyload();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; ll = &lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		ll.initListen();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; loadimg = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;ele,fn&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; img = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Image();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; src = ele.getAttribute(&lt;span class=&quot;string&quot;&gt;&#39;data-lazysrc&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			img.onerror = img.onload = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				ele.src = src;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				fn &amp;amp;&amp;amp; fn();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			img.src = src;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.handler = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; i = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; i &amp;lt; ll.llimgArr.length; i++)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(isInViewport(ll.llimgArr[i]))&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;					loadimg(ll.llimgArr[i],&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;						ll.llimgArr.splice(i,i);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;					&amp;#125;)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.handler();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; addEventListener = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;evt, fn&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	        &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.addEventListener&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	          ? &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.addEventListener(evt, fn, &lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt;)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	          : (&lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.attachEvent)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	            ? &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.attachEvent(&lt;span class=&quot;string&quot;&gt;&#39;on&#39;&lt;/span&gt; + evt, fn)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	            : &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;[&lt;span class=&quot;string&quot;&gt;&#39;on&#39;&lt;/span&gt; + evt] = fn;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	      &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		addEventListener(&lt;span class=&quot;string&quot;&gt;&#39;scroll&#39;&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.handler)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	lazyload.prototype = &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;attr&quot;&gt;constructor&lt;/span&gt;: lazyload,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;attr&quot;&gt;refresh&lt;/span&gt;: &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;eleArr&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; llArr = &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.getElementsByClassName(&lt;span class=&quot;string&quot;&gt;&#39;lazyload&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; i = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, len = llArr.length; i &amp;lt; len; i++)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(!llArr[i].getAttribute(&lt;span class=&quot;string&quot;&gt;&#39;data-lazy&#39;&lt;/span&gt;))&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;					&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.llimgArr.push(llArr[i]);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;					llArr[i].setAttribute(&lt;span class=&quot;string&quot;&gt;&#39;data-lazy&#39;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;true&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.handler();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&amp;#125;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&lt;span class=&quot;attr&quot;&gt;initListen&lt;/span&gt;: &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; llArr = &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.getElementsByClassName(&lt;span class=&quot;string&quot;&gt;&#39;lazyload&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.llimgArr = [];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; i = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, len = llArr.length; i &amp;lt; len; i++)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.llimgArr.push(llArr[i]);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;				llArr[i].setAttribute(&lt;span class=&quot;string&quot;&gt;&#39;data-lazy&#39;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;true&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;			&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;		&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;	&lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.lazyload = lazyload;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;)();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;eg:  &amp;lt;img data-lazysrc=&quot;picUrl&quot; src=&quot;load.gif&quot; alt=&quot;&quot; class=&quot;lazyload&quot;&amp;gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;图片懒加载&quot;&gt;&lt;a href=&quot;#图片懒加载&quot; class=&quot;headerlink&quot; title=&quot;图片懒加载&quot;&gt;&lt;/a&gt;图片懒加载&lt;/h3&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;p
+    
+    </summary>
+    
+    
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Html打开APP</title>
+    <link href="http://popfly.club/posts/20170613/openapp.html"/>
+    <id>http://popfly.club/posts/20170613/openapp.html</id>
+    <published>2017-06-13T02:28:35.000Z</published>
+    <updated>2017-06-13T02:33:16.146Z</updated>
+    
+    <content type="html">&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;20&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;21&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;22&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;23&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;24&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;25&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;26&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;27&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;28&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;29&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;30&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;31&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;32&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;33&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;34&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;35&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;36&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;37&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;38&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;39&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;40&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;41&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;42&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;43&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;44&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;45&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;46&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;47&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;48&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;49&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;50&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;51&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;52&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;53&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;54&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;55&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;56&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;57&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;58&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;59&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;60&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;61&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;62&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;openAPP&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; ua = navigator.userAgent;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; os = &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;attr&quot;&gt;isIOS&lt;/span&gt;:&lt;span class=&quot;regexp&quot;&gt;/(iphone|ipad|ipod|ios)/gi&lt;/span&gt;.test(ua),&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;attr&quot;&gt;isAND&lt;/span&gt;:&lt;span class=&quot;regexp&quot;&gt;/android/gi&lt;/span&gt;.test(ua),&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;attr&quot;&gt;isWX&lt;/span&gt;:&lt;span class=&quot;regexp&quot;&gt;/MicroMessenger/gi&lt;/span&gt;.test(ua),&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;attr&quot;&gt;isQQ&lt;/span&gt;:&lt;span class=&quot;regexp&quot;&gt;/QQ/&lt;/span&gt;.test(ua),&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;attr&quot;&gt;iosMax9&lt;/span&gt;:&lt;span class=&quot;regexp&quot;&gt;/OS (9_|10_)/gi&lt;/span&gt;.test(ua)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; frame = &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.createElement(&lt;span class=&quot;string&quot;&gt;&#39;frame&#39;&lt;/span&gt;),&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        body = &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.body;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        frame.style.width = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        frame.style.height = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;       &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; kklink = &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;attr&quot;&gt;iosSchema&lt;/span&gt;:&lt;span class=&quot;string&quot;&gt;&#39;ios schema url&#39;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        andSchema:&lt;span class=&quot;string&quot;&gt;&#39;android schema url&#39;&lt;/span&gt;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;attr&quot;&gt;iosLink&lt;/span&gt;:&lt;span class=&quot;string&quot;&gt;&#39;ios app url&#39;&lt;/span&gt;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;attr&quot;&gt;appLink&lt;/span&gt;:&lt;span class=&quot;string&quot;&gt;&#39;android app url&#39;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; timer;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; now = &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;.now();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; callback = &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;appLink&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        timer &amp;amp;&amp;amp; clearTimeout(timer);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        frame &amp;amp;&amp;amp; body.removeChild(frame);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        timer = setTimeout(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; newtime = &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;.now();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; difftime = newtime - now;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            clearTimeout(timer);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(difftime &amp;lt; &lt;span class=&quot;number&quot;&gt;1300&lt;/span&gt;)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;                location.href = appLink;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#125;,&lt;span class=&quot;number&quot;&gt;900&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(os.isAND)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.stop ? &lt;span class=&quot;built_in&quot;&gt;window&lt;/span&gt;.stop() : &lt;span class=&quot;built_in&quot;&gt;document&lt;/span&gt;.execCommand(&lt;span class=&quot;string&quot;&gt;&quot;Stop&quot;&lt;/span&gt;);   &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(os.isWX)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        location.href = kklink.appLink;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(os.isIOS)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(os.iosMax9)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            location.href = kklink.iosSchema;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#125;&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            frame.src = kklink.iosSchema;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            body.appendChild(frame);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        callback(kklink.iosLink);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(os.isAND)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        location.href = kklink.andSchema;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        setTimeout(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            callback(kklink.appLink);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;         &amp;#125;,&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;default&lt;/span&gt; openAPP;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;
+    
+    </summary>
+    
+    
+      <category term="javascript html" scheme="http://popfly.club/tags/javascript-html/"/>
+    
+  </entry>
   
   <entry>
     <title>https</title>
@@ -325,90 +365,14 @@ var keyLen=key.length-1;
     <link href="http://popfly.club/posts/20160525/snippet6.html"/>
     <id>http://popfly.club/posts/20160525/snippet6.html</id>
     <published>2016-05-25T06:29:02.000Z</published>
-    <updated>2017-01-05T12:24:28.198Z</updated>
+    <updated>2017-06-13T02:34:49.249Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;图片懒加载&quot;&gt;&lt;a href=&quot;#图片懒加载&quot; class=&quot;headerlink&quot; title=&quot;图片懒加载&quot;&gt;&lt;/a&gt;图片懒加载&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;blank.gif&amp;quot; class=&amp;quot;lazy&amp;quot; data-src=&amp;quot;/images/full-size.jpg&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;152&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;pre&gt;&lt;code&gt;!function(window){
-  var $q = function(q, res){
-        if (document.querySelectorAll) {
-          res = document.querySelectorAll(q);
-        } else {
-          var d=document
-            , a=d.styleSheets[0] || d.createStyleSheet();
-          a.addRule(q,&amp;apos;f:b&amp;apos;);
-          for(var l=d.all,b=0,c=[],f=l.length;b&amp;lt;f;b++)
-            l[b].currentStyle.f &amp;amp;&amp;amp; c.push(l[b]);
-
-          a.removeRule(0);
-          res = c;
-        }
-        return res;
-      }
-    , addEventListener = function(evt, fn){
-        window.addEventListener
-          ? this.addEventListener(evt, fn, false)
-          : (window.attachEvent)
-            ? this.attachEvent(&amp;apos;on&amp;apos; + evt, fn)
-            : this[&amp;apos;on&amp;apos; + evt] = fn;
-      }
-    , _has = function(obj, key) {
-        return Object.prototype.hasOwnProperty.call(obj, key);
-      }
-    ;
-
-  function loadImage (el, fn) {
-    var img = new Image()
-      , src = el.getAttribute(&amp;apos;data-src&amp;apos;);
-    img.onload = function() {
-      if (!! el.parent)
-        el.parent.replaceChild(img, el)
-      else
-        el.src = src;
-
-      fn? fn() : null;
-    }
-    img.src = src;
-  }
-
-  function elementInViewport(el) {
-    var rect = el.getBoundingClientRect()
-
-    return (
-       rect.top    &amp;gt;= 0
-    &amp;amp;&amp;amp; rect.left   &amp;gt;= 0
-    &amp;amp;&amp;amp; rect.top &amp;lt;= (window.innerHeight || document.documentElement.clientHeight)
-    )
-  }
-
-    var images = new Array()
-      , query = $q(&amp;apos;img.lazy&amp;apos;)
-      , processScroll = function(){
-          for (var i = 0; i &amp;lt; images.length; i++) {
-            if (elementInViewport(images[i])) {
-              loadImage(images[i], function () {
-                images.splice(i, i);
-              });
-            }
-          };
-        }
-      ;
-    // Array.prototype.slice.call is not callable under our lovely IE8
-    for (var i = 0; i &amp;lt; query.length; i++) {
-      images.push(query[i]);
-    };
-
-    processScroll();
-    addEventListener(&amp;apos;scroll&amp;apos;,processScroll);
-
-}(this);​
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;异步js加载器&quot;&gt;&lt;a href=&quot;#异步js加载器&quot; class=&quot;headerlink&quot; title=&quot;异步js加载器&quot;&gt;&lt;/a&gt;异步js加载器&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;20&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;21&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;22&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;23&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;24&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;25&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;26&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;27&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;28&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;29&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;30&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;31&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;32&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;33&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;34&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;35&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;36&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;37&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;38&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;var Loader = function () &amp;#123; &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;Loader.prototype = &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    require: function (scripts, callback) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        this.loadCount      = 0;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        this.totalRequired  = scripts.length;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        this.callback       = callback;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        for (var i = 0; i &amp;lt; scripts.length; i++) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            this.writeScript(scripts[i]);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    loaded: function (evt) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        this.loadCount++;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        if (this.loadCount == this.totalRequired &amp;amp;&amp;amp; typeof this.callback == &amp;apos;function&amp;apos;) this.callback.call();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    writeScript: function (src) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        var self = this;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        var s = document.createElement(&amp;apos;script&amp;apos;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        s.type = &amp;quot;text/javascript&amp;quot;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        s.async = true;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        s.src = src;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        s.addEventListener(&amp;apos;load&amp;apos;, function (e) &amp;#123; self.loaded(e); &amp;#125;, false);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        var head = document.getElementsByTagName(&amp;apos;head&amp;apos;)[0];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        head.appendChild(s);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;e.g.--------&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;var l = new Loader();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;l.require([&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;quot;example-script-1.js&amp;quot;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;quot;example-script-2.js&amp;quot;],&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    function() &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        // Callback&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        console.log(&amp;apos;All Scripts Loaded&amp;apos;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;);&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    <content type="html">&lt;h3 id=&quot;异步js加载器&quot;&gt;&lt;a href=&quot;#异步js加载器&quot; class=&quot;headerlink&quot; title=&quot;异步js加载器&quot;&gt;&lt;/a&gt;异步js加载器&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;10&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;11&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;12&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;13&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;14&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;15&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;16&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;17&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;18&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;19&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;20&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;21&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;22&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;23&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;24&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;25&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;26&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;27&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;28&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;29&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;30&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;31&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;32&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;33&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;34&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;35&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;36&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;37&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;38&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;var Loader = function () &amp;#123; &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;Loader.prototype = &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    require: function (scripts, callback) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        this.loadCount      = 0;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        this.totalRequired  = scripts.length;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        this.callback       = callback;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        for (var i = 0; i &amp;lt; scripts.length; i++) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;            this.writeScript(scripts[i]);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    loaded: function (evt) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        this.loadCount++;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        if (this.loadCount == this.totalRequired &amp;amp;&amp;amp; typeof this.callback == &amp;apos;function&amp;apos;) this.callback.call();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    writeScript: function (src) &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        var self = this;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        var s = document.createElement(&amp;apos;script&amp;apos;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        s.type = &amp;quot;text/javascript&amp;quot;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        s.async = true;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        s.src = src;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        s.addEventListener(&amp;apos;load&amp;apos;, function (e) &amp;#123; self.loaded(e); &amp;#125;, false);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        var head = document.getElementsByTagName(&amp;apos;head&amp;apos;)[0];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        head.appendChild(s);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;e.g.--------&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;var l = new Loader();&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;l.require([&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;quot;example-script-1.js&amp;quot;,&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;quot;example-script-2.js&amp;quot;],&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    function() &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        // Callback&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        console.log(&amp;apos;All Scripts Loaded&amp;apos;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;);&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 </content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;图片懒加载&quot;&gt;&lt;a href=&quot;#图片懒加载&quot; class=&quot;headerlink&quot; title=&quot;图片懒加载&quot;&gt;&lt;/a&gt;图片懒加载&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&amp;quot;blank.gif&amp;quot; class=&amp;quot;lazy&amp;quot; data-src=&amp;quot;/images/full-size.jpg&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;152&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+      &lt;h3 id=&quot;异步js加载器&quot;&gt;&lt;a href=&quot;#异步js加载器&quot; class=&quot;headerlink&quot; title=&quot;异步js加载器&quot;&gt;&lt;/a&gt;异步js加载器&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
     
     </summary>
     
@@ -540,7 +504,7 @@ function outRepeat(a){
     <link href="http://popfly.club/posts/20160408/snippet3.html"/>
     <id>http://popfly.club/posts/20160408/snippet3.html</id>
     <published>2016-04-08T02:27:12.000Z</published>
-    <updated>2017-01-05T12:24:18.038Z</updated>
+    <updated>2017-06-13T02:34:21.898Z</updated>
     
     <content type="html">&lt;h3 id=&quot;自定义滚动条&quot;&gt;&lt;a href=&quot;#自定义滚动条&quot; class=&quot;headerlink&quot; title=&quot;自定义滚动条&quot;&gt;&lt;/a&gt;自定义滚动条&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;/**
 *
@@ -720,7 +684,7 @@ function outRepeat(a){
         return c;
     }
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;简单倒计时&quot;&gt;&lt;a href=&quot;#简单倒计时&quot; class=&quot;headerlink&quot; title=&quot;简单倒计时&quot;&gt;&lt;/a&gt;简单倒计时&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function timer(){  
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;倒计时&quot;&gt;&lt;a href=&quot;#倒计时&quot; class=&quot;headerlink&quot; title=&quot;倒计时&quot;&gt;&lt;/a&gt;倒计时&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function timer(){  
     var ts = (new Date(2018, 11, 11, 9, 0, 0)) - (new Date());//计算剩余的毫秒数
     console.log(ts);  
     var dd = parseInt(ts / 1000 / 60 / 60 / 24, 10);//计算剩余的天数
@@ -730,7 +694,7 @@ function outRepeat(a){
     document.body.innerHTML = dd + &amp;quot;天&amp;quot; + hh + &amp;quot;时&amp;quot; + mm + &amp;quot;分&amp;quot; + ss + &amp;quot;秒&amp;quot;;  
 }  
 setInterval(timer,1000);
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;类似jq的选择器&quot;&gt;&lt;a href=&quot;#类似jq的选择器&quot; class=&quot;headerlink&quot; title=&quot;类似jq的选择器&quot;&gt;&lt;/a&gt;类似jq的选择器&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;!function(win, doc, undefined) {
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;类jq的选择器&quot;&gt;&lt;a href=&quot;#类jq的选择器&quot; class=&quot;headerlink&quot; title=&quot;类jq的选择器&quot;&gt;&lt;/a&gt;类jq的选择器&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;!function(win, doc, undefined) {
 
     var slice = Array.prototype.slice
 
@@ -856,7 +820,7 @@ setInterval(timer,1000);
     <link href="http://popfly.club/posts/20160408/snippet2.html"/>
     <id>http://popfly.club/posts/20160408/snippet2.html</id>
     <published>2016-04-08T02:11:56.000Z</published>
-    <updated>2017-01-05T12:24:13.390Z</updated>
+    <updated>2017-06-13T02:33:53.417Z</updated>
     
     <content type="html">&lt;h3 id=&quot;网站变灰&quot;&gt;&lt;a href=&quot;#网站变灰&quot; class=&quot;headerlink&quot; title=&quot;网站变灰&quot;&gt;&lt;/a&gt;网站变灰&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
 &lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -967,7 +931,7 @@ e.g. xxx.tunnel.qydev.com
 e.g.
 var myURL = parseURL(&amp;apos;http://abc.com:8080/dir/index.html?id=255&amp;amp;m=hello#top&amp;apos;);
 myURL.file;     // = &amp;apos;index.html&amp;apos;
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;ajax封装&quot;&gt;&lt;a href=&quot;#ajax封装&quot; class=&quot;headerlink&quot; title=&quot;ajax封装&quot;&gt;&lt;/a&gt;ajax封装&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;var ajax = function() {
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;ajax&quot;&gt;&lt;a href=&quot;#ajax&quot; class=&quot;headerlink&quot; title=&quot;ajax&quot;&gt;&lt;/a&gt;ajax&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;var ajax = function() {
        var ajax = function() {
                return (&amp;apos;XMLHttpRequest&amp;apos; in window) ? function() {
                    return new XMLHttpRequest();
@@ -1180,186 +1144,6 @@ input::-ms-reveal {
 display: none;
 }
 &lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>js snippet(1)</title>
-    <link href="http://popfly.club/posts/20160407/test.html"/>
-    <id>http://popfly.club/posts/20160407/test.html</id>
-    <published>2016-04-07T03:28:29.236Z</published>
-    <updated>2017-01-05T12:23:17.214Z</updated>
-    
-    <content type="html">&lt;h3 id=&quot;去首尾空格&quot;&gt;&lt;a href=&quot;#去首尾空格&quot; class=&quot;headerlink&quot; title=&quot;去首尾空格&quot;&gt;&lt;/a&gt;去首尾空格&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;String.prototype.trim = function(){
-    return this.replace(/^\s+|\s+$/g, &amp;apos;&amp;apos;);
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;不响应事件&quot;&gt;&lt;a href=&quot;#不响应事件&quot; class=&quot;headerlink&quot; title=&quot;不响应事件&quot;&gt;&lt;/a&gt;不响应事件&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;{pointer-events:none}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;判断某个对象是否有指定的Class&quot;&gt;&lt;a href=&quot;#判断某个对象是否有指定的Class&quot; class=&quot;headerlink&quot; title=&quot;判断某个对象是否有指定的Class&quot;&gt;&lt;/a&gt;判断某个对象是否有指定的Class&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function hasClass(ele,cls) {
-    return ele.className.match(new RegExp(&amp;apos;(\\s|^)&amp;apos;+cls+&amp;apos;(\\s|$)&amp;apos;));
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h3 id=&quot;给指定对象添加Class&quot;&gt;&lt;a href=&quot;#给指定对象添加Class&quot; class=&quot;headerlink&quot; title=&quot;给指定对象添加Class&quot;&gt;&lt;/a&gt;给指定对象添加Class&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function addClass(ele,cls) {
-    if (!this.hasClass(ele,cls)) ele.className += &amp;quot; &amp;quot;+cls;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;删除Class&quot;&gt;&lt;a href=&quot;#删除Class&quot; class=&quot;headerlink&quot; title=&quot;删除Class&quot;&gt;&lt;/a&gt;删除Class&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function removeClass(ele,cls) {
-    if (hasClass(ele,cls)) {
-        var reg = new RegExp(&amp;apos;(\\s|^)&amp;apos;+cls+&amp;apos;(\\s|$)&amp;apos;);
-        ele.className=ele.className.replace(reg,&amp;apos; &amp;apos;);
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;判断一个对象是否为空对象&quot;&gt;&lt;a href=&quot;#判断一个对象是否为空对象&quot; class=&quot;headerlink&quot; title=&quot;判断一个对象是否为空对象&quot;&gt;&lt;/a&gt;判断一个对象是否为空对象&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function isEmptyObj(obj){
-    for(var name in obj) {
-        return false;
-    }
-    return true;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;随机数&quot;&gt;&lt;a href=&quot;#随机数&quot; class=&quot;headerlink&quot; title=&quot;随机数&quot;&gt;&lt;/a&gt;随机数&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;max - 期望的最大值
-parseInt(Math.random()*(max+1),10);
-Math.floor(Math.random()*(max+1));
-生成任意值到任意值的随机数：
-// max - 期望的最大值
-// min - 期望的最小值
-parseInt(Math.random()*(max-min+1)+min,10);
-Math.floor(Math.random()*(max-min+1)+min);
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;cookie&quot;&gt;&lt;a href=&quot;#cookie&quot; class=&quot;headerlink&quot; title=&quot;cookie&quot;&gt;&lt;/a&gt;cookie&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;var Cookie = {
-// 读取
- read : function(name){
-    var cookieStr = &amp;quot;; &amp;quot;+document.cookie+&amp;quot;; &amp;quot;;
-    var index = cookieStr.indexOf(&amp;quot;; &amp;quot;+name+&amp;quot;=&amp;quot;);
-    if (index!=-1){
-        var s = cookieStr.substring(index+name.length+3,cookieStr.length);
-        return unescape(s.substring(0, s.indexOf(&amp;quot;; &amp;quot;)));
-    }else{
-        return null;
-    }
-},
-// 设置
- set : function(name,value,expires){
-    var expDays = expires*24*60*60*1000;
-    var expDate = new Date();
-    expDate.setTime(expDate.getTime()+expDays);
-    var expString = expires ? &amp;quot;expires=&amp;quot;+expDate.toGMTString() : &amp;quot;&amp;quot;;
-    var pathString = &amp;quot;;path=/&amp;quot;;
-    document.cookie = name + &amp;quot;=&amp;quot; + escape(value) + expString + pathString;
-},
-// 删除
- del : function(name){
-    var exp = new Date(new Date().getTime()-1);
-    var s=this.read(name);
-    if(s!=null) {
-        document.cookie= name + &amp;quot;=&amp;quot;+s+&amp;quot;expires=&amp;quot;+exp.toGMTString()+&amp;quot;;path=/&amp;quot;
-    }
-}
-};
-// demo:
-Cookie.set(&amp;quot;xuanfengge&amp;quot;, &amp;quot;www.xuanfengge.com&amp;quot;, 7);
-Cookie.read(&amp;quot;xuanfengge&amp;quot;);
-Cookie.del(&amp;quot;xuanfengge&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;字数统计&quot;&gt;&lt;a href=&quot;#字数统计&quot; class=&quot;headerlink&quot; title=&quot;字数统计&quot;&gt;&lt;/a&gt;字数统计&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function fucCheckLength(strTemp){
-    var i,sum;
-    sum=0;
-    for(i=0;i&amp;lt;strTemp.length;i++){
-        if ((strTemp.charCodeAt(i)&amp;gt;=0) &amp;amp;&amp;amp; (strTemp.charCodeAt(i)&amp;lt;=255)){
-            sum=sum+1;
-        }else{
-            sum=sum+2;
-        }
-    }
-    return sum;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;日期格式转换&quot;&gt;&lt;a href=&quot;#日期格式转换&quot; class=&quot;headerlink&quot; title=&quot;日期格式转换&quot;&gt;&lt;/a&gt;日期格式转换&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;Date.prototype.Format = function(formatStr) {
-    var str = formatStr;
-    var Week = [&amp;apos;日&amp;apos;, &amp;apos;一&amp;apos;, &amp;apos;二&amp;apos;, &amp;apos;三&amp;apos;, &amp;apos;四&amp;apos;, &amp;apos;五&amp;apos;, &amp;apos;六&amp;apos;];
-    str = str.replace(/yyyy|YYYY/, this.getFullYear());
-    str = str.replace(/yy|YY/, (this.getYear() % 100) &amp;gt; 9 ? (this.getYear() % 100).toString() : &amp;apos;0&amp;apos; + (this.getYear() % 100));
-    str = str.replace(/MM/, (this.getMonth() + 1) &amp;gt; 9 ? (this.getMonth() + 1).toString() : &amp;apos;0&amp;apos; + (this.getMonth() + 1));
-    str = str.replace(/M/g, (this.getMonth() + 1));
-    str = str.replace(/w|W/g, Week[this.getDay()]);
-    str = str.replace(/dd|DD/, this.getDate() &amp;gt; 9 ? this.getDate().toString() : &amp;apos;0&amp;apos; + this.getDate());
-    str = str.replace(/d|D/g, this.getDate());
-    str = str.replace(/hh|HH/, this.getHours() &amp;gt; 9 ? this.getHours().toString() : &amp;apos;0&amp;apos; + this.getHours());
-    str = str.replace(/h|H/g, this.getHours());
-    str = str.replace(/mm/, this.getMinutes() &amp;gt; 9 ? this.getMinutes().toString() : &amp;apos;0&amp;apos; + this.getMinutes());
-    str = str.replace(/m/g, this.getMinutes());
-    str = str.replace(/ss|SS/, this.getSeconds() &amp;gt; 9 ? this.getSeconds().toString() : &amp;apos;0&amp;apos; + this.getSeconds());
-    str = str.replace(/s|S/g, this.getSeconds());
-    return str;
-}
-e.g.
-var date = new Date();
-date.Format(&amp;quot;YYYY-M-D&amp;quot;);    //2013-5-8
-date.Format(&amp;quot;YYYY-MM-DD&amp;quot;);  //2013-11-08
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;钱格式转换&quot;&gt;&lt;a href=&quot;#钱格式转换&quot; class=&quot;headerlink&quot; title=&quot;钱格式转换&quot;&gt;&lt;/a&gt;钱格式转换&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;e.g.
-把1,561,124转换成1561124
-var slove = &amp;quot;1,561,124&amp;quot;;
-var reg=slove.replace(/,/g,&amp;quot;&amp;quot;);
-
-数字转换成金钱格式的函数
-functionformatCash(cash){
-        varstr_cash=cash+&amp;quot;&amp;quot;;//转换成字符串
-        varret_cash=&amp;quot;&amp;quot;;
-        varcounter=0;
-        for(vari=str_cash.length-1;i&amp;gt;=0;i--){
-            ret_cash=str_cash.charAt(i)+ret_cash;
-            counter++;
-            if(counter==3){
-                counter=0;
-                if(i!=0){
-                ret_cash=&amp;quot;,&amp;quot;+ret_cash;
-                }
-            }}
-        returnret_cash;
-    }
-
- e.g.
- var num=1012145;
- formatCash(num);
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;背景半透明-文字不透明&quot;&gt;&lt;a href=&quot;#背景半透明-文字不透明&quot; class=&quot;headerlink&quot; title=&quot;背景半透明 文字不透明&quot;&gt;&lt;/a&gt;背景半透明 文字不透明&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;div&amp;gt;&amp;lt;p&amp;gt;不透明&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;
-div{
-    background:rgba(0,0,0,0.2) none repeat scroll !important; /*实现FF背景透明，文字不透明*/
-    background:#000; filter:Alpha(opacity=20);/*实现IE背景透明*/
-    width:500px; height:500px; color:#F30; font-size:32px; font-weight:bold;
-}
-div p{ position:relative;}/*实现IE文字不透明*/
-&lt;/code&gt;&lt;/pre&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;去首尾空格&quot;&gt;&lt;a href=&quot;#去首尾空格&quot; class=&quot;headerlink&quot; title=&quot;去首尾空格&quot;&gt;&lt;/a&gt;去首尾空格&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;String.prototype.trim = function(){
-    return this.replace(/^\s+|\s+$/g, &amp;apos;&amp;apos;);
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;不响应事件&quot;&gt;&lt;a href=&quot;#不响应事件&quot; class=&quot;headerlink&quot; title=&quot;不响应事件&quot;&gt;&lt;/a&gt;不响应事件&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;{pointer-events:none}
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;判断某个对象是否有指定的Class&quot;&gt;&lt;a href=&quot;#判断某个对象是否有指定的Class&quot; class=&quot;headerlink&quot; title=&quot;判断某个对象是否有指定的Class&quot;&gt;&lt;/a&gt;判断某个对象是否有指定的Class&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function hasClass(ele,cls) {
-    return ele.className.match(new RegExp(&amp;apos;(\\s|^)&amp;apos;+cls+&amp;apos;(\\s|$)&amp;apos;));
-}
-&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>前端</title>
-    <link href="http://popfly.club/posts/20160407/hello-world.html"/>
-    <id>http://popfly.club/posts/20160407/hello-world.html</id>
-    <published>2016-04-07T03:28:29.000Z</published>
-    <updated>2017-01-05T12:23:52.687Z</updated>
-    
-    <content type="html">&lt;h2 id=&quot;前端构建工具&quot;&gt;&lt;a href=&quot;#前端构建工具&quot; class=&quot;headerlink&quot; title=&quot;前端构建工具&quot;&gt;&lt;/a&gt;前端构建工具&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gulpjs.com.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gulp&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://fis.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fis&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/webpack/webpack&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;webpack&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://i5ting.github.io/stuq-gulp/#1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Gulp指南&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;预编译&quot;&gt;&lt;a href=&quot;#预编译&quot; class=&quot;headerlink&quot; title=&quot;预编译&quot;&gt;&lt;/a&gt;预编译&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.w3cplus.com/sassguide/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;sass&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.1024i.com/demo/less/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Less&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://babeljs.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;BabelJs&lt;/a&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;版本控制&quot;&gt;&lt;a href=&quot;#版本控制&quot; class=&quot;headerlink&quot; title=&quot;版本控制&quot;&gt;&lt;/a&gt;版本控制&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;廖雪峰的git教程&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;前端UED&quot;&gt;&lt;a href=&quot;#前端UED&quot; class=&quot;headerlink&quot; title=&quot;前端UED&quot;&gt;&lt;/a&gt;前端UED&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.aliued.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阿里中文UED&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://tgideas.qq.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;腾讯TGideas&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://ued.taobao.org/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;淘宝UED&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://ued.ctrip.com/blog/category/front-end-development&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;携程UEDNEW&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://cued.xunlei.com/category/webrebuild&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;迅雷CUED&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://mux.alimama.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一淘UED&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://ued.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度searchUX&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://fex.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度FEX&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.alloyteam.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;alloyteam&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://isux.tencent.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;腾讯ISUX&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://tguide.qq.com/?ADTAG=media.gameweb.console&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;TGI解决方案&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://x5.tencent.com/guide?id=2001&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;腾讯X5&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://efe.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度efe&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;前端blog&quot;&gt;&lt;a href=&quot;#前端blog&quot; class=&quot;headerlink&quot; title=&quot;前端blog&quot;&gt;&lt;/a&gt;前端blog&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://meyerweb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;EricMeyer&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://blog.ivane.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;艾文王&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://jiongks.name/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;勾三股四&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.zhangxinxu.com/wordpress/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;张鑫旭&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/lifesinger/lifesinger.github.com/issues?labels=blog&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;玉伯&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.cnblogs.com/rubylouvre/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;司徒正美&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://js8.in/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;三水清&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.ruanyifeng.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阮一峰&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://hikejun.com/blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;张克军&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://hax.iteye.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;贺师俊&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.kailing.pub/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;KL博客&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://blog.csdn.net/xianzhangren&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;仙掌人&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/fouber&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端农民工&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/cssmagic&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSS魔法&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/p/1006062717844351&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;HTML5梦工场&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/fekb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端快爆&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/htmljs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端乱炖&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/baidujs&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JS小组&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.iwan0.com/weibo.com/sharpmaster&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;民工精髓V&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/p/1005051397442732&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一丝&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/p/1005051196343093&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;寒冬winter&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/173248656&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;小胡子哥&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/arttechdesign&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;尤小右&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://weibo.com/w3cfuns&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;w3cfuns&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://feweekly.com/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端周刊&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.75team.com/weekly/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;奇舞周刊&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.kancloud.cn/jsfront/month/82796&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JS前端开发群月报&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://li-xinyang.gitbooks.io/frontend-notebook/content/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;前端开发笔记本&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.21d.cn/detail-id-113176.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;17款_上传头像截图&lt;/a&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;前端构建工具&quot;&gt;&lt;a href=&quot;#前端构建工具&quot; class=&quot;headerlink&quot; title=&quot;前端构建工具&quot;&gt;&lt;/a&gt;前端构建工具&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.gulpjs.com.cn/&quot;&gt;Gulp&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://fis.baidu.com/&quot;&gt;Fis&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://github.com/webpack/webpack&quot;&gt;webpack&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://i5ting.github.io/stuq-gulp/#1&quot;&gt;Gulp指南&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;预编译&quot;&gt;&lt;a href=&quot;#预编译&quot; class=&quot;headerlink&quot; title=&quot;预编译&quot;&gt;&lt;/a&gt;预编译&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://www.w3cplus.com/sassguide/&quot;&gt;sass&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;http://www.1024i.com/demo/less/&quot;&gt;Less&lt;/a&gt; &lt;i class=&quot;s15&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://babeljs.io/&quot;&gt;BabelJs&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
