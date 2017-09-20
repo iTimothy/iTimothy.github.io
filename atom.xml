@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>yw</title>
+  <title>ABC</title>
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://popfly.club/"/>
-  <updated>2017-07-27T03:06:03.202Z</updated>
+  <updated>2017-09-20T05:59:59.944Z</updated>
   <id>http://popfly.club/</id>
   
   <author>
@@ -14,6 +14,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>获取链接的重定向</title>
+    <link href="http://popfly.club/posts/20170918/getRedirect.html"/>
+    <id>http://popfly.club/posts/20170918/getRedirect.html</id>
+    <published>2017-09-18T09:19:41.000Z</published>
+    <updated>2017-09-20T05:59:59.944Z</updated>
+    
+    <content type="html">&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;getRedirect&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; searchStr = location.search;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; regx = &lt;span class=&quot;regexp&quot;&gt;/(?:to=)\w*\.html(?:(?=&amp;amp;)|\?.*)/&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; ret = regx.exec(searchStr) || [];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(ret.length &amp;gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;)&amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; ret[&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;].substring(&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt;;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;
+    
+    </summary>
+    
+    
+      <category term="javascript" scheme="http://popfly.club/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>无题</title>
@@ -832,216 +853,6 @@ setInterval(timer,1000);
 * 调用： f.rootTouchBind(t);
 *    t:  传入调用此方法的id字符串
 */
-&lt;/code&gt;&lt;/pre&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>js snippet(3)</title>
-    <link href="http://popfly.club/posts/20160408/snippet2.html"/>
-    <id>http://popfly.club/posts/20160408/snippet2.html</id>
-    <published>2016-04-08T02:11:56.000Z</published>
-    <updated>2017-06-13T02:33:53.417Z</updated>
-    
-    <content type="html">&lt;h3 id=&quot;网站变灰&quot;&gt;&lt;a href=&quot;#网站变灰&quot; class=&quot;headerlink&quot; title=&quot;网站变灰&quot;&gt;&lt;/a&gt;网站变灰&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
-&lt;/code&gt;&lt;/pre&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h3 id=&quot;手势事件&quot;&gt;&lt;a href=&quot;#手势事件&quot; class=&quot;headerlink&quot; title=&quot;手势事件&quot;&gt;&lt;/a&gt;手势事件&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;var touchFunc = function(obj,type,func) {
-    //滑动范围在5x5内则做点击处理，s是开始，e是结束
-    var init = {x:5,y:5,sx:0,sy:0,ex:0,ey:0};
-    var sTime = 0, eTime = 0;
-    type = type.toLowerCase();
-
-    obj.addEventListener(&amp;quot;touchstart&amp;quot;,function(e){
-        e.preventDefault();
-        sTime = new Date().getTime();
-        init.sx = event.targetTouches[0].pageX;
-        init.sy = event.targetTouches[0].pageY;
-        init.ex = init.sx;
-        init.ey = init.sy;
-        if(type.indexOf(&amp;quot;start&amp;quot;) != -1) func();
-    }, false);
-
-    obj.addEventListener(&amp;quot;touchmove&amp;quot;,function() {
-        event.preventDefault();//阻止触摸时浏览器的缩放、滚动条滚动
-        init.ex = event.targetTouches[0].pageX;
-        init.ey = event.targetTouches[0].pageY;
-        if(type.indexOf(&amp;quot;move&amp;quot;)!=-1) func();
-    }, false);
-
-    obj.addEventListener(&amp;quot;touchend&amp;quot;,function() {
-        var changeX = init.sx - init.ex;
-        var changeY = init.sy - init.ey;
-        if(Math.abs(changeX)&amp;gt;Math.abs(changeY)&amp;amp;&amp;amp;Math.abs(changeY)&amp;gt;init.y) {
-            //左右事件
-            if(changeX &amp;gt; 0) {
-                if(type.indexOf(&amp;quot;left&amp;quot;)!=-1) func();
-            }else{
-                if(type.indexOf(&amp;quot;right&amp;quot;)!=-1) func();
-            }
-        }
-        else if(Math.abs(changeY)&amp;gt;Math.abs(changeX)&amp;amp;&amp;amp;Math.abs(changeX)&amp;gt;init.x){
-            //上下事件
-            if(changeY &amp;gt; 0) {
-                if(type.indexOf(&amp;quot;top&amp;quot;)!=-1) func();
-            }else{
-                if(type.indexOf(&amp;quot;down&amp;quot;)!=-1) func();
-            }
-        }
-        else if(Math.abs(changeX)&amp;lt;init.x &amp;amp;&amp;amp; Math.abs(changeY)&amp;lt;init.y){
-            eTime = new Date().getTime();
-            //点击事件，此处根据时间差细分下
-            if((eTime - sTime) &amp;gt; 300) {
-                if(type.indexOf(&amp;quot;long&amp;quot;)!=-1) func(); //长按
-            }
-            else {
-                if(type.indexOf(&amp;quot;click&amp;quot;)!=-1) func(); //当点击处理
-            }
-        }
-        if(type.indexOf(&amp;quot;end&amp;quot;)!=-1) func();
-    }, false);
-};
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;滚动事件&quot;&gt;&lt;a href=&quot;#滚动事件&quot; class=&quot;headerlink&quot; title=&quot;滚动事件&quot;&gt;&lt;/a&gt;滚动事件&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;;(function($){
-    $.extend($.fn, {
-      scrollTo: function(m){        
-          var n = 0, timer = null, that = this;
-          var smoothScroll = function(m){
-              var per = Math.round(m / 50);
-              n = n + per;
-              if(n &amp;gt; m){
-                  window.clearInterval(timer);
-                  return false;
-              }            
-              that.scrollTop(n);
-          };
-
-          timer = window.setInterval(function(){
-              smoothScroll(m);
-          }, 20);
-      }
-    })
-})(Zepto);
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;Ngrok&quot;&gt;&lt;a href=&quot;#Ngrok&quot; class=&quot;headerlink&quot; title=&quot;Ngrok&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://qydev.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ngrok&lt;/a&gt;&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;ngrok -config=ngrok.cfg -subdomain xxx 80 //(xxx 是你自定义的域名前缀)
-e.g. xxx.tunnel.qydev.com
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;url解析&quot;&gt;&lt;a href=&quot;#url解析&quot; class=&quot;headerlink&quot; title=&quot;url解析&quot;&gt;&lt;/a&gt;url解析&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;function parseURL(url) {
-    var a =  document.createElement(&amp;apos;a&amp;apos;);
-    a.href = url;
-    return {
-        source: url,
-        protocol: a.protocol.replace(&amp;apos;:&amp;apos;,&amp;apos;&amp;apos;),
-        host: a.hostname,
-        port: a.port,
-        query: a.search,
-        params: (function(){
-            var ret = {},
-                seg = a.search.replace(/^\?/,&amp;apos;&amp;apos;).split(&amp;apos;&amp;amp;&amp;apos;),
-                len = seg.length, i = 0, s;
-            for (;i&amp;lt;len;i++) {
-                if (!seg[i]) { continue; }
-                s = seg[i].split(&amp;apos;=&amp;apos;);
-                ret[s[0]] = s[1];
-            }
-            return ret;
-        })(),
-        file: (a.pathname.match(/([^/?#]+)$/i) || [,&amp;apos;&amp;apos;])[1],
-        hash: a.hash.replace(&amp;apos;#&amp;apos;,&amp;apos;&amp;apos;),
-        path: a.pathname.replace(/^([^/])/,&amp;apos;/$1&amp;apos;),
-        relative: (a.href.match(/tps?:\/[^/]+(.+)/) || [,&amp;apos;&amp;apos;])[1],
-        segments: a.pathname.replace(/^\//,&amp;apos;&amp;apos;).split(&amp;apos;/&amp;apos;)
-    };
-}
-e.g.
-var myURL = parseURL(&amp;apos;http://abc.com:8080/dir/index.html?id=255&amp;amp;m=hello#top&amp;apos;);
-myURL.file;     // = &amp;apos;index.html&amp;apos;
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;ajax&quot;&gt;&lt;a href=&quot;#ajax&quot; class=&quot;headerlink&quot; title=&quot;ajax&quot;&gt;&lt;/a&gt;ajax&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;var ajax = function() {
-       var ajax = function() {
-               return (&amp;apos;XMLHttpRequest&amp;apos; in window) ? function() {
-                   return new XMLHttpRequest();
-               } : function() {
-                   return new ActiveXObject(&amp;quot;Microsoft.XMLHTTP&amp;quot;);
-               }
-           }(),
-           formatData = function(fd) {
-               var res = &amp;apos;&amp;apos;;
-               for (var f in fd) {
-                   res += f + &amp;apos;=&amp;apos; + fd[f] + &amp;apos;&amp;amp;&amp;apos;;
-               }
-               return res.slice(0, -1);
-           },
-           AJAX = function(ops) {
-               var
-                   root = this,
-                   req = ajax();
-               root.url = ops.url;
-               root.type = ops.type || &amp;apos;responseText&amp;apos;;
-               root.method = ops.method || &amp;apos;GET&amp;apos;;
-               root.async = ops.async || true;
-               root.data = ops.data || {};
-               root.complete = ops.complete || function() {};
-               root.success = ops.success || function() {};
-               root.error = ops.error || function(s) {
-                   alert(root.url + &amp;apos;-&amp;gt;status:&amp;apos; + s + &amp;apos;error!&amp;apos;)
-               };
-               root.abort = req.abort;
-               root.setData = function(data) {
-                   for (var d in data) {
-                       root.data[d] = data[d];
-                   }
-               }
-               root.send = function() {
-                   var datastring = formatData(root.data),
-                       sendstring, get = false,
-                       async = root.async,
-                       complete = root.complete,
-                       method = root.method,
-                       type = root.type;
-                   if (method === &amp;apos;GET&amp;apos;) {
-                       root.url += &amp;apos;?&amp;apos; + datastring;
-                       get = true;
-                   }
-                   req.open(method, root.url, async);
-                   if (!get) {
-                       req.setRequestHeader(&amp;quot;Content-type&amp;quot;, &amp;quot;application/x-www-form-urlencoded&amp;quot;);
-                       sendstring = datastring;
-                   }
-                   req.onreadystatechange = async ? function() {
-                       if (req.readyState == 4) {
-                           complete();
-                           if (req.status == 200) {
-                               root.success(req[type]);
-                           } else {
-                               root.error(req.status);
-                           }
-                       }
-                   } : null;
-                   req.send(sendstring);
-                   if (!async) {
-                       complete();
-                       root.success(req[type]);
-                   }
-               }
-               root.url &amp;amp;&amp;amp; root.send();
-           };
-       return function(ops) {
-           return new AJAX(ops);
-       }
-   }();
-
-  e.g.
-  var aj = ajax({
-     url: ,
-     method: ,
-     data:,
-     success: function(res) {},
-     error: function(err) {}
- });
-&lt;/code&gt;&lt;/pre&gt;</content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;网站变灰&quot;&gt;&lt;a href=&quot;#网站变灰&quot; class=&quot;headerlink&quot; title=&quot;网站变灰&quot;&gt;&lt;/a&gt;网站变灰&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
 &lt;/code&gt;&lt;/pre&gt;
     
     </summary>

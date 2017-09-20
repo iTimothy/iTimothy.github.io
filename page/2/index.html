@@ -74,7 +74,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="yw" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="ABC" type="application/atom+xml" />
 
 
 
@@ -87,11 +87,11 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="yw">
+<meta property="og:title" content="ABC">
 <meta property="og:url" content="http://popfly.club/page/2/index.html">
-<meta property="og:site_name" content="yw">
+<meta property="og:site_name" content="ABC">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="yw">
+<meta name="twitter:title" content="ABC">
 
 
 
@@ -125,7 +125,7 @@
 
 
 
-  <title> yw </title>
+  <title> ABC </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
@@ -158,7 +158,7 @@
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">yw</span>
+      <span class="site-title">ABC</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -229,6 +229,140 @@
   
   
 
+  <article class="post post-type-javascript " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20160816/snippet8.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="yw">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/author.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="ABC">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="ABC" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/posts/20160816/snippet8.html" itemprop="url">
+                  js snippet(8)
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-08-16T18:05:44+08:00">
+                2016-08-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/posts/20160816/snippet8.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/20160816/snippet8.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h3 id="监听chrome打开dev-tool"><a href="#监听chrome打开dev-tool" class="headerlink" title="监听chrome打开dev-tool"></a>监听chrome打开dev-tool</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">(function () &#123;</div><div class="line">		  var re = /x/;</div><div class="line">		  var i = 0;</div><div class="line">		  console.log(re);</div><div class="line"></div><div class="line">		  re.toString = function () &#123;</div><div class="line">		    return &apos;第 &apos; + (++i) + &apos; 次打开控制台&apos;;</div><div class="line">		  &#125;;</div><div class="line">	&#125;)();</div></pre></td></tr></table></figure>
+<h3 id="xml转json"><a href="#xml转json" class="headerlink" title="xml转json"></a>xml转json</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">xmlToJson</span>(<span class="params">xml</span>) </span>&#123;</div><div class="line">	</div><div class="line">	<span class="comment">// Create the return object</span></div><div class="line">	<span class="keyword">var</span> obj = &#123;&#125;;</div><div class="line"></div><div class="line">	<span class="keyword">if</span> (xml.nodeType == <span class="number">1</span>) &#123; <span class="comment">// element</span></div><div class="line">		<span class="comment">// do attributes</span></div><div class="line">		<span class="keyword">if</span> (xml.attributes.length &gt; <span class="number">0</span>) &#123;</div><div class="line">		obj[<span class="string">"@attributes"</span>] = &#123;&#125;;</div><div class="line">			<span class="keyword">for</span> (<span class="keyword">var</span> j = <span class="number">0</span>; j &lt; xml.attributes.length; j++) &#123;</div><div class="line">				<span class="keyword">var</span> attribute = xml.attributes.item(j);</div><div class="line">				obj[<span class="string">"@attributes"</span>][attribute.nodeName] = attribute.nodeValue;</div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">	&#125; <span class="keyword">else</span> <span class="keyword">if</span> (xml.nodeType == <span class="number">3</span>) &#123; <span class="comment">// text</span></div><div class="line">		obj = xml.nodeValue;</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="comment">// do children</span></div><div class="line">	<span class="keyword">if</span> (xml.hasChildNodes()) &#123;</div><div class="line">		<span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; xml.childNodes.length; i++) &#123;</div><div class="line">			<span class="keyword">var</span> item = xml.childNodes.item(i);</div><div class="line">			<span class="keyword">var</span> nodeName = item.nodeName;</div><div class="line">			<span class="keyword">if</span> (<span class="keyword">typeof</span>(obj[nodeName]) == <span class="string">"undefined"</span>) &#123;</div><div class="line">				obj[nodeName] = xmlToJson(item);</div><div class="line">			&#125; <span class="keyword">else</span> &#123;</div><div class="line">				<span class="keyword">if</span> (<span class="keyword">typeof</span>(obj[nodeName].push) == <span class="string">"undefined"</span>) &#123;</div><div class="line">					<span class="keyword">var</span> old = obj[nodeName];</div><div class="line">					obj[nodeName] = [];</div><div class="line">					obj[nodeName].push(old);</div><div class="line">				&#125;</div><div class="line">				obj[nodeName].push(xmlToJson(item));</div><div class="line">			&#125;</div><div class="line">		&#125;</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">return</span> obj;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/20160816/snippet8.html#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
   <article class="post post-type-gulp " itemscope itemtype="http://schema.org/Article">
   <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20160804/gulp.html">
 
@@ -239,9 +373,9 @@
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
+    <meta itemprop="name" content="ABC">
     <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
+      <img style="display:none;" itemprop="url image" alt="ABC" src="">
     </span>
   </span>
 
@@ -372,9 +506,9 @@
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
+    <meta itemprop="name" content="ABC">
     <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
+      <img style="display:none;" itemprop="url image" alt="ABC" src="">
     </span>
   </span>
 
@@ -508,9 +642,9 @@
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
+    <meta itemprop="name" content="ABC">
     <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
+      <img style="display:none;" itemprop="url image" alt="ABC" src="">
     </span>
   </span>
 
@@ -637,9 +771,9 @@
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
+    <meta itemprop="name" content="ABC">
     <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
+      <img style="display:none;" itemprop="url image" alt="ABC" src="">
     </span>
   </span>
 
@@ -776,9 +910,9 @@ var keyLen=key.length-1;
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
+    <meta itemprop="name" content="ABC">
     <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
+      <img style="display:none;" itemprop="url image" alt="ABC" src="">
     </span>
   </span>
 
@@ -905,9 +1039,9 @@ var keyLen=key.length-1;
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
+    <meta itemprop="name" content="ABC">
     <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
+      <img style="display:none;" itemprop="url image" alt="ABC" src="">
     </span>
   </span>
 
@@ -1050,9 +1184,9 @@ var keyLen=key.length-1;
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
+    <meta itemprop="name" content="ABC">
     <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
+      <img style="display:none;" itemprop="url image" alt="ABC" src="">
     </span>
   </span>
 
@@ -1183,9 +1317,9 @@ var keyLen=key.length-1;
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
+    <meta itemprop="name" content="ABC">
     <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
+      <img style="display:none;" itemprop="url image" alt="ABC" src="">
     </span>
   </span>
 
@@ -1312,9 +1446,9 @@ var keyLen=key.length-1;
   </span>
 
   <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
+    <meta itemprop="name" content="ABC">
     <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
+      <img style="display:none;" itemprop="url image" alt="ABC" src="">
     </span>
   </span>
 
@@ -1432,140 +1566,6 @@ var keyLen=key.length-1;
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-javascript " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://popfly.club/posts/20160408/snippet2.html">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="yw">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/author.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="yw">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="yw" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/posts/20160408/snippet2.html" itemprop="url">
-                  js snippet(3)
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-04-08T10:11:56+08:00">
-                2016-04-08
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/posts/20160408/snippet2.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="posts/20160408/snippet2.html" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h3 id="网站变灰"><a href="#网站变灰" class="headerlink" title="网站变灰"></a>网站变灰</h3><pre><code>html{filter:grayscale(100%);-moz-filter:grayscale(100%);-o-filter:grayscale(100%);-webkit-filter:grayscale(1)}
-</code></pre>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/posts/20160408/snippet2.html#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1613,7 +1613,7 @@ var keyLen=key.length-1;
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">23</span>
+                <span class="site-state-item-count">24</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
